@@ -10,7 +10,7 @@
   <g id="Grupo_1060680" data-name="Grupo 1060680" transform="translate(1505 5330)">
     <g id="Grupo_1060290" data-name="Grupo 1060290" transform="translate(-1500.146 -5326.46)">
       <g id="Grupo_1060062" data-name="Grupo 1060062" transform="translate(0.101 0)">
-        <circle id="Elipse_4768" data-name="Elipse 4768" cx="103.375" cy="103.375" r="103.375" fill="#673ab7"/>
+        <circle id="Elipse_4768" data-name="Elipse 4768" cx="103.375" cy="103.375" r="103.375" fill="#f7c99c"/>
       </g>
       <g id="Grupo_1060288" data-name="Grupo 1060288" transform="matrix(0.985, -0.174, 0.174, 0.985, -1.477, 37.294)">
         <g id="Grupo_1060289" data-name="Grupo 1060289" transform="translate(0 0)">
@@ -1705,7 +1705,7 @@
         </g>
       </g>
     </g>
-    <g id="Elipse_4798" data-name="Elipse 4798" transform="translate(-1505 -5330)" fill="none" stroke="#ffd54f" stroke-width="6">
+    <g id="Elipse_4798" data-name="Elipse 4798" transform="translate(-1505 -5330)" fill="none" stroke="#fea772" stroke-width="6">
       <circle cx="107.5" cy="107.5" r="107.5" stroke="none"/>
       <circle cx="107.5" cy="107.5" r="104.5" fill="none"/>
     </g>

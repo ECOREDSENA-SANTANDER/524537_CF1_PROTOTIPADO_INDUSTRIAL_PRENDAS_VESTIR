@@ -58,29 +58,36 @@ figcaption
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
     margin-inline: -1.4rem  
+.fondo-t2
+  background-image: url("../assets/curso/temas/t1/fondo-t2.png") !important
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem  
 
 .bg1
   background-color: #FFD54F
 .bg2 
   background-color: #ABE1CF 
 .bg3
-  background-color: #673AB7  
+  background-color: #F7C99C
 .bg4
-  background-color: #FFD54F
+  background-color: #FEA772
 .bg6
-  background-color: #EEF1F7
+  background-color: #FEF4EB
 .bg7
-  background-color: #727997 
+  background-color: #64593B
 .bg8
-  background-color: #DEE4F0 
+  background-color: #FEF9E9
 .bg9
-  background-color: #F0E9FF
+  background-color: #EEF9F6
 .bg10
-  background-color: #A07CDF 
+  background-color: #BEE8DA
 .bg11
-  background-color: #E2EBF3 
+  background-color: #FDF2D4
 .bg12
-  background-color: #B0C0D2 
+  background-color: #5EC6A3
 .bg13
   background-color: #5EC6A3
 .bg14
@@ -101,11 +108,17 @@ figcaption
   background-color:#E7F7F1
 .bg22
   background-color:#D2E1F1
+.bg23
+  background-color: #BEE8DA
+.bg24
+  background-color: #FADE93
+.bg25
+  background-color:#FCE9D7
 
 .tarjeta--morado
   background-color: #D1BCFF 
 .tarjeta--azul
-  background-color: #F3F9FF 
+  background-color: #DADDDF
 .tarjeta--blanca
   background-color: #FFFFFF 
 
@@ -149,10 +162,11 @@ figcaption
   border-color: #673AB7
   i
     color: #FFF
-.acordion.t2-1 .acordion__activo .acordion__accion__btn--a
-  background-color: #FFD54F
-  i
-    color: #060404
+.acordion.t2-1 
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones
+  .acordion__activo
+    background-color: #EEF9F6
 .bloque-texto-b i.color-primario    
   color: $color-primario
 .lineas  
@@ -197,23 +211,29 @@ h4.linea:after
   background-color: #12263F
   margin-top: 5px
 .subt
+  width: fit-content
+  position: relative
   img
-    width: 23px
+    width: 50px
+    z-index: 99
   h3
-    color: #673AB7
-  &::after   
+    z-index: 999
+    padding: 0px 50px 0px 15px
+  &::before   
     content: ""
-    display: block
-    height: 3px
-    width: 110px
-    background-color: #673AB7
+    position: absolute
+    top: 5px
+    height: 80%
+    width: 100%
+    border-radius: 500px
+    background-color: #FEF4EB
 
 .tabs-c__header 
   margin-bottom: 0px
   .tabs-c__tab--active span
     font-weight: bold
   .tabs-c__tab  
-    border-bottom-color: #FFD54F
+    border-bottom-color: #FEA772
 
 
 .img-infografica.color-primario .img-infografica__item__numero, .img-infografica-b.color-primario .img-infografica__item__numero 
@@ -255,7 +275,7 @@ i.fas.fa-globe
   background-color: #EEE6FF
 
 .bg-img-bluess
-  background-color: $color-primario
+  background-color: $color-secundario
   border-radius: 25px
   padding: 11px
 
@@ -263,36 +283,31 @@ i.fas.fa-globe
     color: #673AB7 !important
 
 .bg144
-  background-color: #F8F4FF
+  background-color: #E5F6F0
 
 .lista-ol--cuadro__vineta 
     background-color: $color-primario
     display: inline-block
+    color: #12263F
+    font-weight: bold
     min-width: 24px
     height: 24px
-    color: #fff
     position: relative
     margin-right: 8px
     vertical-align: top
 
-.slyder-a__bullets__item--active 
-    background-color: #12263F
-    border-color: #12263F
-    opacity: 1
 
 .bg55
   background-color: #FFF9E5 
 
 .caj1
-  background-color: #D1BCFF
+  background-color: #BEE8DA
   border-radius: 20px
-
 .caj2
-  background-color: #895CD8
+  background-color: #FDF2D4
   border-radius: 20px
-
 .caj3
-  background-color: #673AB7
+  background-color: #FCE9D7
   border-radius: 20px
 
 
@@ -310,12 +325,12 @@ i.fas.fa-globe
 
 .t1-3.slyder-a
   .slyder-a__btn--atrs
-    background-color: #FFD54F
-    border-color: #FFD54F
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
     opacity: 1
   .slyder-a__btn--sigt    
-    background-color: #8463BF
-    border-color: #8463BF
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
     opacity: 1
 
 .fa-plus.mo:before 
@@ -324,8 +339,6 @@ i.fas.fa-globe
 
 .b1
   background-color: $color-acento-contenido
-
-
 .b4
   background-color: $color-acento-botones
 
@@ -338,7 +351,7 @@ i.fas.fa-globe
   border-radius: 10px
 
 .bg67
-  background-color: #F2F2F2
+  background-color: #EEF9F6
 .bla
   width: 418px
 .img-t
@@ -349,10 +362,10 @@ i.fas.fa-globe
   margin: auto
 
 .bg22y
-  background-color: #E9DFFF
+  background-color: #FEF9EA
   float: right
   width: 88%;
-  border: 1px solid #ddd;
+  border: 1px solid #FEF9EA
   
 
 .bggg
@@ -553,13 +566,16 @@ td.rr
 
 .kaj
   max-width: 100%
-  background-color: #673AB7
+  background-image: url(../assets/curso/temas/t1/bg.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-repeat: no-repeat
   position: relative
   overflow-x: hidden
   box-sizing: border-box
 .cajablanca
   margin-right: -60px
-  background-color: #FFD54F
+  background-color: #BEE8DA
   padding: 20px
   position: relative
   box-sizing: border-box
@@ -595,3 +611,27 @@ td.rr
 .col-6.co7
   flex: 0 0 auto
   width: 56%
+
+
+/* 2026 */
+.subt2
+  background-color: #FADE93
+  border-radius: 500px
+  width: fit-content
+  padding: 7px 20px
+  i
+    font-size: 10px
+    top: 8px !important
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 1
+.slyder-a__bullets__item
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 0.6
+  &--active 
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1

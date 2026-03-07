@@ -19,9 +19,9 @@
     #t_2_1.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.1 Tipos de máquinas
     
-    p(data-aos="fade") La identificación de máquinas y equipos en la industria de la confección es crucial para optimizar, facilitar y organizar los diversos procesos involucrados. Esta identificación define las características específicas de cada máquina, incluyendo sus usos en el proceso de confección, los tipos según las líneas de producción, las variedades de puntadas y aplicaciones, los tipos de tomadores de lazada, y los sistemas de alimentación o arrastre de tela.
-    p(data-aos="fade") Las máquinas se pueden clasificar según los procesos productivos en los que se utilizan, como la preparación, el ensamble y la terminación. Además, se agrupan según las líneas de producción, tales como prendas interiores, exteriores, #[em jeans], artículos para el hogar, y ropa deportiva. También se pueden categorizar por tipos específicos de máquinas, como las de doble pespunte, cadeneta, sobrehilado y de ciclo.
-    p.mb-4(data-aos="fade") Por tanto, la clasificación de las máquinas comienza por su capacidad en el proceso de confección. En función de la potencia que tienen para coser diferentes materiales y su velocidad, las máquinas se dividen en diversas categorías que reflejan su rendimiento y eficiencia en la producción.
+    p La identificación de máquinas y equipos en la industria de la confección es crucial para optimizar, facilitar y organizar los diversos procesos involucrados. Esta identificación define las características específicas de cada máquina, incluyendo sus usos en el proceso de confección, los tipos según las líneas de producción, las variedades de puntadas y aplicaciones, los tipos de tomadores de lazada, y los sistemas de alimentación o arrastre de tela.
+    p Las máquinas se pueden clasificar según los procesos productivos en los que se utilizan, como la preparación, el ensamble y la terminación. Además, se agrupan según las líneas de producción, tales como prendas interiores, exteriores, #[em jeans], artículos para el hogar, y ropa deportiva. También se pueden categorizar por tipos específicos de máquinas, como las de doble pespunte, cadeneta, sobrehilado y de ciclo.
+    p.mb-4 Por tanto, la clasificación de las máquinas comienza por su capacidad en el proceso de confección. En función de la potencia que tienen para coser diferentes materiales y su velocidad, las máquinas se dividen en diversas categorías que reflejan su rendimiento y eficiencia en la producción.
 
     AcordionA.t2-1.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="Máquinas familiares o domésticas")
@@ -103,14 +103,14 @@
               i.fas.fa-plus
               | Ojaladora de ojal de lágrima.
 
-    p.mb-4(data-aos="fade") Con base en los diferentes tipos de máquinas por estructura, tipo o trabajo, las partes del cabezote se dividen en cuatro y es importante describirlas porque es donde se aloja el conjunto de elementos mecánicos que dan origen a los mecanismos de las máquinas, estas partes se conocen como:
+    p.mb-4 Con base en los diferentes tipos de máquinas por estructura, tipo o trabajo, las partes del cabezote se dividen en cuatro y es importante describirlas porque es donde se aloja el conjunto de elementos mecánicos que dan origen a los mecanismos de las máquinas, estas partes se conocen como:
     
     
-    .row.justify-content-center.mb-4(data-aos="fade")
+    .row.justify-content-center.mb-4
       .col-lg-8
         img(src='@/assets/curso/temas/t2/g1.svg' alt='En la imagen se representa una máquina de coser con diferentes partes etiquetadas, como "Columna", "Cama", "Cabeza" y "Brazo". Un trozo de tela amarilla con las letras "M" y "J" bordadas cuelga de la máquina, indicando una operación de costura en proceso.')
 
-    p.mb-4(data-aos="fade") Y es, esta última, la que cobra vital importancia en el origen de las operaciones más relevantes de un producto a confeccionar, bien sea, por su dificultad, complejidad, tiempo de producción, calidad, entre otros. Algunos tipos de máquinas pueden modificar la cama e incluso el mueble de la máquina para adaptarse mejor a las condiciones del producto, es por ello por lo que si se trabaja con prendas de gran volumen podemos encontrar términos en máquinas como:
+    p.mb-4 Y es, esta última, la que cobra vital importancia en el origen de las operaciones más relevantes de un producto a confeccionar, bien sea, por su dificultad, complejidad, tiempo de producción, calidad, entre otros. Algunos tipos de máquinas pueden modificar la cama e incluso el mueble de la máquina para adaptarse mejor a las condiciones del producto, es por ello por lo que si se trabaja con prendas de gran volumen podemos encontrar términos en máquinas como:
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-6.col-lg-4.mb-3.mb-lg-0.pe-lg-0
@@ -135,7 +135,7 @@
               h5.text-center Máquina no sumergida
               p.text-center Este concepto refiere a que la máquina está totalmente montada en el mueble, por aspectos de terminación de las prendas.
     
-    p.mb-4(data-aos="fade") Retomando el aspecto más importante sobre las camas de las máquinas, se clasifican en:
+    p.mb-4 Retomando el aspecto más importante sobre las camas de las máquinas, se clasifican en:
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-sm-6.col-lg.mb-4.mb-lg-0
@@ -180,14 +180,14 @@
           h4.mb-0.text-center Este tipo de cama facilita la manipulación del material en costuras de cocido recto y materiales anchos.
 
     
-    p(data-aos="fade") En este punto, teniendo clara la descripción de las camas de las máquinas y contemplando que pueden cambiar por varios factores, uno de ellos por sus aplicaciones, bien sea en confección de ropa, de calzado, en marroquinería o tapicería, se continuará con las partes de la máquina.
+    p En este punto, teniendo clara la descripción de las camas de las máquinas y contemplando que pueden cambiar por varios factores, uno de ellos por sus aplicaciones, bien sea en confección de ropa, de calzado, en marroquinería o tapicería, se continuará con las partes de la máquina.
 
 
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.2 Partes de la máquina
     
-    p.mb-4(data-aos="fade") Durante el proceso de reconocimiento de las máquinas por su capacidad de confección, ahora entran aspectos generales y otros particulares sobre los diferentes tipos de máquinas que se trabajarán a continuación.
+    p.mb-4 Durante el proceso de reconocimiento de las máquinas por su capacidad de confección, ahora entran aspectos generales y otros particulares sobre los diferentes tipos de máquinas que se trabajarán a continuación.
     
     SlyderF.mb-5(columnas="col-lg-12" data-aos="fade-down")
       .tarjeta.color-primario.p-4
@@ -262,9 +262,9 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/WABFdmFNo8Y?si=CKMqwCC_jL4wCYCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Partes y funciones de la maquina plana       
 
-    p(data-aos="fade") En la industria de la confección, la diversidad de materiales como telas, hilos, agujas, y otros, junto con los diseños que evolucionan constantemente según las temporadas, requiere un conocimiento profundo y adaptativo. Los artículos varían desde ropa interior y de hogar hasta calzado, ropa exterior, carpas protectoras, velas de viento, maletas y estuches. Para cada uno de estos productos, es crucial selección.
-    p(data-aos="fade") Este ajuste es fundamental para resolver problemas comunes como el deslizamiento de la tela y el fruncido de la costura. Entender los tipos y funciones de los alimentadores y prensatelas es esencial para manejar adecuadamente el desplazamiento de los materiales a coser, así mismo se debe  entender el funcionamiento y la importancia de cada uno de los elementos que lo componen los diferentes tipos de máquina.
-    p.mb-4(data-aos="fade") Existen dos tipos principales de ajuste en la confección. El primero se aplica a máquinas de una sola aguja y a máquinas de dos o más agujas, permitiendo adaptar las máquinas al tipo de material que se va a trabajar, ya sea ligero (como #[em lycras]), semipesado (como dacrón) o pesado (como #[em jean]). El segundo tipo de ajuste regula la distancia entre las agujas, introduciendo así otro elemento crítico en el ensamblaje: el soporte de las agujas. Fundamentalmente, el ajuste influye en cómo el diente de la máquina agarra el tipo de tela, lo cual es decisivo para el rendimiento de la costura. A continuación, se detalla cada componente del ajuste para una comprensión más completa de su impacto en la confección.
+    p En la industria de la confección, la diversidad de materiales como telas, hilos, agujas, y otros, junto con los diseños que evolucionan constantemente según las temporadas, requiere un conocimiento profundo y adaptativo. Los artículos varían desde ropa interior y de hogar hasta calzado, ropa exterior, carpas protectoras, velas de viento, maletas y estuches. Para cada uno de estos productos, es crucial selección.
+    p Este ajuste es fundamental para resolver problemas comunes como el deslizamiento de la tela y el fruncido de la costura. Entender los tipos y funciones de los alimentadores y prensatelas es esencial para manejar adecuadamente el desplazamiento de los materiales a coser, así mismo se debe  entender el funcionamiento y la importancia de cada uno de los elementos que lo componen los diferentes tipos de máquina.
+    p.mb-4 Existen dos tipos principales de ajuste en la confección. El primero se aplica a máquinas de una sola aguja y a máquinas de dos o más agujas, permitiendo adaptar las máquinas al tipo de material que se va a trabajar, ya sea ligero (como #[em lycras]), semipesado (como dacrón) o pesado (como #[em jean]). El segundo tipo de ajuste regula la distancia entre las agujas, introduciendo así otro elemento crítico en el ensamblaje: el soporte de las agujas. Fundamentalmente, el ajuste influye en cómo el diente de la máquina agarra el tipo de tela, lo cual es decisivo para el rendimiento de la costura. A continuación, se detalla cada componente del ajuste para una comprensión más completa de su impacto en la confección.
     
     AcordionA.t2-2(tipo="b" clase-tarjeta="tarjeta--blanca")
       .row.justify-content-center(titulo="Ajuste de plana")
@@ -383,8 +383,8 @@
     #t_2_3.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.3 Alimentación y transporte
     
-    p(data-aos="fade") La relación entre el ajuste y el sistema de alimentación o transporte es un factor clave en la diferenciación de maquinaria dentro del proceso productivo. Los distintos tipos de alimentación determinan la línea productiva específica del artículo a fabricar, influyendo también en la variedad de materiales utilizados en la industria, como tejidos, no tejidos, aglomerados, cueros, cuerinas y lonas.
-    p.mb-4(data-aos="fade") En la maquinaria de confección, la alimentación se refiere al movimiento del material que se va a coser. Sin embargo, en ciertos casos, como en la fabricación de colchones donde el material es demasiado pesado, no se desplaza el material sino la misma máquina.
+    p La relación entre el ajuste y el sistema de alimentación o transporte es un factor clave en la diferenciación de maquinaria dentro del proceso productivo. Los distintos tipos de alimentación determinan la línea productiva específica del artículo a fabricar, influyendo también en la variedad de materiales utilizados en la industria, como tejidos, no tejidos, aglomerados, cueros, cuerinas y lonas.
+    p.mb-4 En la maquinaria de confección, la alimentación se refiere al movimiento del material que se va a coser. Sin embargo, en ciertos casos, como en la fabricación de colchones donde el material es demasiado pesado, no se desplaza el material sino la misma máquina.
 
 
     SlyderF(columnas="col-lg-4 col-md-6" data-aos="fade-down")
@@ -435,7 +435,7 @@
     #t_2_4.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.4 Generaciones de máquinas
     
-    p.mb-4(data-aos="fade") En esa búsqueda de reconocer e identificar los diferentes tipos de máquinas, tipos de camas, ajustes, partes y funciones, se encuentran las generaciones tecnológicas dentro de las cuales presentan mejores alternativas al proceso de confección para poder aumentar o disminuir áreas de costura, tipos de puntadas, fruncidos de tela, entre otros. Actualmente las máquinas de coser se pueden clasificar en tres tipos según el nivel tecnológico:
+    p.mb-4 En esa búsqueda de reconocer e identificar los diferentes tipos de máquinas, tipos de camas, ajustes, partes y funciones, se encuentran las generaciones tecnológicas dentro de las cuales presentan mejores alternativas al proceso de confección para poder aumentar o disminuir áreas de costura, tipos de puntadas, fruncidos de tela, entre otros. Actualmente las máquinas de coser se pueden clasificar en tres tipos según el nivel tecnológico:
     
     .row.mb-4(data-aos="fade-down")
       .col-lg-12
@@ -491,9 +491,9 @@
     #t_2_5.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.5 Clasificación, nomenclatura, puntas, calibres y usos
     
-    p.mb-4(data-aos="fade") En la industria de la confección existen relaciones entre los insumos y las maquinas, los cuales garantizan el óptimo desempeño de la producción en términos de calidad, optimización de recursos, productividad entre otras.
-    p.mb-4(data-aos="fade") La relación de insumos genera unos eslabones que al romperse alguno de ellos ocasiona dificultades, en la tela, en la puntada, en la costura, al estar entrelazados.
-    p.mb-4(data-aos="fade") Un segundo bloque o módulo de conocimiento, se relaciona directamente con las diferentes características de agujas, puntadas, pespuntes, costuras, entre otros. En confección y particularmente las diseñadoras deben tener los conocimientos de tejidos, hilos y agujas, generan unos eslabones que se conectan o entrelazan para darle a las puntadas, costuras, tejidos una mejor apariencia, terminación y calidad del producto. Por lo tanto, se debe tener conceptos claros sobre:    
+    p.mb-4 En la industria de la confección existen relaciones entre los insumos y las maquinas, los cuales garantizan el óptimo desempeño de la producción en términos de calidad, optimización de recursos, productividad entre otras.
+    p.mb-4 La relación de insumos genera unos eslabones que al romperse alguno de ellos ocasiona dificultades, en la tela, en la puntada, en la costura, al estar entrelazados.
+    p.mb-4 Un segundo bloque o módulo de conocimiento, se relaciona directamente con las diferentes características de agujas, puntadas, pespuntes, costuras, entre otros. En confección y particularmente las diseñadoras deben tener los conocimientos de tejidos, hilos y agujas, generan unos eslabones que se conectan o entrelazan para darle a las puntadas, costuras, tejidos una mejor apariencia, terminación y calidad del producto. Por lo tanto, se debe tener conceptos claros sobre:    
 
     .tarjeta.tarjeta--azul.sli.p-4
       SlyderA(tipo="b")
@@ -606,8 +606,8 @@
     
     p.mb-4 A continuación, se presentan los principales elementos:  
 
-    h4(data-aos="fade") Tejidos
-    p.mb-5(data-aos="fade")  Un tejido es una estructura formada por fibras textiles. Esta estructura se puede lograr de tres formas diferentes que, de alguna manera, dividen los procedimientos de trabajo. Se identifican: tejido plano o de calada, tejido de punto y técnicas de aglutinamiento.
+    h4 Tejidos
+    p.mb-5  Un tejido es una estructura formada por fibras textiles. Esta estructura se puede lograr de tres formas diferentes que, de alguna manera, dividen los procedimientos de trabajo. Se identifican: tejido plano o de calada, tejido de punto y técnicas de aglutinamiento.
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-6.col-lg.tarjeta--tabla.bg7
@@ -633,7 +633,7 @@
           p.text-white Son telas que se fabrican con fibras naturales o artificiales que no han pasado por procesos de hilatura y que se humedecen y se someten a presión y calor lo cual hace que las fibras se adhieran.
     
     .row.mb-5.bg17
-      .p-4(data-aos="fade") 
+      .p-4 
         h4 Hilos
         p.mb-4 Representa un 2 % del costo de la prenda, pero comparte un 50 % de la durabilidad de las costuras.
 
@@ -675,7 +675,7 @@
                 i.fas.fa-plus
                 | Balance de la puntada (tensión).
       
-        p.mb-4(data-aos="fade")  El hilo se hace utilizando fibras naturales o sintéticas. El poliéster es uno de los hilos más utilizados. Es más fuerte que los hilos de algodón de un tamaño comparable, y está disponible en una amplia variedad de tamaños y colores.
+        p.mb-4  El hilo se hace utilizando fibras naturales o sintéticas. El poliéster es uno de los hilos más utilizados. Es más fuerte que los hilos de algodón de un tamaño comparable, y está disponible en una amplia variedad de tamaños y colores.
         
         .row.mb-4
           .col-lg-7(data-aos="fade-right") 
@@ -721,7 +721,7 @@
             span.mb-0 #[b Lubricado:] es un acabado final que le deben dar al hilo para evitar su rotura al estar en contacto con la aguja.
     
 
-    h4(data-aos="fade") Tamaño de hilo y aplicaciones
+    h4 Tamaño de hilo y aplicaciones
     
     p.mb-4 En la tabla que se presenta a continuación, se relacionan los tamaños de hilo según su tejido y las prendas en las que regularmente son utilizados. 
 
@@ -751,16 +751,16 @@
                 td.rr 60, 70 hasta 120
                 td.rr #[em Jeans], chaquetas
 
-    p.mb-4(data-aos="fade") Cuando los conceptos están claros dentro del proceso de confección, se procede a fortalecer las relaciones o eslabones que van a permitir que la cadena de confección tenga la fortaleza suficiente de producción, confección y calidad. Con base en las premisas anteriores, existen combinaciones o relaciones entre los eslabones que nos permiten tener un panorama más apropiado a la hora de la confección de un producto; por lo tanto, presente un informe de las relaciones HILO –AGUJA e HILO – TEJIDO según sus conocimientos.
+    p.mb-4 Cuando los conceptos están claros dentro del proceso de confección, se procede a fortalecer las relaciones o eslabones que van a permitir que la cadena de confección tenga la fortaleza suficiente de producción, confección y calidad. Con base en las premisas anteriores, existen combinaciones o relaciones entre los eslabones que nos permiten tener un panorama más apropiado a la hora de la confección de un producto; por lo tanto, presente un informe de las relaciones HILO –AGUJA e HILO – TEJIDO según sus conocimientos.
 
-    .row.justify-content-center.mb-4(data-aos="fade") 
+    .row.justify-content-center.mb-4 
       .col-lg-8
         .cjj.p-4
           p.mb-0 #[b La relación hilo-agujas permite que se produzcan las puntadas con sus series y tipos respectivos, los tipos y usos de los pespuntes, las puntadas por pulgada y sus criterios de calidad según el proceso, entre otros.] 
     
     
-    h4(data-aos="fade") Puntadas
-    p.mb-4(data-aos="fade") En las diferentes líneas de producción de hoy, las puntadas son fundamentales en el valor agregado que pueda tener un producto, tanto por su calidad, durabilidad, seguridad, elongación y sobre todo por su apariencia y decoración de un producto, con base en ello, las puntadas tienen unas características diferentes, aquí algunas más representativas. Por lo tanto, las características se definen según el tipo de puntada.
+    h4 Puntadas
+    p.mb-4 En las diferentes líneas de producción de hoy, las puntadas son fundamentales en el valor agregado que pueda tener un producto, tanto por su calidad, durabilidad, seguridad, elongación y sobre todo por su apariencia y decoración de un producto, con base en ello, las puntadas tienen unas características diferentes, aquí algunas más representativas. Por lo tanto, las características se definen según el tipo de puntada.
     
     .row.justify-content-center 
       .col-lg-7
@@ -803,7 +803,7 @@
                 td 602 - 605 - 609
                 td #[em Flatseamers]
     
-    h4(data-aos="fade") Reglas para la óptima resistencia de las costuras:
+    h4 Reglas para la óptima resistencia de las costuras:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-6.col-lg.mb-4.mb-lg-0
@@ -840,7 +840,7 @@
         .cajon.color-primario.bg1.p-4
           p.mb-0 Ahora se presentarán aspectos fundamentales para la puesta a punto de las máquinas y en lo primero que se debe centrar la atención es en los enhebrados y sus repercusiones. A continuación, se expone mapas de enhebrado de cada tipo de máquina y calibración de la puntada.
     
-    h4.mb-4(data-aos="fade") Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
+    h4.mb-4 Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
 
     .row.justify-content-center.mb-5
       .col-lg-9
@@ -893,7 +893,7 @@
     
     .row.justify-content-center.align-items-center.p-1.bg15.mb-4 
 
-    h4(data-aos="fade") Verificación de tensión de la caja bobina
+    h4 Verificación de tensión de la caja bobina
     .row.justify-content-center.mb-4
       .col-lg-6.col-md-10.col-10
         img(src='@/assets/curso/temas/t2/edi.svg' alt='La imagen presenta el proceso de verificación de la tensión de la caja bobina. A la izquierda, se ilustra cómo sostener y dejar caer la caja de bobina para comprobar la tensión del hilo. A la derecha, se presentan ejemplos visuales de diferentes tensiones: tensión correcta para una máquina plana, tensión inferior demasiado ajustada, tensión superior demasiado ajustada y tensión superior e inferior demasiado ajustadas. Estos ejemplos ayudan a identificar y corregir problemas de tensión en la costura.')
@@ -935,7 +935,7 @@
       .col-lg-3.col-md-6.col-8(data-aos="fade-left") 
         img(src='@/assets/curso/temas/t2/mk.png' alt='')
     
-    h4.mb-4(data-aos="fade") Ajuste de tensión máquina fileteadora - Enhebrado de máquina
+    h4.mb-4 Ajuste de tensión máquina fileteadora - Enhebrado de máquina
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4" data-aos="fade-down")(alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior.')
       .tarjeta.color-acento-botones.p-4
@@ -967,7 +967,7 @@
         img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder9.png' alt='')
 
 
-    h4.mb-5(data-aos="fade") Validación de tensores - Puntada e hilo
+    h4.mb-5 Validación de tensores - Puntada e hilo
 
     .row.width-25.mb-5(data-aos="fade-down")(alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento. ')
       .col-lg-6
@@ -1001,13 +1001,13 @@
       figcaption.mb-4 Fuente: https://es.slideshare.net/slideshow/industria-de-la-confeccion/49197064#62 
     
     
-    h4(data-aos="fade") Enhebrado de máquina recubridora - Ajuste de tensión
+    h4 Enhebrado de máquina recubridora - Ajuste de tensión
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-8.col-8.mb-4.mb-md-0
         img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento.')
     
     
-    h4(data-aos="fade") Validación de tensores - Puntada e hilo
+    h4 Validación de tensores - Puntada e hilo
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .cajon.color-primario.bg1.p-4
@@ -1019,8 +1019,8 @@
               h5.text-center Puntada floja
               img(src='@/assets/curso/temas/t2/imag17.svg' alt='La imagen describe la validación de tensores en puntada e hilo, para el caso de la puntada floja muestra hilos sueltos y desorganizados, indicando una tensión incorrecta.')
     
-    h4(data-aos="fade") Puntadas por pulgada (PPP).
-    p.mb-4(data-aos="fade") Cuando se están escribiendo las especificaciones de una prenda, se debe especificar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su producto de costura, porque la cantidad de puntadas por pulgada puede tener influencia en:
+    h4 Puntadas por pulgada (PPP).
+    p.mb-4 Cuando se están escribiendo las especificaciones de una prenda, se debe especificar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su producto de costura, porque la cantidad de puntadas por pulgada puede tener influencia en:
     
     .tarjeta--container.sinb.row.mb-5
       .col-md.tarjeta.color-acento-contenido.p-4
@@ -1062,18 +1062,18 @@
                 | Balance de la puntada (tensión del hilo).
           
 
-    p(data-aos="fade") Generalmente, entre más puntadas por pulgada, mayor es la resistencia de la costura. Existen algunos casos donde agregar puntadas por pulgada puede causar daño a la tela de forma que la costura es debilitada, esto solamente pasa en textiles específicos que pueden ser fácilmente dañados por excesivas penetraciones de la aguja.
-    p(data-aos="fade") El tamaño de la puntada es medida contando la cantidad de entradas de la aguja en la tela dentro de una pulgada. Existen diferentes contadores de puntadas que hacen esta medida fácil. De igual manera, usted puede colocar una cinta métrica enseguida del pespunte y hacer la misma función en 2.54 cm que es el equivalente a una pulgada.       
+    p Generalmente, entre más puntadas por pulgada, mayor es la resistencia de la costura. Existen algunos casos donde agregar puntadas por pulgada puede causar daño a la tela de forma que la costura es debilitada, esto solamente pasa en textiles específicos que pueden ser fácilmente dañados por excesivas penetraciones de la aguja.
+    p El tamaño de la puntada es medida contando la cantidad de entradas de la aguja en la tela dentro de una pulgada. Existen diferentes contadores de puntadas que hacen esta medida fácil. De igual manera, usted puede colocar una cinta métrica enseguida del pespunte y hacer la misma función en 2.54 cm que es el equivalente a una pulgada.       
 
 
     Separador
     #t_2_8.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.8 Desarrollo de operaciones básico para ensamble de piezas
     
-    p(data-aos="fade") Para realizar los ejercicios en máquina de coser familiar o industrial, se requieren 4 bandas de tela con las siguientes características; 1 m de largo por 10 cm de ancho; preferiblemente una de las bandas de tela que tenga líneas con las características que se describen más adelante.
-    p.mb-4(data-aos="fade") En la primera banda de tela, se trabaja sin aguja, en este ejercicio se hará pasar la tela por el pie prensatelas a lo largo de toda la banda de tela, presionando el pedal suavemente para iniciar el ejercicio, la presión del pie sobre el pedal irá aumentando la velocidad en la máquina haciendo avanzar la tela, y debe procurar que la tela se conserve una línea recta, y que no se salga del control del prensatelas. Realizar el ejercicio sin aguja e hilo, practicar hasta lograr una velocidad controlada e inicia el recorrido ajustando la perilla del largo de la puntada en el número 2 y luego a 3 y así sucesivamente hasta lograr tener un control dirigido de la tela en su máximo largo de puntada.
+    p Para realizar los ejercicios en máquina de coser familiar o industrial, se requieren 4 bandas de tela con las siguientes características; 1 m de largo por 10 cm de ancho; preferiblemente una de las bandas de tela que tenga líneas con las características que se describen más adelante.
+    p.mb-4 En la primera banda de tela, se trabaja sin aguja, en este ejercicio se hará pasar la tela por el pie prensatelas a lo largo de toda la banda de tela, presionando el pedal suavemente para iniciar el ejercicio, la presión del pie sobre el pedal irá aumentando la velocidad en la máquina haciendo avanzar la tela, y debe procurar que la tela se conserve una línea recta, y que no se salga del control del prensatelas. Realizar el ejercicio sin aguja e hilo, practicar hasta lograr una velocidad controlada e inicia el recorrido ajustando la perilla del largo de la puntada en el número 2 y luego a 3 y así sucesivamente hasta lograr tener un control dirigido de la tela en su máximo largo de puntada.
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         img(src='@/assets/curso/temas/t2/imag18.svg' alt='La imagen presenta una guía para el ejercicio descrito en el texto previo, teniendo como referencia una línea recta punteada sobre la tela, con la finalidad de conservar el control del prensatelas.')
     

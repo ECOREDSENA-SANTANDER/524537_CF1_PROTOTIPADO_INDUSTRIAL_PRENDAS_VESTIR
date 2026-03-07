@@ -7,23 +7,21 @@
       <circle id="Elipse_4788" data-name="Elipse 4788" cx="132.5" cy="132.5" r="132.5" fill="#fff" stroke="#707070" stroke-width="1"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1078845" data-name="Grupo 1078845" transform="translate(-1045.402 -14297.281)">
-    <g id="Grupo_1078736" data-name="Grupo 1078736" transform="translate(780.402 4948.957)">
-      <g id="Grupo_1078721" data-name="Grupo 1078721" transform="translate(1040.598 18919.611)">
-        <g id="Grupo_1060645" data-name="Grupo 1060645" transform="translate(-771 -9554.33)">
-          <circle id="fashion-designer-photographing-dress-workshop" cx="132.5" cy="132.5" r="132.5" fill="url(#pattern)"/>
-          <g id="Elipse_4790" data-name="Elipse 4790" fill="none" stroke="#673ab7" stroke-width="6">
-            <circle cx="132.5" cy="132.5" r="132.5" stroke="none"/>
-            <circle cx="132.5" cy="132.5" r="129.5" fill="none"/>
-          </g>
+  <g id="Grupo_1078736" data-name="Grupo 1078736" transform="translate(-265 -9348.323)">
+    <g id="Grupo_1078721" data-name="Grupo 1078721" transform="translate(1040.598 18919.611)">
+      <g id="Grupo_1060645" data-name="Grupo 1060645" transform="translate(-771 -9554.33)">
+        <circle id="fashion-designer-photographing-dress-workshop" cx="132.5" cy="132.5" r="132.5" fill="url(#pattern)"/>
+        <g id="Elipse_4790" data-name="Elipse 4790" fill="none" stroke="#f7c99c" stroke-width="6">
+          <circle cx="132.5" cy="132.5" r="132.5" stroke="none"/>
+          <circle cx="132.5" cy="132.5" r="129.5" fill="none"/>
         </g>
       </g>
-      <g id="Grupo_1078722" data-name="Grupo 1078722" transform="translate(-478.481 19693.324)">
-        <path id="Unión_11" data-name="Unión 11" d="M15.486,39.576v-8.6h-8.6a6.883,6.883,0,1,1,0-13.766h8.6V6.883a6.883,6.883,0,1,1,13.766,0V17.207H39.576a6.883,6.883,0,1,1,0,13.766H29.252v8.6a6.883,6.883,0,1,1-13.766,0Z" transform="translate(811 -10345)" fill="#895cd8"/>
-        <path id="Unión_12" data-name="Unión 12" d="M8.486,21.687V16.972H3.772a3.771,3.771,0,1,1,0-7.543H8.486V3.772a3.772,3.772,0,1,1,7.544,0V9.429h5.657a3.771,3.771,0,0,1,0,7.543H16.03v4.715a3.772,3.772,0,0,1-7.544,0Z" transform="translate(779.481 -10334.5)" fill="#895cd8"/>
-        <path id="Unión_43" data-name="Unión 43" d="M8.486,21.687V16.972H3.772a3.771,3.771,0,1,1,0-7.543H8.486V3.772a3.772,3.772,0,1,1,7.544,0V9.429h5.657a3.771,3.771,0,0,1,0,7.543H16.03v4.715a3.772,3.772,0,0,1-7.544,0Z" transform="translate(743.481 -10334.5)" fill="#895cd8"/>
-        <circle id="Elipse_4763" data-name="Elipse 4763" cx="41" cy="41" r="41" transform="translate(923.451 -10133.044)" fill="#ffd54f"/>
-      </g>
+    </g>
+    <g id="Grupo_1078722" data-name="Grupo 1078722" transform="translate(-478.481 19693.324)">
+      <path id="Unión_11" data-name="Unión 11" d="M15.486,39.576v-8.6h-8.6a6.883,6.883,0,1,1,0-13.766h8.6V6.883a6.883,6.883,0,1,1,13.766,0V17.207H39.576a6.883,6.883,0,1,1,0,13.766H29.252v8.6a6.883,6.883,0,1,1-13.766,0Z" transform="translate(811 -10345)" fill="#fade93"/>
+      <path id="Unión_12" data-name="Unión 12" d="M8.486,21.687V16.972H3.772a3.771,3.771,0,1,1,0-7.543H8.486V3.772a3.772,3.772,0,1,1,7.544,0V9.429h5.657a3.771,3.771,0,0,1,0,7.543H16.03v4.715a3.772,3.772,0,0,1-7.544,0Z" transform="translate(779.481 -10334.5)" fill="#fade93"/>
+      <path id="Unión_43" data-name="Unión 43" d="M8.486,21.687V16.972H3.772a3.771,3.771,0,1,1,0-7.543H8.486V3.772a3.772,3.772,0,1,1,7.544,0V9.429h5.657a3.771,3.771,0,0,1,0,7.543H16.03v4.715a3.772,3.772,0,0,1-7.544,0Z" transform="translate(743.481 -10334.5)" fill="#fade93"/>
+      <circle id="Elipse_4763" data-name="Elipse 4763" cx="41" cy="41" r="41" transform="translate(923.451 -10133.044)" fill="#fea772"/>
     </g>
   </g>
 </svg>
