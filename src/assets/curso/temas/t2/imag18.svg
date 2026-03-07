@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1030" height="106" viewBox="0 0 1030 106">
+  <g id="Grupo_1061075" data-name="Grupo 1061075" transform="translate(-278.291 -5930.087)">
+    <g id="Grupo_1061073" data-name="Grupo 1061073">
+      <line id="Línea_10511" data-name="Línea 10511" x2="1030" transform="translate(278.291 5983.087)" fill="none" stroke="#12263f" stroke-width="8" stroke-dasharray="25 15"/>
+      <line id="Línea_10512" data-name="Línea 10512" y2="106" transform="translate(390.291 5930.087)" fill="none" stroke="#673ab7" stroke-width="6"/>
+      <line id="Línea_10513" data-name="Línea 10513" y2="106" transform="translate(1192.291 5930.087)" fill="none" stroke="#673ab7" stroke-width="6"/>
+    </g>
+    <g id="Grupo_1061074" data-name="Grupo 1061074" transform="translate(-3.5)">
+      <line id="Línea_10514" data-name="Línea 10514" x2="724" transform="translate(427.791 5947.087)" fill="none" stroke="#636363" stroke-width="4"/>
+      <g id="Polígono_7" data-name="Polígono 7" transform="translate(1165.791 5935.587) rotate(90)" fill="#636363">
+        <path d="M 22.1357364654541 19.5 L 0.8642629981040955 19.5 L 11.5 1.003066062927246 L 22.1357364654541 19.5 Z" stroke="none"/>
+        <path d="M 11.5 2.006139755249023 L 1.728530883789062 19 L 21.27146911621094 19 L 11.5 2.006139755249023 M 11.5 0 L 23 20 L 0 20 L 11.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+      <g id="Polígono_8" data-name="Polígono 8" transform="translate(428.291 5958.587) rotate(-90)" fill="#636363">
+        <path d="M 22.1357364654541 19.5 L 0.8642629981040955 19.5 L 11.5 1.003066062927246 L 22.1357364654541 19.5 Z" stroke="none"/>
+        <path d="M 11.5 2.006139755249023 L 1.728530883789062 19 L 21.27146911621094 19 L 11.5 2.006139755249023 M 11.5 0 L 23 20 L 0 20 L 11.5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+  </g>
+</svg>

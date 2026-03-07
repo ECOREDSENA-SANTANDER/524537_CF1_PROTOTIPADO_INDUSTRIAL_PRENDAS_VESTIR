@@ -3,30 +3,595 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 20%
-    right: 10%
+    right: 90%
+    width: 80px
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 1%
+    right: 33%
+    width: 90px
+  &-3
+    animation: rotate1 7.5s ease-in-out infinite alternate
+    position: absolute
+    top: 81%
+    right: 45%
+    width: 75px
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
-.banner-principal .tarjeta
-  background-position: left 50% !important
+@keyframes rotate1
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+@media (min-width: 576px) 
+  .banner-principal__img 
+    padding-top: 0rem !important
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
-.banner-interno__titulo__icono i
-  color: $color-primario
-
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
 figcaption
   font-weight: normal
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+.lista-ul--color.color-primario i 
+  color: $color-primario !important
+.lista-ul--color.color-secundario i 
+  color: $color-secundario !important
+.lista-ul--color.color-acento-botones i 
+  color: $color-acento-botones !important
+.lista-ul--color.color-acento-contenido i 
+  color: $color-acento-contenido !important
+
+.fondo-t1
+  background: #FFFBEE
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem  
+
+.bg1
+  background-color: #FFD54F
+.bg2 
+  background-color: #ABE1CF 
+.bg3
+  background-color: #673AB7  
+.bg4
+  background-color: #FFD54F
+.bg6
+  background-color: #EEF1F7
+.bg7
+  background-color: #727997 
+.bg8
+  background-color: #DEE4F0 
+.bg9
+  background-color: #F0E9FF
+.bg10
+  background-color: #A07CDF 
+.bg11
+  background-color: #E2EBF3 
+.bg12
+  background-color: #B0C0D2 
+.bg13
+  background-color: #5EC6A3
+.bg14
+  background-color: #EAE2C7
+.bg15
+  background-color: #ECECEC
+.bg16
+  background-color: #FEFEFE  
+.bg17
+  background-color: #F2F2F2 
+.bg18
+  background-color: #F3F9FF  
+.bg19
+  background-color:#12263F !important
+.bg20
+  background-color:#E7F7F1
+.bg21
+  background-color:#E7F7F1
+.bg22
+  background-color:#D2E1F1
+
+.tarjeta--morado
+  background-color: #D1BCFF 
+.tarjeta--azul
+  background-color: #F3F9FF 
+.tarjeta--blanca
+  background-color: #FFFFFF 
+
+
+.texto1
+  color: #FFD54F !important
+.texto2
+  color: #F7C99C !important
+.text-left
+  text-align: left !important
+
+
+.mtn-7
+  margin-top: -7%
+.mh-290
+  max-height: 290px  
+.mh-375
+  min-height: 375px 
+.mnl-1
+  margin-left: -8.5% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-left: 0px
+.mnr-1
+  margin-right: -8.5% 
+  @media (max-width: 576px)
+    margin-right: 0px
+.division
+  border-top: 2.5px solid #D2D2D2    
+  margin: 40px 0px
+.br-7
+  border-radius: 7px
+
+.acordion.t2-2 .tarjeta--blanca
+  border-top: 1px solid #707070
+.acordion.t2-2  .acordion__accion__btn--b  
+  background-color: #FFD54F
+  border-color: #FFD54F
+.acordion.t2-2 .acordion__activo .acordion__accion__btn--b 
+  background-color: #673AB7
+  border-color: #673AB7
+  i
+    color: #FFF
+.acordion.t2-1 .acordion__activo .acordion__accion__btn--a
+  background-color: #FFD54F
+  i
+    color: #060404
+.bloque-texto-b i.color-primario    
+  color: $color-primario
+.lineas  
+  position: relative  
+  &::before    
+    content: ""
+    display: block
+    position: absolute
+    top: 0px
+    right: 0px
+    width: 5px
+    height: 100%
+    border-right: 2px dashed #FFD54F
+    @media (max-width: 769px)
+      border-right: 0px  
+
+.tarjeta-avatar-b .tarjeta.alreves    
+  margin-right: -7.5%
+  padding-right: 7.5%
+  margin-left: 0
+  padding-left: 0
+.tarjeta-avatar-b.top 
+  .tarjeta.alreves
+    margin-right: -10.5%
+    padding-right: 10.5%
+  .tarjeta-avatar-b__img
+    align-items: flex-start !important
+
+
+.width-25 .tarjeta-avatar-b__img 
+  min-width: 35%
+  max-width: 35%
+
+.color-primario .lista-ol--cuadro__vineta  
+  background-color: #673AB7
+  
+h4.linea:after  
+  content: ""
+  display: block
+  height: 1px
+  width: 90px
+  background-color: #12263F
+  margin-top: 5px
+.subt
+  img
+    width: 23px
+  h3
+    color: #673AB7
+  &::after   
+    content: ""
+    display: block
+    height: 3px
+    width: 110px
+    background-color: #673AB7
+
+.tabs-c__header 
+  margin-bottom: 0px
+  .tabs-c__tab--active span
+    font-weight: bold
+  .tabs-c__tab  
+    border-bottom-color: #FFD54F
+
+
+.img-infografica.color-primario .img-infografica__item__numero, .img-infografica-b.color-primario .img-infografica__item__numero 
+    color: #FFD54F
+
+.der
+  text-align: right
+
+.fa-chevron-left:before 
+    content: "\f053"
+    color: #FEA772
+i.fas.fa-globe
+  font-size: 1.2rem
+.slyder-f__btn i 
+    font-size: 3.5rem
+.fa-chevron-right:before 
+    content: "\f054"
+    color: #FEA772
+
+.bloque-texto-a.color-primario 
+    background-color: $color-primario
+
+.bgw
+  background-color: #ffffff
+
+
+.bloque-texto-a__texto 
+    background-color: #FFD54F
+
+.dere
+  text-align: right
+  display: inline-block
+
+
+.cajon.color-primario 
+    background-color: #D1BCFF
+
+.cajon.color-primario.bgg
+  background-color: #EEE6FF
+
+.bg-img-bluess
+  background-color: $color-primario
+  border-radius: 25px
+  padding: 11px
+
+.lista-ul--color.color-acento-botones i 
+    color: #673AB7 !important
+
+.bg144
+  background-color: #F8F4FF
+
+.lista-ol--cuadro__vineta 
+    background-color: $color-primario
+    display: inline-block
+    min-width: 24px
+    height: 24px
+    color: #fff
+    position: relative
+    margin-right: 8px
+    vertical-align: top
+
+.slyder-a__bullets__item--active 
+    background-color: #12263F
+    border-color: #12263F
+    opacity: 1
+
+.bg55
+  background-color: #FFF9E5 
+
+.caj1
+  background-color: #D1BCFF
+  border-radius: 20px
+
+.caj2
+  background-color: #895CD8
+  border-radius: 20px
+
+.caj3
+  background-color: #673AB7
+  border-radius: 20px
+
+
+.bgwh
+  background-color: #ffffff
+  border-radius: 0px 0px 20px 20px
+  height: 320px
+
+.tarjeta.tarjeta--azul.fe
+  background-image: url('../assets/curso/temas/t1/fd.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  border-radius: 15px
+
+.t1-3.slyder-a
+  .slyder-a__btn--atrs
+    background-color: #FFD54F
+    border-color: #FFD54F
+    opacity: 1
+  .slyder-a__btn--sigt    
+    background-color: #8463BF
+    border-color: #8463BF
+    opacity: 1
+
+.fa-plus.mo:before 
+    content: "\f067"
+    color: #FFD54F
+
+.b1
+  background-color: $color-acento-contenido
+
+
+.b4
+  background-color: $color-acento-botones
+
+
+.encab
+  background-image: url('../assets/curso/temas/t1/encab.png')
+  background-size: 97% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  border-radius: 10px
+
+.bg67
+  background-color: #F2F2F2
+.bla
+  width: 418px
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+
+.bg22y
+  background-color: #E9DFFF
+  float: right
+  width: 88%;
+  border: 1px solid #ddd;
+  
+
+.bggg
+  background-image: url('../assets/curso/temas/t1/fom.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  border-radius: 10px
+
+
+
+
+.bg12f
+  background-color: #D1BCFF
+
+.bg7f
+  background-color: #673AB7
+
+
+.bgf
+  background-color: #D1BCFF
+
+
+.lista-ul--color.color-acento-botones.fin i 
+  color: #FFD54F !important
+
+.color-acento-botones.fg
+  background-color: #E7DCFF
+
+.tarjeta--azul.sli
+  background-color: #E3D6FF
+
+
+
+
+
+
+
+.cjj
+  background-color: #D1BCFF
+
+.tarjeta--container.sinb > .tarjeta:first-child 
+    border-top-left-radius: 0px
+    border-bottom-left-radius: 0px
+
+.tarjeta--container.sinb > .tarjeta:last-child 
+    border-top-right-radius: 0px
+    border-bottom-right-radius: 0px
+
+
+.fon2
+  background-image: url('../assets/curso/temas/t2/fon2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  border-radius: 10px
+
+.bg13g
+  background-color: #F2ECFF
+  border-radius: 15px
+
+.cajaul
+  background-color: #D1BCFF
+
+.cajaol
+  background-color: #673AB7
+  height: 92px
+
+@media (min-width: 992px) 
+    .col-lg-2.peqt 
+        flex: 0 0 auto
+        width: 12.666667%
+    
+.cajaol1
+  background-color: #673AB7
+  height: 97px
+
+.add
+  --bs-gutter-x: -0.5rem
+
+.adds
+  --bs-gutter-x: -0.5rem
+
+.bg1v 
+    position: relative;
+    width: 75%;
+    background-color: hsla(0, 0%, 100%, .95);
+    z-index: 10
+
+    
+
+.bg5
+  background-color: $color-primario
+
+.mrn-3
+  margin-right: -3%
+  @media (max-width: 769px)
+    margin-left: 0px
+
+.ml-3
+  margin-left: 7%
+  @media (max-width: 769px)
+    margin-left: 0px
+
+
+
+.fondo-b
+  background-image: url("../assets/curso/temas/t1/fondo-b.png") 
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 100% 100% 
+
+
+.tabla-a.tabla-peque table
+  min-width: 470px !important
+
+.tabla-a .pp
+  border-color: #B0C0D2 
+  font-weight: 700
+  text-align: center
+  font-size: 1.125em
+
+.tabla-c.tabla-peque.tt table
+  min-width: 470px !important
+  border-collapse: unset
+  border-spacing: 0px
+  table-layout: fixed
+  width: 100%
+  td, th
+    border: 0px solid #e8e8e8
+    padding: 0.75em
+
+.tabla-c.tabla-peq.tt table
+  min-width: 600px !important
+  border-collapse: unset
+  border-spacing: 0px
+  table-layout: fixed
+  width: 100%
+  td, th
+    border: 0px solid #e8e8e8
+    padding: 0.5em
+
+.tabla-a.color-1 thead
+  border-color: #B0C0D2 !important
+
+.tabla-a.color-1 td, .tabla-a.color-1 th
+  border-color: #FFF
+  
+td.rr
+  border: 1px solid #6c757d
+  padding: 0.75em
+
+
+
+.tabla-a.color-primario.wii thead 
+    border-color: #fff
+
+
+.bg45
+  background-color: #EBEEF6
+
+.bcg
+  background-color: #C9D4E0
+  
+
+.fondoo 
+    background: url(../assets/curso/temas/t1/tabla.png)
+    background-size: 99% 119%
+    background-repeat: no-repeat
+
+.cajaf
+  background-color: #F7F4FF
+
+
+.caja1
+  background-color: #E8E8E8
+  border-radius: 50px
+  &:hover
+    background-color: #D1BCFF
+
+
+
+
+.bl
+  background-color: #B0C0D2
+
+.bla
+  background-color: #E8E8E8
+
+.bg66
+  background-color: #F2F2F2
+
+
+.bl33
+  background-color: #727997
+
+
+
+.kaj
+  max-width: 100%
+  background-color: #673AB7
+  position: relative
+  overflow-x: hidden
+  box-sizing: border-box
+.cajablanca
+  margin-right: -60px
+  background-color: #FFD54F
+  padding: 20px
+  position: relative
+  box-sizing: border-box
+
+
+.cajablan
+  background-color: #fff
+
+
+.bloque-texto-g__img 
+    width: 32%
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    background-position: center
+    background-size: cover
+
+.bloque-texto-g__texto 
+    position: relative
+    width: 74%
+    background-color: rgba(255, 255, 255, 0.95)
+
+
+.cajr
+  background-color: #CDEEE2
+
+
+.col-6.co6
+    flex: 0 0 auto
+    width: 44%
+
+.col-6.co7
+  flex: 0 0 auto
+  width: 56%
