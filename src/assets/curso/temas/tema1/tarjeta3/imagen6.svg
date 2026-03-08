@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="141" height="141" viewBox="0 0 141 141">
-  <g id="Grupo_1078648" data-name="Grupo 1078648" transform="translate(-1081.5 -5207.707)">
-    <circle id="Elipse_5614" data-name="Elipse 5614" cx="70.5" cy="70.5" r="70.5" transform="translate(1081.5 5207.707)" fill="#fff"/>
-    <g id="_045---Shirt" data-name="045---Shirt" transform="translate(1115.317 5239.632)">
+  <g id="Grupo_1204742" data-name="Grupo 1204742" transform="translate(14122.668 5362.334)">
+    <g id="Grupo_1077069" data-name="Grupo 1077069" transform="translate(-14391.668 -6320.334)">
+      <circle id="Elipse_5614" data-name="Elipse 5614" cx="70.5" cy="70.5" r="70.5" transform="translate(269 958)" fill="#fdf2d4"/>
+    </g>
+    <g id="_045---Shirt" data-name="045---Shirt" transform="translate(-14088.851 -5330.409)">
       <path id="Shape" d="M73.411,41.106V59.091H62.951V46.819a17.1,17.1,0,0,0-1.785-7.564l-5.29-9.006,1.666,40.876c-6.163,3.253-12.55,3.835-19.837,3.835s-13.7-.608-19.837-3.835l1.706-40.876-5.29,9.006A17.1,17.1,0,0,0,12.5,46.819V59.091H2V41.106A17.006,17.006,0,0,1,3.164,34.93l8.755-21.093a10.844,10.844,0,0,1,5.951-6.07A59.219,59.219,0,0,1,24.627,5.4H50.785a59.219,59.219,0,0,1,6.758,2.367,10.844,10.844,0,0,1,5.938,6.07L72.234,35a17.007,17.007,0,0,1,1.177,6.11Z" transform="translate(0.645 1.741)" fill="#67b9cc"/>
       <rect id="Rectangle-path" width="14" height="8" rx="1" transform="translate(14.351 67.351) rotate(180)" fill="#9fc9d3"/>
       <path id="Shape-2" data-name="Shape" d="M30.645,8.322V74.444H28V8.322a1.322,1.322,0,0,1,2.645,0Z" transform="translate(9.028 2.257)" fill="#2fa8cc"/>

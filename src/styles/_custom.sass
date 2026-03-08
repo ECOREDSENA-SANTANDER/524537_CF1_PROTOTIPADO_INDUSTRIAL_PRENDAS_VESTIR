@@ -105,7 +105,6 @@
   background-color: #DADDDF !important
  
 //// Linea de pasos
-
 .pasos-b__header__item--before .pasos-b__header__item__dot 
   border-color: #D1BCFF !important
   background-color: #D1BCFF  !important
@@ -135,13 +134,15 @@
 ///// Custom acordeon A tipo A -------------------------------------- 
 .tarjeta.acordeonA
   background-color: #DADDDF
-
 .acordion__accion__btn--a
   background-color: #EEAC3A !important
-
 .acordion__activo
-  background-color: #E8E4FF !important
-
+  background-color: #EEF9F6
+  background-image: url(../assets/curso/temas/tema1/bg3.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 .tarjeta--gris 
     background-color: #DADDDF
 
@@ -219,40 +220,32 @@
 
 .crd--avatarHorizontal
   position: relative
-  padding-right: 12rem
+  padding-right: 17rem
   & > *
     position: relative
-  h5 
-    color: #7F4FC7
-  p 
-    margin-bottom: 0
   &::before  
     position: absolute 
     content: ''
     top: 0
     right: 0
-    width: calc( 100% - 60px)
+    width: 100%
     height: 100%
-    background-color: #C5E5FE
-
+    background-color: #F7C99C
   @media (max-width: 1000px)
     padding-right: 2rem
-
-.crd--first, .crd--last
-  &::before 
-    background-color: #DDEDF8 !important
-
 .crd--first
   &::before 
     border-top-left-radius: 30px
+    background-color: #BEE8DA
 .crd--last
   &::before 
     border-bottom-left-radius: 30px
-
+    background-color: #5EC6A3
 .avatar
   position: absolute
   bottom: 0
   right: -4rem
+  width: 320px
   z-index: 1
   @media (max-width: 1000px)
     display: none
@@ -276,51 +269,28 @@
     z-index: 0
 
   //linea de tiempo nueva
-
-.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
-  background-color: #471E89
-
-.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before 
-  background-color: #471E89
-
-.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after 
-  background-color: #471E89
-
-.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
-  border-color: #471E89
-
-.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
-  border-color: #B0C0D2
-
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left
-  background-color: #FFD54F
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
 
 //parametrización linea porque nos vestimos ?
-
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
-    background-color: #FFD54F
-    color: black 
-
+    background-color: $color-acento-botones
+    color: $color-sistema-texto 
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
-    background-color: #E8E4FF
-
+    background-color: #EEF9F6
 .fondo-moradoclaro
-  background-color:#E8E4FF
-
+  background-color:#EEF9F6
 .linea-tiempo-d__item__content__slot
-  background-color:#E8E4FF
+  background-color:#EEF9F6
 
 // nueva tabla
-
-.bgmoradoclaro
-  background-color: #D1BCFF
-
+.bg1claro
+  background-color: #5EC6A3
 .bgmoradooscuro
   background-color: #673AB7
-
 .bgblanco
   background-color: white
-
 .tabla-b 
   border-color: #AFAFAF !important
 
@@ -334,22 +304,9 @@
   background-image: url('../assets/curso/temas/tema3/fondo1.svg')
   background-repeat: no-repeat
 
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
-  background-color: #FFD54F
 
-//correccion avatar grande
-
-.crd--avatarHorizontal::before
-    background-color: #673AB7
-
-.crd--first::before, .crd--last::before
-    background-color: #D1BCFF     !important;
-
-.img-avatar
-  width: 350px  
 
 // correccion tamaño borde tarjeta
-
 .ancho-bordeclaro  
   border: 5px solid #D1BCFF !important
 
@@ -370,15 +327,7 @@
 .slyder-f__btn i 
   color: #ffd54f !important
 
-.slyder-a__bullets__item 
-  background-color:  #673AB7
-
-.slyder-a__bullets__item--active 
-  background-color:  #ffd54f;
-  border-color:  #ffd54f;
-
 // sangría viñeta
-
 .fa-ul
   margin-left: 0 !important
   li
@@ -387,7 +336,6 @@
       position: relative
       margin-right: 7px
       font-size: 1.4rem
-
 .fa-ol
   margin-left: 0 !important
   li
@@ -398,38 +346,33 @@
       font-size: 1.4rem
 
 //viñeta amarilla
-
 .lista-ul--color.vamarillo li > i:first-of-type 
-    color: #ffd54f !important
+    color: #FEA772 !important
     font-size: 25px
     position: relative !important
     top: -5px !important
     margin-right: 7px !important
     vertical-align: top !important
-
 .lista-ul__vineta.vamarillo li > i:first-of-type
-    color: #ffd54f !important
+    color: #FEA772 !important
     font-size: 25px
     position: relative !important
     top: -5px !important
     margin-right: 7px !important
     vertical-align: top !important
-
 .lista-ul__vineta.vamarillo:before
   color: transparent !important
 
 //viñeta morada oscura
-
 .lista-ul--color.vmorada li > i:first-of-type 
-    color: #673AB7 !important
+    color: #63503E !important
     font-size: 25px
     position: relative !important
     top: -5px !important
     margin-right: 7px !important
     vertical-align: top !important
-
 .lista-ul__vineta.vmorada li > i:first-of-type
-    color: #673AB7 !important
+    color: #63503E !important
     font-size: 25px
     position: relative !important
     top: -5px !important
@@ -442,31 +385,21 @@
 
 
 //borde tabla
-
 .tabla-b.bordenegro
-  border: 2px solid black !important
-  border-color: black !important
-
+  border: 2px solid #AFAFAF !important
+  border-color: #AFAFAF !important
 .bordeizquierdocelda
-  border-left: 2px solid black !important
+  border-left: 2px solid #AFAFAF !important
 
 // Banner interno - subtitulo
-
 .banner-interno__fondo    
   background-image: url("../assets/curso/temas/mini-portada.png") !important
 
-// adecuacion espacios viñeta
-
-.lista-ul--color li>i:first-of-type, .lista-ul--separador li>i:first-of-type, .lista-ul li>i:first-of-type 
-    position: relative !important
-    top: 4px !important
-    margin-right: 7px !important
-    vertical-align: top !important
 
 //color boton siempre negro
 
 .texto-negro
-  font-color: black !important
+  font-color: $color-sistema-texto !important
 
 .texto-morado100
   color: #673AB7 !important
@@ -481,11 +414,94 @@
   background-color: white !important
   border: 5px solid #673AB7 !important
 
-.bgamarilloclaro
-  background: #FEF5E5
+.bg2claro
+  background: #5EC6A3
 
 .texamarillooscuro
-  color: #ffd54f !important
+  color: #FEA772 !important
+  font-size: 30px !important
+  padding-right: 10px
+  top: 0px !important
 
 .bloque-texto-c.color-primario:after
   background-color: #673AB7
+
+
+
+/* 2026 */
+.bg1
+  background-color: #BEE8DA
+.bg2
+  background-color: #FEF5E5
+.bg3
+  background-color: #F7C99C
+.bgi-1
+  background-image: url(../assets/curso/temas/tema1/bg.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-2
+  background-image: url(../assets/curso/temas/tema1/bg2.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-3
+  background-image: url(../assets/curso/temas/tema1/bg3.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgi-4
+  background-image: url(../assets/curso/temas/tema1/bg4.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+figcaption
+  font-weight: normal
+.mh-px1
+  min-height: 380px
+.subt
+  width: fit-content
+  position: relative
+  img
+    width: 50px
+    z-index: 99
+  h3
+    z-index: 999
+    padding: 0px 50px 0px 15px
+  &::before   
+    content: ""
+    position: absolute
+    top: 5px
+    height: 80%
+    width: 100%
+    border-radius: 500px
+    background-color: #FEF4EB
+.subt2
+  background-color: #FADE93
+  border-radius: 500px
+  width: fit-content
+  padding: 7px 20px
+  i
+    font-size: 10px
+    top: 8px !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 1
+.slyder-a__bullets__item
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
+  opacity: 0.6
+  &--active 
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+.tarjeta-numerada__numero.t1
+  width: 80px
+  height: 80px
+
