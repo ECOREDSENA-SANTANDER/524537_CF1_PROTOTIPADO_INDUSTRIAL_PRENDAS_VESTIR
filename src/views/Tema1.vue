@@ -18,13 +18,13 @@
             p Conocimiento e interpretación corporal.
           .col-lg-6
             .row 
-              .col-lg-6.col-md-6.col-6
+              .col-lg-6.col-md-6.col-5
                 p.mb-0.der Anatomía
                 p.mb-0.der Biomecánica
                 p.mb-0.der Morfología
                 p.mb-0.der Ergonomía
                 p.mb-0.der Antropometría
-              .col-lg-6.col-md-6.col-6
+              .col-lg-6.col-md-6.col-7
                 p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Estructura
                 p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Movimiento
                 p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Geometría
@@ -121,7 +121,7 @@
       .col-lg-6.pe-lg-0(data-aos="fade-right")
         .tarjeta.bg3.h-100.p-4
           .row.align-items-center
-            .col-lg-5.col-md-5.col-8.mb-3.mb-lg-0
+            .col-lg-5.col-md-5.col-7.mb-3.mb-lg-0
               img(src='@/assets/curso/temas/t1/imag06.svg' alt='')
             .col-lg-7
               h4 Posición anatómica
@@ -151,7 +151,7 @@
       .col-lg-6.ps-lg-0(data-aos="fade-left")
         .tarjeta.bg4.h-100.d-flex.align-items-center.p-4
           .row
-            .col-lg-5.col-md-5.col-8.mb-3.mb-lg-0
+            .col-lg-5.col-md-5.col-7.mb-3.mb-lg-0
               img(src='@/assets/curso/temas/t1/imag07.svg' alt='')
             .col-lg-7
               h4 Posición neutra
@@ -161,11 +161,12 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-8
-        .cajon.color-acento-contenido.p-lg-4.mb-3
+        .cajon.color-acento-contenido.p-4.mb-3
           h4.mb-4.mt-4 Planos y ejes anatómicos
-          p.mb-4 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-4.col-md-12
+          p.mb-0 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
+    
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-4.col-md-8
         img.mb-3(src='@/assets/curso/temas/t1/imag02.svg', alt='En la imagen se comparte un esquema anatómico del cuerpo humano con las direcciones y planos anatómicos principales. Se señalan tres planos: el plano sagital (que divide el cuerpo en izquierda y derecha), el plano frontal (que divide el cuerpo en anterior y posterior), y el plano transversal (que divide el cuerpo en superior e inferior). Además, se indican varias direcciones anatómicas, como craneal (hacia la cabeza), caudal (hacia los pies), dorsal (hacia la espalda), ventral (hacia el frente), proximal (cercano al punto de origen), distal (lejano al punto de origen), medial (hacia el centro del cuerpo), lateral (alejado del centro del cuerpo), entre otras. Estas referencias son fundamentales para describir la ubicación de estructuras y movimientos del cuerpo humano en medicina y anatomía.')
         figcaption Fuente: https://es.scribd.com/document/675092535/neuro-26-5
 
@@ -248,11 +249,11 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide3.svg')})`}")
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.kaj.p-5
+      .col-lg-10.col-md-11.kaj.p-3.p-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-6
+          .col-lg-6.mb-3
             .cajablanca.p-4
-              p.mb-4.my-4 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
+              p.mb-0.mb-lg-4.my-4 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
           .col-lg-6
             .cajablan.p-3
               .row.justify-content-center.align-items-center
@@ -580,7 +581,7 @@
                   li.mb-0
                     i.fas.fa-plus
                     | Pies de las máquinas (se miden por pulgadas y de acuerdo con el ancho de las costuras).
-      .col-lg-3.col-md-9.mb-4(data-aos="fade-left")
+      .col-lg-3.col-md-7.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/imag23.svg', alt='')
     
         
@@ -607,7 +608,7 @@
     
     p.mb-4 En patronaje: la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
     
-    .row.align-items-center.mb-4
+    .row.align-items-center.justify-content-center.mb-4
       .col-lg-10.mnr-1(data-aos="fade-right")
         .bg8.p-4
           p.mb-0 Como se utilizan los centímetros:
@@ -757,34 +758,34 @@
     TabsC.color-acento-contenido.mb-5(data-aos="fade-down")
       .py-4.py-md-5.p-4.bg9(titulo="Sobre medidas")
         .row.justify-content-around
-          .col-md-8
+          .col-md-8.col-11
             p Son las medidas que se toman directamente sobre el cuerpo de la persona. Estas medidas se deben tomar teniendo en cuenta los ejes de movimiento. 
             p La cantidad de medidas a tomar dependerá del tipo de prenda a construir. En este caso es fundamental la observación y análisis de la estructura corporal para interpretar los ajustes que deben darse al trazo de patrones.
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-3.col-11
             img(src='@/assets/curso/temas/t1/figuras1.svg', alt='')
       .py-4.py-md-5.p-4.bg9(titulo="Deducidas")
         .row.justify-content-around.align-items-center
-          .col-md-3.col-lg-2.mb-4.mb-md-0
+          .col-md-3.col-lg-2.col-11.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t1/nuev.png', alt='')
-          .col-md-9
+          .col-md-9.col-11
             p Se deducen o se sacan de otra medida, aplicando fórmulas ya estudiadas y comprobadas con anterioridad. Se basan esencialmente en una medida horizontal, que se toma al contorno del cuerpo más prominente y en una medida vertical que es tomada a lo largo del cuerpo de arriba hacia abajo. Con estas medidas se deducen las otras, por eso se toman exactas y no deben mezclarse con otras medidas al construir el cuadro de tallas.
       .py-4.py-md-5.p-4.bg9(titulo="Estandarizadas")
         .row.justify-content-around
-          .col-md-8
+          .col-md-8.col-11
             p #[b Medidas estandarizadas o normalizadas:] son el resultado de estudios antropométricos, que establecen un rango de medidas que corresponden a las principales medidas corporales – tallas. Estas medidas son definidas y adoptada por norma. 
-          .col-md-4.col-lg-3
+          .col-md-4.col-lg-3.col-11
             img(src='@/assets/curso/temas/t1/figuras3.svg', alt='')
       .py-4.py-md-5.p-4.bg9(titulo="Anatómicas")
         .row.justify-content-around
-          .col-md-4.col-lg-2
+          .col-md-4.col-lg-2.col-11
             img(src='@/assets/curso/temas/t1/file.svg', alt='')
-          .col-md-9
+          .col-md-8.col-11
             p.my-4 Son las medidas tomadas justas sobre el cuerpo teniendo en cuenta los puntos antropométricos y ejes de movimiento. #[b No tienen desahogos ni flojos.]
       .py-4.py-md-5.p-4.bg9(titulo="Medidas de prenda")
         .row.justify-content-around
-          .col-lg-2.col-md-3.mb-4.mb-md-0
+          .col-lg-2.col-md-3.col-11.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t1/figuras4.svg', alt='')
-          .col-md-9
+          .col-md-9.col-11
             p.mb-4 Estas incluyen medidas de holgura, teniendo en cuenta el uso de la prenda. Por lo general se construyen cuadros de tallas de prendas que ya tienen incluidos esos centímetros de más en las diferentes medidas.
             
 
@@ -1026,10 +1027,10 @@
     .bg66.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
       .row
         .col-lg-4
-          .d-flex.justify-content-center.mb-5
+          .d-flex.justify-content-center.mb-4.mb-lg-5
             .d-flex.flex-wrap.align-items-center.bg-img-bluess
               h4.col.px-2.mb-0(data-aos="fade-right") ¿Cómo obtener medidas deducidas?
-          img.img-a.img-t(src="@/assets/curso/temas/t1/123.png")
+          img.d-none.d-lg-block(src="@/assets/curso/temas/t1/123.png")
         .col-lg-7
           .titulo-sexto.color-primario.mb-3
             h5 Tabla 2.
@@ -1444,7 +1445,7 @@
     
     AcordionA.t2-1.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-down")
       .row.justify-content-center.align-items-center(titulo="Paso 1: construcción de básicos")
-        .col-md-3.col-8.mb-4.mb-md-0
+        .col-md-3.col-7.mb-4.mb-md-0
           img(src='@/assets/curso/temas/t1/acordion.svg', alt='')        
         .col-md-8.mb-4.mb-md-0
           p Los básicos se dividen en dos grupos: superior (básico superior + Manga) e inferior, básico de falda (alrededor de cadera desde cintura hasta rodilla), básico de pantalón (alrededor de cadera, y la base genital, desde cintura hasta el tobillo).
@@ -1452,10 +1453,10 @@
       .row.justify-content-center.align-items-center(titulo="Paso 2: definición del diseño")
         .col-md-8.mb-4.mb-md-0
           p Por lo general la definición del diseño no está a cargo del patronista, sin embargo, es la base para definir que se va a desarrollar, es decir, poder hacer el análisis del tipo de prenda a patronar.
-        .col-md-3.col-8
+        .col-md-3.col-7
           img(src='@/assets/curso/temas/t1/acordion2.svg', alt='')      
       .row.justify-content-center.align-items-center(titulo="Paso 3: análisis de la prenda (talla, básico, horma, material e insumos)")
-        .col-md-3.col-8
+        .col-md-3.col-7
           img(src='@/assets/curso/temas/t1/acordion3.png', alt='')        
         .col-md-8.mb-4.mb-md-0
           p Se analizan los factores necesarios para el desarrollo de la prenda, después de los básicos, son el punto de partida para dar inicio al trazo del plano.
@@ -1463,7 +1464,7 @@
             .col-lg-9
               .tarjeta.color-primario.p-3
                 .row.justify-content-around.align-items-center
-                  .col-3.col-sm-2.col-lg-2
+                  .col-3.col-sm-3.col-lg-2
                     img.px-md-2(src="@/assets/curso/temas/t1/icono.svg")
                   .col
                     .row.justify-content-between.align-items-center
@@ -1499,24 +1500,24 @@
               | Plano con unión de hombros.
         .bg11.p-5.mb-5
           .row.align-items-center
-            .col-md-8.mb-4.mb-md-0
+            .col-lg-8.mb-4.mb-md-0
               h5 Ajuste al plano
               p Desahogos: son aumentos que se dan en algunas medidas de construcción para cumplir con los requerimientos de biomecánica del cuerpo de acuerdo con el tipo y uso de la prenda.
               p.mb-4 También conocidos como holgura, amplitud, flojo. Son medidas que se adicionan al básico para la construcción del plano, interpretación o desarrollo de la prenda. Los desahogos permiten la funcionalidad de las prendas sobre prendas.
               .row.justify-content-center
-                .col-lg-4.col-md-12.col-12.mb-3
+                .col-lg-4.col-md-6.col-12.mb-3
                   h4.mb-2.text-center Básico
                   p.mb-2.text-center Contorno de pecho/busto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +
                   p.mb-0.text-center Medida anatómica
-                .col-lg-3.col-md-12.col-12.mb-3
+                .col-lg-3.col-md-6.col-12.mb-3
                   h4.mb-2.text-center Blusa
                   p.mb-2.text-center &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desahogo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +
                   p.mb-0.text-center &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incremento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
-                .col-lg-3.col-md-12.col-12.mb-3
+                .col-lg-3.col-md-6.col-12.mb-3
                   h4.mb-2.text-center Chaqueta
                   p.mb-2.text-center Desahogo
                   p.mb-0.text-center Funcionabilidad
-            .col-md-4
+            .col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/acordion5.svg', alt='') 
         .row
           h5 Ejemplo de desahogos:
@@ -1548,23 +1549,22 @@
           .tarjeta--container.row.mb-5
             .col-md.tarjeta.bg6.p-4
               .row.justify-content-center.mb-3
-                .col-12
+                .col-md-12.col-6
                   h4.mb-4.text-center Básica
                   img.img-a.img-t(src='@/assets/curso/temas/t1/paso5-1.svg', alt='')
               p.text-center.mb-0 Análisis básico de prendas de vestir, sin ningún tipo de complejidad en el desarrollo.
             .col-md.tarjeta.bg8.p-4
               .row.justify-content-center.mb-3
-                .col-12
+                .col-md-12.col-6
                   h4.mb-4.text-center Intermedia
                   img.img-a.img-t(src='@/assets/curso/temas/t1/paso5-2.svg', alt='')
               p.text-center.mb-0 Análisis intermedio de prendas de vestir, complejidad desde cortes, ajustes y complementos.
             .col-md.tarjeta.bg6.p-4
               .row.justify-content-center.mb-3
-                .col-12
+                .col-md-12.col-6
                   h4.mb-4.text-center Avanzada
                   img.img-a.img-t(src='@/assets/curso/temas/t1/paso5-3.svg', alt='')
               p.text-center.mb-0 Análisis avanzado para la construcción de prendas de vestir, traslados, volúmenes y tridimensiones.             
-
         .bg11.p-4.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-10.mb-4.mb-md-0
@@ -1579,7 +1579,6 @@
                 li.mb-0
                   i.fas.fa-plus
                   | Cortando y ampliando: se trazan los cortes y se da amplitud en el momento del despiece. La pieza se abre y se vuelve a trazar para un nuevo despiece. Trazo de planos (ejemplos visuales).
-  
       .row(titulo="Paso 6: despieces")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-md-0
@@ -1616,9 +1615,9 @@
           .col-lg-6.pe-md-0
             .bg25.p-4.h-100
               .row
-                .col-md-5.col-9.mb-3.mb-md-0
+                .col-lg-5.col-md-3.col-6.mb-3.mb-md-0
                   img(src='@/assets/curso/temas/t1/hilos.png', alt='')
-                .col-md-6 
+                .col-lg-6.col-md-9
                   h5 Hilos de tela:
                   ul.lista-ul.fa-ul.mb-0
                     li.mb-1 
@@ -1642,9 +1641,9 @@
           .col-lg-6.ps-md-0
             .bg11.p-4.h-100
               .row
-                .col-md-5.col-9.mb-3.mb-md-0
+                .col-lg-5.col-md-3.col-6.mb-3.mb-md-0
                   img(src='@/assets/curso/temas/t1/parche.svg', alt='')
-                .col-md-6 
+                .col-lg-6.col-md-9
                   h5 Ubicación de hilos de tela:
                   ul.lista-ul.fa-ul.mb-0
                     li.mb-1 
@@ -1676,39 +1675,38 @@
                       a.boton.color-acento-botones(href="https://repositorio.sena.edu.co/sitios/modisteria_conocimientos_basicos/hilos_maquina/hilosytelas.html#" target="_blank")
                         span Descargar
                         i.fas.fa-file-download 
-        
       .row.justify-content-center.align-items-center(titulo="Paso 7: trazo y corte")
         .col-md-12.col-lg-8
           p Se marcan las piezas sobre el material teniendo en cuenta las indicaciones y se procede a cortar las piezas teniendo en cuenta los márgenes de costura. De acuerdo con el tipo de material, se marca el textil o se sujetan con alfileres los patrones o transfiere la marca con la rodaja. Se corta la muestra en el textil elegido.
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion7.svg', alt='')        
       .row.justify-content-center.align-items-center(titulo="Paso 8: confección de muestra física")
         .col-md-12.col-lg-8
           p Se ensambla la muestra física o primer prototipo del diseño.
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion8.svg', alt='')        
       .row.justify-content-center.align-items-center(titulo="Paso 9: verificación de muestra física")
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion9.svg', alt='')
         .col-md-12.col-lg-8
           p Se verifica que la muestra coincida con lo proyectado en el diseño inicial.      
       .row.justify-content-center.align-items-center(titulo="Paso 10: corrección y/o ajustes de la muestra física sobre el plano")
         .col-md-12.col-lg-8
           p Se realizan los ajustes al patrón, de acuerdo con lo verificado en la muestra física. Es posible que se requieran ajustes complejos que incluyan de pinzas, desahogos, cortes, reubicación de líneas, etc. O en otros casos pequeños ajustes para lograr el #[em fit] ideal proyectado en el diseño inicial.
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion10.png', alt='')      
       .row.justify-content-center.align-items-center(titulo="Paso 11: verificación del nuevo despiece")
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion11.png', alt='')
         .col-md-12.col-lg-8
           p Se realiza el nuevo despiece del diseño de acuerdo con los ajustes y correcciones.      
       .row.justify-content-center.align-items-center(titulo="Paso 12 y 13: contramuestra o prototipo final - validación de la prenda")
         .col-md-12.col-lg-8
           p Se realiza este paso y los anteriores todas las veces necesarias hasta obtener el producto exacto que fue proyectado.
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion12.png', alt='')      
       .row.justify-content-center.align-items-center(titulo="Paso 14: industrialización del patrón")
-        .col-md-8.col-8.col-lg-3
+        .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion14.png', alt='')
         .col-md-12.col-lg-8
           p En los procesos industrializados, es en este paso donde se proyectan las escalas de tallas y se digitalizan los patrones ya probados para su reproducción en serie.
@@ -1740,7 +1738,7 @@
       .col-lg-8.col-md-12.col-12
         .bggg.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-4
+            .col-lg-4.col-md-6
               ul.lista-ul--color.fa-ul.color-primario.ps-2.ps-md-4
                 li.mb-1 
                   i.fas.fa-plus
@@ -1766,7 +1764,7 @@
                 li 
                   i.fas.fa-plus
                   | Líneas de aplomo.
-            .col-lg-7
+            .col-lg-7.col-md-6
               img(src="@/assets/curso/temas/t1/img1.svg")
 
     p.mb-4 Se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. 
@@ -1825,7 +1823,7 @@
         .tarjeta.bg10 
           .p-4.pt-5
             h5.text-center Manejo del papel
-            p Por lo general el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante; otra que al tacto es corrugada y visualmente opaca. Por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
+            p.mb-0 Por lo general el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante; otra que al tacto es corrugada y visualmente opaca. Por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/t1/bombillo.svg' alt='')
         .tarjeta.bg10
@@ -1969,7 +1967,7 @@
       figcaption Video: Base inferior de pantalón femenino
     
 
-    
+
 </template>
 
 <script>

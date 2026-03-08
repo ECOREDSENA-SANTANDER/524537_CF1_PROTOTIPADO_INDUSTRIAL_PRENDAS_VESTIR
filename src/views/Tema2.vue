@@ -8,10 +8,10 @@
       h1 Alistamiento para elaboración de muestra física 1
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-down")
-      .bloque-texto-g__img.dor(
+      .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/cajong.png')})`}"
       )
-      .bloque-texto-g__texto.dos.p-4
+      .bloque-texto-g__texto.p-4
         p.mb-0 En primer lugar, se abordarán las generalidades, aplicaciones e importancia de la fundamentación técnica básica en reconocimiento y manejo de máquinas de confección; conceptos básicos en puntadas, costuras, agujas, tejidos, entre otros criterios específicos de la relación aguja-hilo, aguja-tejido, hilo-tejido, preparación y puesta a punto de las máquinas, especificaciones técnicas y de calidad en las operaciones de confección. De igual manera se abordarán temas pertinentes al cuidado y seguridad de las diferentes máquinas de confección. 
     
 
@@ -125,8 +125,8 @@
           img(src='@/assets/curso/temas/t2/tarjeta2.png' alt='')
           .tarjeta.bg7f
             .p-4
-              h5.text-center.text-white Máquina semi-sumergida
-              p.text-white.text-center Son las máquinas más comunes, el cárter o depósito de aceite se encuentra dentro del mueble y la cama de la máquina más arriba del mueble, su principal beneficio es el contorno de todo el mueble para usos de prendas de talla grande.
+              h5.text-center Máquina semi-sumergida
+              p.text-center Son las máquinas más comunes, el cárter o depósito de aceite se encuentra dentro del mueble y la cama de la máquina más arriba del mueble, su principal beneficio es el contorno de todo el mueble para usos de prendas de talla grande.
       .col-md-6.col-lg-4.mb-3.mb-lg-0.ps-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/tarjeta3.png' alt='')
@@ -190,13 +190,13 @@
     p.mb-4 Durante el proceso de reconocimiento de las máquinas por su capacidad de confección, ahora entran aspectos generales y otros particulares sobre los diferentes tipos de máquinas que se trabajarán a continuación.
     
     SlyderF.mb-5(columnas="col-lg-12" data-aos="fade-down")
-      .tarjeta.color-primario.p-4
+      .tarjeta.bgi-1.p-4
         .row.justify-content-around.align-items-center
           .col-lg-4.col-md-6.col-8.mb-4
             img(src='@/assets/curso/temas/t2/slyder.svg' alt='La imagen presenta un diagrama de una máquina de coser industrial, detallando componentes como el porta conos, cabezote o cabeza de la máquina, mueble, herraje, motor, interruptor y pedal, todos listados a la derecha sobre un fondo púrpura.')
           .col-lg-5
             h5 Aspectos generales:
-            ul.lista-ul--color.color-acento-botones.fin.fa-ul
+            ul.lista-ul.fin.fa-ul
               li
                 i.fas.fa-plus
                 | Porta conos.
@@ -218,7 +218,7 @@
               li
                 i.fas.fa-plus
                 | Pedal.
-      .tarjeta.color-primario.p-4.px-5
+      .tarjeta.bgi-1.p-4.px-5
         .row.justify-content-center
           h5 Aspectos particulares
           p Algunas partes de las máquinas se construyen con aspectos particulares, esto se debe a la posición, la forma y la función que cumple dentro de la máquina. Por ejemplo: el regulador de puntada en las máquinas planas y fileteadoras cumple la misma función, pero no se mueve igual y no se encuentran en la misma posición; sin embargo, se hablará de algunos elementos importantes dentro de la formación de la puntada, tales como:
@@ -238,7 +238,7 @@
           .col-lg-3
             h5.texto1 Regulador de puntada
             p Regula el tamaño de la puntada, mientras menos es él número más pequeña es la puntada.
-      .tarjeta.color-primario.p-4.px-5.py-md-5
+      .tarjeta.bgi-1.p-4.px-5.py-md-5
         .row.justify-content-center
           .col-lg-3.lineas 
             h5.texto1 Tornillo regulador presión prensatelas
@@ -271,16 +271,16 @@
         .col-lg-8
           img(src='@/assets/curso/temas/t2/acordion.png', alt='La imagen describe componentes utilizados en el ajuste de una máquina de coser plana. Se observan tres elementos: una placa de aguja con dientes de arrastre, una placa de aguja con ranuras para la aguja y un pie prensatelas. El título "Ajuste de plana" indica que estos elementos son esenciales para el correcto funcionamiento de la máquina de coser plana.')
       .row.justify-content-center(titulo="Ajuste de máquina dos agujas")
-        .col-lg-10
+        .col-lg-11
           img(src='@/assets/curso/temas/t2/acordion2.png', alt='La imagen expone varios componentes para el ajuste de una máquina de coser de dos agujas: el ajuste completo (Ref. 212) compatible con Singer, Brother, Mitsubishi y Sunstar en medidas 1/8", 3/16" y 1/4"; el pie con guía tope a la derecha (Ref. 212 x 3/16) en las mismas medidas y compatible con las mismas marcas; el pie especial para abrir costuras en copas de brassier (Ref. 212 x 3/16 P.A) con cinta brisa y medidas 1/8" (3.2mm) y 3/16" (4.8mm); y el pie con sobrecinta (Ref. 212 x 19 x 4.8) para colocar lycra espejo en copas de brassier, disponible en medidas 3/16, 6 y 1/4 según el modelo y tipo de material.')
       .row.justify-content-center(titulo="Planchuelas fileteadoras")
         .col-lg-10
           img(src='@/assets/curso/temas/t2/acordion3.png', alt='La imagen describe varios tipos de planchuelas fileteadoras, cada una enmarcada en un círculo púrpura. Los modelos incluyen la E52-131, identificada como parte de la serie 210629/210630; la DCZ-503, correspondiente a los modelos 34564, 34565 y 34566; la L32-01 de la serie 620271(hmm); y la L32-86, identificada como parte de la serie 213780/213781.')
       .row.justify-content-center(titulo="Ajuste recubridora en D")
-        .col-lg-6
+        .col-lg-6.col-md-8
           img(src='@/assets/curso/temas/t2/acordion4.png', alt='La imagen presenta un conjunto de componentes para el ajuste de una recubridora en D. Los elementos  incluyen una placa de aguja, un prensatelas, varios soportes y guías, todos etiquetados con las referencias JZ-12311 y W600. Estos componentes son esenciales para el correcto funcionamiento y ajuste de una máquina recubridora, asegurando precisión y eficiencia en las tareas de costura.')
       .row.justify-content-center(titulo="Ajuste recubridora en F")
-        .col-lg-6
+        .col-lg-6.col-md-8
           img(src='@/assets/curso/temas/t2/acordion5.png', alt='La imagen presenta un conjunto de componentes para el ajuste de una recubridora en F. Los elementos incluyen una placa de aguja, un prensatelas, varios soportes y guías, todos etiquetados con las referencias JZ-12314 y W562-5. Estos componentes son esenciales para el correcto funcionamiento y ajuste de una máquina recubridora, asegurando precisión y eficiencia en las tareas de costura')      
       .row(titulo="Diente")
         p.mb-3 Este dispositivo mecánico es el encargado de desplazar el material a coser; el diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
@@ -305,8 +305,8 @@
       .row.justify-content-center(titulo="Prensatelas")
         .col-lg-11
           .row.justify-content-center
-            .col-lg-2.col-md-8.mb-3
-              img(src='@/assets/curso/temas/t2/prensa.svg', alt='')
+            .col-lg-2.col-md-6.col-7.mb-3
+              img(src='@/assets/curso/temas/t2/prensa.png', alt='')
             .col-lg-10
               p.mb-5 Es el encargado de apoyar el material contra el diente para que pueda ser transportado, la presión que se le debe dar al prensatelas varía de acuerdo con el material, porque si la presión no es la adecuada la apariencia de la costura no es la requerida.
               p.mb-4 Se debe tener en cuenta que el prensatelas solo hace contacto con la tela superior, problemas por una presión inadecuada en el prensatelas:
@@ -320,13 +320,13 @@
                 | Cuando la presión es poca, la tela no alcanza a incrustarse en el diente ocasionando que esta se pegue y varía la cantidad de puntadas por pulgada. 
             p.ps-4 #[b Nota:] el ancho de la base del pie prensatelas debe de ser igual al ancho del diente y cubrirlo en un 90 % de su recorrido.      
       .row(titulo="Planchuela")
-        .row.bg13.p-4.p-md-5
+        .row.cajaf.p-4.p-md-5
           p.mb-0 Es el elemento que sirve de apoyo al material cuando el diente se encuentra regresando, además viene provista de un orificio que es el lugar de penetración de la aguja, este orificio varía de acuerdo con el ajuste pues él debe de ser un 40 % más amplio que la hoja de la aguja. La planchuela tiene carriles, estos deben ser iguales al número de carriles del diente además el diente debe de desplazarse en la totalidad del carril de la plancha.      
       .row(titulo="Tomador de lazada")
         p Es el elemento mecánico que junto con la aguja se encarga de formar la puntada. Estos elementos son auxiliados algunas veces en la formación de la puntada por otros elementos mecánicos. Los más reconocidos son:
         .row.bg13.mb-4.p-2
           h5.text-center.mb-0 Clases de tomadores de lazada
-        .row.align-items-center.mb-4
+        .row.align-items-center.justify-content-center.mb-4
           .col-lg-3.col-md-5.mb-3.mb-md-0
             img(src='@/assets/curso/temas/t2/figura4.png', alt='')
           .col-lg-9.col-md-7
@@ -335,15 +335,15 @@
                 i.fas.fa-plus
                 span.mb-0 #[b Gancho rotatorio:] es un elemento mecánico que, junto con la aguja, sirve para formar las puntadas pertenecientes a la serie 300 (doble pespunte) dando revoluciones completas.
         .bg14.p-4.mb-4
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-lg-10.col-md-8
               ul.lista-ul--color.fa-ul.color-primario
                 li
                   i.fas.fa-plus
                   span.mb-0 #[b Corchete:] este elemento es utilizado para producir la puntada de cadeneta a un hilo, siempre da revoluciones completas, si la máquina tiene alimentación, trabaja sólo con la aguja, pero si esto sólo tiene transporte, necesita de un elemento auxiliar llamado extensor, para compensar la falta del alzador en máquina. 
-            .col-lg-2.col-md-4.col-8
+            .col-lg-2.col-md-4.col-6
               img(src='@/assets/curso/temas/t2/figura5.png', alt='')
-        .row.align-items-center.mb-4
+        .row.align-items-center.justify-content-center.mb-4
           .col-lg-2.col-md-3.col-6.mb-3.mb-md-0
             img(src='@/assets/curso/temas/t2/figura6.png', alt='')
           .col-lg-10.col-md-9
@@ -352,7 +352,7 @@
                 i.fas.fa-plus
                 span.mb-0 #[b Extensor:] este elemento mecánico es utilizado en la mayoría de las veces como auxiliar de los #[em Looper], corchetes, para formar varios tipos de puntadas de diferentes series.
         .mb-4.bg14.p-4
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-lg-9.col-md-7
               ul.lista-ul--color.fa-ul.color-primario
                 li
@@ -360,8 +360,8 @@
                   span.mb-0 #[b #[em Looper:]] es un elemento que tiene hilo propio o sea se puede enhebrar como las agujas, es decir tiene ojo.  Se usa para la elaboración de las puntadas de las series 400, 500, 600. 
             .col-lg-3.col-md-5
               img(src='@/assets/curso/temas/t2/figura7.png', alt='')        
-        .row.align-items-center.mb-4
-          .col-lg-2.col-md-3.col-6.mb-3.mb-md-0
+        .row.align-items-center.justify-content-center.mb-4
+          .col-lg-2.col-md-3.col-5.mb-3.mb-md-0
             img(src='@/assets/curso/temas/t2/figura8.png', alt='')
           .col-lg-10.col-md-9
             ul.lista-ul--color.fa-ul.color-primario
@@ -369,13 +369,13 @@
                 i.fas.fa-plus
                 span.mb-0 #[b Recubridor:] elemento mecánico que sin llevar ojo guía para el hilo, si lleva hilo, el cual extiende sobre la tela superior al formar la puntada de cadeneta con recubridor, dicho hilo es sostenido por el hilo de la aguja, cada que el material avance. Ejemplo: La puntada utilizada en algunas prendas interiores tanto para dama como para hombre, usada para unir el resorte con la tela.
         .bg14.p-4
-          .row.align-items-center
+          .row.align-items-center.justify-content-center
             .col-lg-10.col-md-9
               ul.lista-ul--color.fa-ul.color-primario
                 li
                   i.fas.fa-plus
                   span.mb-0 #[b Lanzadera:] es un elemento mecánico que, junto con la aguja, sirve para formar las puntadas pertenecientes a la serie 300 (doble pespunte), su movimiento es oscilatorio. 
-            .col-lg-2.col-md-3.col-6
+            .col-lg-2.col-md-3.col-5
               img(src='@/assets/curso/temas/t2/figura9.png', alt='')
     
 
@@ -387,7 +387,7 @@
     p.mb-4 En la maquinaria de confección, la alimentación se refiere al movimiento del material que se va a coser. Sin embargo, en ciertos casos, como en la fabricación de colchones donde el material es demasiado pesado, no se desplaza el material sino la misma máquina.
 
 
-    SlyderF(columnas="col-lg-4 col-md-6" data-aos="fade-down")
+    SlyderF(columnas="col-xl-4 col-lg-6" data-aos="fade-down")
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo.svg' alt='')
         .tarjeta.color-acento-botones.fg
@@ -398,39 +398,40 @@
             p.mb-0 #[b Paso 2:] los dientes desplazan el material a coser.
             p.mb-0 #[b Paso 3:] los dientes decienten hasta la parte inferior de la plancha.
             p.mb-4 #[b Paso 4:] los dientes se regresan por la parte inferior de la plancha.
-            p #[b Nota:] este tipo de alimentación lo utilizan la mayoría de las máquinas.
+            p.mb-0 #[b Nota:] este tipo de alimentación lo utilizan la mayoría de las máquinas.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo2.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
             img.mb-3(src='@/assets/curso/temas/t2/pasos2.svg' alt='La imagen representa un proceso de alimentación combinada en cuatro pasos distintos. En el primer paso, una aguja desciende hacia la tela. En el segundo paso, la aguja continúa su descenso mientras la pieza de alimentación avanza hacia adelante. En el tercer paso, la aguja comienza a subir y la pieza de alimentación se desplaza hacia la izquierda. Finalmente, en el cuarto paso, la aguja termina de subir mientras la pieza de alimentación vuelve a su posición inicial, preparándose para repetir el ciclo. Este proceso es un mecanismo de costura en el que se combinan diferentes movimientos para lograr un avance preciso del material.')
             p.mb-4 Este tipo de alimentación es realizada por el diente y la aguja, o sea que la barra de aguja también tiene cuatro pasos y se combinan con el diente para desplazar el material.
-            p #[b Nota:] este tipo de alimentación es más utilizado en las máquinas de dos agujas.
+            p.mb-0 #[b Nota:] este tipo de alimentación es más utilizado en las máquinas de dos agujas.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo3.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
             img.mb-3(src='@/assets/curso/temas/t2/pie.svg' alt='La imagen representa un sistema de doble transporte utilizado en máquinas de coser, destacando tres componentes clave: el pie prensatelas, el diente superior y el diente inferior. El pie prensatelas presiona la tela desde arriba, mientras que el diente superior y el diente inferior trabajan juntos para mover la tela de manera sincronizada, asegurando un avance uniforme y preciso durante el proceso de costura. Este mecanismo es especialmente útil para manejar materiales más gruesos o difíciles de alimentar, garantizando una costura consistente y sin desplazamientos indeseados del tejido.')
             p.mb-4 Las máquinas con este sistema de alimentación presentan un prensatelas que, a primera vista, parece estar dividido en dos partes. Sin embargo, es solo al activar la máquina que se puede observar cómo una sección del pie se eleva y se mueve en coordinación con el diente para trasladar el material. Este diente superior realiza un movimiento de cuatro pasos, similar a la barra de aguja en la alimentación combinada. La principal diferencia radica en que el diente no penetra en el material, sino que lo mueve por contacto directo.
-            p #[b Nota:] este tipo de alimentación es muy utilizado en las máquinas de guarnecer.
+            p.mb-0 #[b Nota:] este tipo de alimentación es muy utilizado en las máquinas de guarnecer.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo4.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
             img.mb-3.w-50.m-auto(src='@/assets/curso/temas/t2/pie2.svg' alt='La imagen describe tres tipos de alimentación en máquinas de coser: oscilante sencillo, realizado en cuatro pasos donde el diente sube, desplaza el material, desciende y regresa; alimentación combinada, que involucra al diente y la aguja, utilizada en máquinas de dos agujas; y doble transporte, donde el prensatelas y el diente superior se mueven para desplazar el material, común en máquinas de guarnicionero. ')
-            p Es el tipo de alimentación más pesado que se conoce, son tres los encargados de desplazar el material a coser, y es la combinación de todas las anteriores. El material es desplazado por diente inferior, aguja y diente superior.
+            p.mb-0 Es el tipo de alimentación más pesado que se conoce, son tres los encargados de desplazar el material a coser, y es la combinación de todas las anteriores. El material es desplazado por diente inferior, aguja y diente superior.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo5.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            p Este tipo alimentación como su nombre lo dice es constante, o sea que el material no se detiene siempre está siendo desplazado en el momento de costura, es empleado principalmente en algunas máquinas autómatas como la ojaladora sencilla y en máquinas automáticas como las ribeteadoras y pagadoras de bolsillo.
+            p.mb-0 Este tipo alimentación como su nombre lo dice es constante, o sea que el material no se detiene siempre está siendo desplazado en el momento de costura, es empleado principalmente en algunas máquinas autómatas como la ojaladora sencilla y en máquinas automáticas como las ribeteadoras y pagadoras de bolsillo.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo6.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
             img.mb-3(src='@/assets/curso/temas/t2/alimentacion.svg' alt='La imagen explica el concepto de alimentación por diferencial, destacando cómo está compuesta por un par de dientes independientes que tienen movimiento propio. Estos dientes pueden sincronizarse de manera similar al mecanismo oscilante sencillo, pero se emplean para ajustar el recorrido de uno en comparación con el otro según sea necesario, ya sea para recoger o estirar la tela. Se ilustran dos casos: la alimentación principal, que frunce la tela con 10 repeticiones por pulgada (RPP), y la alimentación diferencial, que la estira con 6 RPP en la parte fruncida y 10 RPP en la parte estirada, dependiendo de las necesidades del material a procesar.')
-            p.mb-4 Aquel que está formado por un par de dientes independientes, con movimiento propio cada uno de ellos, su sincronización es idéntica oscilante sencillo, se utiliza para hacer que uno de los dientes tenga un mayor o igual recorrido que el otro de acuerdo con las necesidades, ya sea para recoger o estirar la tela.
+            p.mb-0 Aquel que está formado por un par de dientes independientes, con movimiento propio cada uno de ellos, su sincronización es idéntica oscilante sencillo, se utiliza para hacer que uno de los dientes tenga un mayor o igual recorrido que el otro de acuerdo con las necesidades, ya sea para recoger o estirar la tela.
     
+
     Separador
     #t_2_4.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.4 Generaciones de máquinas
@@ -442,14 +443,14 @@
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/imag.png' alt='')
-          .tarjeta.tarjeta--morado.d-flex.align-items-center
+          .tarjeta.tarjeta--verde.d-flex.align-items-center
             .p-4
               p.mb-0 #[b Máquinas de primera generación:] máquinas convencionales sin ningún tipo de ayudas, en este tipo de máquinas el operador realiza el 90 % de las operaciones de la máquina como: levantar el prensatelas, posicionar la aguja para retirar el material, cortar los hilos, hacer atraques y otras operaciones más.    
     
     .row.mb-4(data-aos="fade-down")
       .col-lg-12  
         .tarjeta-avatar-b.top
-          .tarjeta.tarjeta--morado.alreves
+          .tarjeta.tarjeta--verde.alreves
             .p-4
               p #[b Máquinas de Segunda generación:] en este tipo de máquinas el operador realiza el 50 % de las operaciones, debido a que las máquinas vienen provistas con ayudas de tipo electrónico, neumático o electroneumático. 
               ul.lista-ul--color.fa-ul.color-primario
@@ -473,14 +474,14 @@
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/imag3.png' alt='')
-          .tarjeta.tarjeta--morado.d-flex.align-items-center
+          .tarjeta.tarjeta--verde.d-flex.align-items-center
             .p-4
               p.mb-0 #[b Máquinas de tercera generación:] en este tipo de máquinas el operador realiza el 10 % de las operaciones y puede incluso operar dos o tres máquinas a la vez. Estas vienen provistas con las ayudas de la generación anterior pero además cuentan con la ayuda de sensores que permiten que las máquinas trabajen casi solas.          
     
     .row.mb-4(data-aos="fade-down")
       .col-lg-12  
         .tarjeta-avatar-b
-          .tarjeta.tarjeta--morado.alreves.align-items-center
+          .tarjeta.tarjeta--verde.alreves.align-items-center
             .p-4
               p.mb-0.my-3 #[b Máquinas de Ultrasonido:] este tipo de máquinas unen el material por ultrasonido las cuales incorporan un sistema de sonoroso que emite un ultrasonido de 60.000 ciclos contra una rueda transportadora que tiene la forma de una puntada. Podría decirse que produce una soldadura entre las telas y por medio un disco intercambiable puede imitar las puntadas de fileteo, cadeneta y doble pespunte. La única condición es que el material a coser debe estar compuesto de poliéster como mínimo en un 60 % de su estructura física.
           .tarjeta-avatar-b__img
@@ -495,7 +496,7 @@
     p.mb-4 La relación de insumos genera unos eslabones que al romperse alguno de ellos ocasiona dificultades, en la tela, en la puntada, en la costura, al estar entrelazados.
     p.mb-4 Un segundo bloque o módulo de conocimiento, se relaciona directamente con las diferentes características de agujas, puntadas, pespuntes, costuras, entre otros. En confección y particularmente las diseñadoras deben tener los conocimientos de tejidos, hilos y agujas, generan unos eslabones que se conectan o entrelazan para darle a las puntadas, costuras, tejidos una mejor apariencia, terminación y calidad del producto. Por lo tanto, se debe tener conceptos claros sobre:    
 
-    .tarjeta.tarjeta--azul.sli.p-4
+    .tarjeta.bgi-1.p-4
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-11.my-4
@@ -509,7 +510,7 @@
           .col-lg-5
             h5 Calibre
             p El calibre de las agujas varía de acuerdo con el grosor del material a coser, por ejemplo, para #[em lycras] 65 y 70, para tejidos de punto 70, 80 y 90, para driles y #[em Jean] 100, 110 y 125.
-            img(src='@/assets/curso/temas/t2/iim.svg' alt='')
+            img.d-none.d-lg-block(src='@/assets/curso/temas/t2/iim.svg' alt='')
           .col-lg-6
             .titulo-sexto.color-primario
               h5 Tabla 5.  
@@ -546,12 +547,11 @@
                     td.p-1.na 120
                     td.p-1.na 20
                     td.p-1.na 1.2
-
         .row.justify-content-center
           .col-lg-5
             h5 Sistema o referencia
             p Indica la aguja que se necesita para el tipo de máquina.
-            img(src='@/assets/curso/temas/t2/imi.svg' alt='')
+            img.d-none.d-lg-block(src='@/assets/curso/temas/t2/imi.svg' alt='')
           .col-lg-6
             .titulo-sexto.color-primario
               h5 Tabla 6.  
@@ -578,13 +578,12 @@
                   tr
                     td.p-1 Fileteadora
                     td.p-1 B27
-
         .row.justify-content-center
           .col-lg-11
             h5 Punta de aguja
             p Determina el tipo de tejido a coser, desde el más fino hasta el más pesado.
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-lg-4.d-none.d-lg-block
                 img(src='@/assets/curso/temas/t2/imij.svg' alt='')
               .col-lg-7
                 .tarjeta.color-primario.p-3.mb-4
@@ -600,49 +599,58 @@
                             span Descargar
                             i.fas.fa-file-download
               
+
     Separador
     #t_2_6.titulo-segundo.color-primario(data-aos="fade-right")
       h2 2.6 Relación de elementos de costura: tela, aguja, puntada, hilo, ajuste
     
-    p.mb-4 A continuación, se presentan los principales elementos:  
+    p.mb-5 A continuación, se presentan los principales elementos:  
 
-    h4 Tejidos
+    .subt2.mb-4
+      ul.lista-ul.mb-0
+        li.mb-0
+          i.fas.fa-circle
+          span.mb-0.h4 Tejidos
     p.mb-5  Un tejido es una estructura formada por fibras textiles. Esta estructura se puede lograr de tres formas diferentes que, de alguna manera, dividen los procedimientos de trabajo. Se identifican: tejido plano o de calada, tejido de punto y técnicas de aglutinamiento.
     
     .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-6.col-lg.tarjeta--tabla.bg7
+      .col-md-6.col-lg.tarjeta--tabla.bg3
         .row.justify-content-center.mb-3
           .col-5.mtn-7
             img(src='@/assets/curso/temas/t2/imag6.png' alt='')
         .p-4
-          h4.text-center.text-white Tejido plano
-          p.text-white Es el que se lleva a cabo en una máquina llamada telar y que consiste en entrelazar dos hilos normalmente formando un ángulo recto. Uno de los hilos es la urdimbre y el otro es la trama. El tejido plano puede trabajarse al hilo, al través o al bies. Los ligamentos usados para la elaboración del tejido plano son los que dan origen a las diferentes telas (Sarga, Tafetán, Satén, Gasa, Crepé, Felpa.)
+          h4.text-center Tejido plano
+          p Es el que se lleva a cabo en una máquina llamada telar y que consiste en entrelazar dos hilos normalmente formando un ángulo recto. Uno de los hilos es la urdimbre y el otro es la trama. El tejido plano puede trabajarse al hilo, al través o al bies. Los ligamentos usados para la elaboración del tejido plano son los que dan origen a las diferentes telas (Sarga, Tafetán, Satén, Gasa, Crepé, Felpa.)
       .col-md-6.col-lg.tarjeta--tabla.bg19
         .row.justify-content-center.mb-3
           .col-5.mtn-7
             img(src='@/assets/curso/temas/t2/imag7.png' alt='')
         .p-4
-          h4.text-center.text-white Tejido de punto
-          p.text-white Está formado por mallas, bucles o puntos. Consiste en pasar una lazada de hilo sobre una aguja y luego pasarla a otra aguja. El caso más claro para entenderlo es el tejido de dos agujas que se hace de forma manual, que se entrelaza el mismo hilo formando una sola estructura, es importante entender que en este tipo de tejido hay un solo hilo largo. Los ligamentos básicos del tejido de punto son: #[em Jersey], franela, franela perchada, el rib, #[em interlock], pique. Las telas de tejido de punto son difíciles de manejar, resbalan al cortarlas y estiran fácilmente, y se adaptan muy bien al cuerpo.
-      .col-md-6.col-lg.tarjeta--tabla.bg7
+          h4.text-center Tejido de punto
+          p Está formado por mallas, bucles o puntos. Consiste en pasar una lazada de hilo sobre una aguja y luego pasarla a otra aguja. El caso más claro para entenderlo es el tejido de dos agujas que se hace de forma manual, que se entrelaza el mismo hilo formando una sola estructura, es importante entender que en este tipo de tejido hay un solo hilo largo. Los ligamentos básicos del tejido de punto son: #[em Jersey], franela, franela perchada, el rib, #[em interlock], pique. Las telas de tejido de punto son difíciles de manejar, resbalan al cortarlas y estiran fácilmente, y se adaptan muy bien al cuerpo.
+      .col-md-6.col-lg.tarjeta--tabla.bg24
         .row.justify-content-center.mb-3
           .col-5.mtn-7
             img(src='@/assets/curso/temas/t2/imag8.png' alt='')
         .p-4
-          h4.text-center.text-white Por aglutinamiento de fibras
-          p.text-white Son telas que se fabrican con fibras naturales o artificiales que no han pasado por procesos de hilatura y que se humedecen y se someten a presión y calor lo cual hace que las fibras se adhieran.
+          h4.text-center Por aglutinamiento de fibras
+          p Son telas que se fabrican con fibras naturales o artificiales que no han pasado por procesos de hilatura y que se humedecen y se someten a presión y calor lo cual hace que las fibras se adhieran.
     
     .row.mb-5.bg17
       .p-4 
-        h4 Hilos
+        .subt2.mb-4
+          ul.lista-ul.mb-0
+            li.mb-0
+              i.fas.fa-circle
+              span.mb-0.h4 Hilos
         p.mb-4 Representa un 2 % del costo de la prenda, pero comparte un 50 % de la durabilidad de las costuras.
 
         .row.justify-content-center.tarjeta--container.mb-5(data-aos="fade-down") 
-          .col-md.tarjeta.color-primario.p-5
+          .col-md.tarjeta.bg25.p-lg-5.p-4
             .row.justify-content-center.mb-4
-              .col-lg-5.col-md-7.col-9
+              .col-lg-5.col-md-7.col-6
                 img(src='@/assets/curso/temas/t2/hilos.png', alt='')
-            h3.text-center.text-white Sistema de numeración tex
+            h3.text-center Sistema de numeración tex
             ul.lista-ul--color.fa-ul.color-acento-botones.fin
               li
                 i.fas.fa-plus
@@ -653,12 +661,12 @@
               li
                 i.fas.fa-plus
                 span.mb-0 Sistema de numeración directo (entre más alto el número; más grueso es el hilo). Ejemplo: #[b T-80 es más grueso que T-50.]
-          .col-md.tarjeta.color-secundario.p-5
+          .col-md.tarjeta.bg11.p-lg-5.p-4
             .row.justify-content-center.mb-4
-              .col-lg-5.col-md-7.col-9
+              .col-lg-5.col-md-7.col-6
                 img(src='@/assets/curso/temas/t2/imag9.png', alt='')
-            h3.text-center.text-white.text-center Factores que afectan la resistencia de las costuras
-            ul.lista-ul--color.fa-ul.color-acento-botones.text-white.fin
+            h3.text-center.text-center Factores que afectan la resistencia de las costuras
+            ul.lista-ul--color.fa-ul.color-acento-botones.fin
               li
                 i.fas.fa-plus
                 | Tipo de tela y grueso.
@@ -677,35 +685,34 @@
       
         p.mb-4  El hilo se hace utilizando fibras naturales o sintéticas. El poliéster es uno de los hilos más utilizados. Es más fuerte que los hilos de algodón de un tamaño comparable, y está disponible en una amplia variedad de tamaños y colores.
         
-        .row.mb-4
+        .row.justify-content-center.mb-4
           .col-lg-7(data-aos="fade-right") 
             p El hilo con núcleo más usado tiene una construcción de capa múltiple, con cada capa hecha de un centro de filamento de poliéster con fibras de algodón o poliéster recubierto alrededor del núcleo. En esta estructura de hilo influye la fortaleza del filamento poliéster y la facilidad de costura del recubrimiento de fibra de algodón o poliéster. El hilo con alma generalmente se usa en la costura a alta velocidad de muchos tipos de prenda, especialmente los que requieren alta fortaleza de costura. Los hilos de filamento son más fuertes que los hilos de fibra corta de la misma fibra y tamaño. Se usan comúnmente tres tipos de hilos de filamento.
-          .col-lg-5.col-md-8(data-aos="fade-left") 
+          .col-lg-5.col-md-9(data-aos="fade-left") 
             img(src='@/assets/curso/temas/t2/imag10.svg', alt='')
       
         .row.justify-content-center.mb-5(data-aos="fade-down") 
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-md-6.col-lg.mb-3.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/icono.svg' alt='')
-              .tarjeta.color-acento-botones
+              .tarjeta.bg10
                 .p-4
                   h4.text-center Hilo monofilamento
                   p.text-center.mb-0 Se hace de una sola fibra continua de un grosor especificado. Aunque el monofilamento es fuerte, uniforme y poco costoso de hacer, carece de flexibilidad y tiene una sensación tiesa y áspera. Como resultado, su uso normalmente se restringe a bastillas, cortinas, y muebles tapizados.
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-md-6.col-lg.mb-3.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/icono2.svg' alt='')
-              .tarjeta.color-acento-botones
+              .tarjeta.bg10
                 .p-4
                   h4.text-center Hilo multifilamento suave
                   p.text-center.mb-0 Se elabora comúnmente de nylon o poliéster y se usa donde el requisito primordial de la costura es la fortaleza. Consta de dos o más filamentos continuos torcidos juntos. Se usa comúnmente para coser zapatos, prendas de cuero, y productos industriales.
-          .col-md-6.col-lg.mb-5.mb-lg-0
+          .col-md-6.col-lg.mb-3.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/temas/t2/icono3.svg' alt='')
-              .tarjeta.color-acento-botones
+              .tarjeta.bg10
                 .p-4
                   h4.text-center Hilo de filamento texturizado
                   p.text-center.mb-0 Se hace usualmente de poliéster y se usa primordialmente como el hilo de lanzadera para puntadas de cobertura. Los filamentos texturizados le dan más cobertura y extensibilidad a la fibra, pero hace que el hilo esté más sujeto a enredarse.
-
         ul.lista-ul--color.fa-ul.color-primario
           li
             i.fas.fa-plus
@@ -721,7 +728,11 @@
             span.mb-0 #[b Lubricado:] es un acabado final que le deben dar al hilo para evitar su rotura al estar en contacto con la aguja.
     
 
-    h4 Tamaño de hilo y aplicaciones
+    .subt2.mb-4
+      ul.lista-ul.mb-0
+        li.mb-0
+          i.fas.fa-circle
+          span.mb-0.h4 Tamaño de hilo y aplicaciones
     
     p.mb-4 En la tabla que se presenta a continuación, se relacionan los tamaños de hilo según su tejido y las prendas en las que regularmente son utilizados. 
 
@@ -733,7 +744,7 @@
         .tabla-a.tabla-peque.color-primario.wii
           table(alt='Tabla que relaciona el tamaño de hilo y sus aplicaciones según el tipo de tejido. Para tejidos livianos, se utilizan hilos TEX 24, 25, y 27 en prendas como blusas y ropa interior. Para tejidos semipesados, los hilos TEX 30, 35, y 40 son adecuados para pantalones y overoles de dril. En tejidos pesados, se utilizan hilos TEX 60, 70 hasta 120, para prendas como jeans y chaquetas.')
             thead
-              tr.bg19.text-white
+              tr.bg19
                 th.fr Tejido
                 th.fr TEX
                 th.fr Prenda
@@ -753,13 +764,17 @@
 
     p.mb-4 Cuando los conceptos están claros dentro del proceso de confección, se procede a fortalecer las relaciones o eslabones que van a permitir que la cadena de confección tenga la fortaleza suficiente de producción, confección y calidad. Con base en las premisas anteriores, existen combinaciones o relaciones entre los eslabones que nos permiten tener un panorama más apropiado a la hora de la confección de un producto; por lo tanto, presente un informe de las relaciones HILO –AGUJA e HILO – TEJIDO según sus conocimientos.
 
-    .row.justify-content-center.mb-4 
+    .row.justify-content-center.mb-5
       .col-lg-8
         .cjj.p-4
           p.mb-0 #[b La relación hilo-agujas permite que se produzcan las puntadas con sus series y tipos respectivos, los tipos y usos de los pespuntes, las puntadas por pulgada y sus criterios de calidad según el proceso, entre otros.] 
     
     
-    h4 Puntadas
+    .subt2.mb-4
+      ul.lista-ul.mb-0
+        li.mb-0
+          i.fas.fa-circle
+          span.mb-0.h4 Puntadas
     p.mb-4 En las diferentes líneas de producción de hoy, las puntadas son fundamentales en el valor agregado que pueda tener un producto, tanto por su calidad, durabilidad, seguridad, elongación y sobre todo por su apariencia y decoración de un producto, con base en ello, las puntadas tienen unas características diferentes, aquí algunas más representativas. Por lo tanto, las características se definen según el tipo de puntada.
     
     .row.justify-content-center 
@@ -767,7 +782,6 @@
         .titulo-sexto.color-primario
           h5 Tabla 8.  
           | Características según puntada
-    
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down") 
       .col-lg-7
         .tabla-a.tabla-peque.color-primario.wii 
@@ -803,27 +817,27 @@
                 td 602 - 605 - 609
                 td #[em Flatseamers]
     
-    h4 Reglas para la óptima resistencia de las costuras:
+    h4.mb-4 Reglas para la óptima resistencia de las costuras:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-6.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
-          img.px-lg-3(src='@/assets/curso/temas/t2/icono4.svg' alt='')
-          .tarjeta.color-acento-contenido
+          img.px-lg-3.px-2(src='@/assets/curso/temas/t2/icono4.svg' alt='')
+          .tarjeta.bg10
             .p-4
               h4.text-center 301 puntada recta
               p.text-center Se debe utilizar el mismo tamaño de hilo en la aguja y en la bobina porque la cadena siempre se rompe por el eslabón más débil.
       .col-md-6.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
-          img.px-lg-3(src='@/assets/curso/temas/t2/icono4.svg' alt='')
-          .tarjeta.color-acento-contenido
+          img.px-lg-3.px-2(src='@/assets/curso/temas/t2/icono4.svg' alt='')
+          .tarjeta.bg10
             .p-4
               h4.text-center 401 puntada cadeneta
               p.text-center Se puede usar un hilo 40 % más débil en el #[em looper] pues el hilo del #[em looper] no penetra el material y está doble en la formación de la cadena.
       .col-md-6.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
-          img.px-lg-3(src='@/assets/curso/temas/t2/icono4.svg' alt='')
-          .tarjeta.color-acento-contenido
+          img.px-lg-3.px-2(src='@/assets/curso/temas/t2/icono4.svg' alt='')
+          .tarjeta.bg10
             .p-4
               h4.text-center 504 puntada sobre hilado
               p.text-center Utiliza múltiples hilos para encerrar el borde de la tela. Se puede usar un hilo 50 % más débil en los #[em loopers], ya que no penetran el material, sino que forman el sobrehilado alrededor del borde, proporcionando un acabado limpio y resistente.
@@ -837,16 +851,16 @@
     
     .row.mb-4(data-aos="fade-down") 
       .col-lg-12
-        .cajon.color-primario.bg1.p-4
+        .cajon.color-secundario.p-4
           p.mb-0 Ahora se presentarán aspectos fundamentales para la puesta a punto de las máquinas y en lo primero que se debe centrar la atención es en los enhebrados y sus repercusiones. A continuación, se expone mapas de enhebrado de cada tipo de máquina y calibración de la puntada.
     
-    h4.mb-4 Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
+    h4.mb-5 Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
 
     .row.justify-content-center.mb-5
       .col-lg-9
         h5 Máquina plana
-        p.ps-3 Enhebrado de máquina:
-        ul.lista-ul--color.fa-ul.color-primario.ps-3
+        p.ps-lg-3.ps-2 Enhebrado de máquina:
+        ul.lista-ul--color.fa-ul.color-primario.ps-lg-3.ps-2
           li.mb-1
             i.fas.fa-plus
             | Girar el volante para que la barra de la aguja quede en su punto más alto.
@@ -862,11 +876,11 @@
           li.mb-1
             i.fas.fa-plus
             | Pasar el hilo por las guías 9, 10 y 11.
-          li.mb-0
+          li
             i.fas.fa-plus
             | Finalmente pase el hilo por el orificio de la aguja 12 de izquierda a derecha, dejando el hilo por debajo y atrás del pie prénsatela.
-      .col-lg-3.col-md-6.col-8
-        img(src='@/assets/curso/temas/t2/imag11.svg' alt='')
+      .col-lg-3.col-md-5.col-8
+        img(src='@/assets/curso/temas/t2/imag11.png' alt='')
     
     .bg18.mb-3.p-4
       h4.mb-0 Enhebrado caja bobina  
@@ -884,7 +898,7 @@
           i.fas.fa-plus
           | Hale el hilo por debajo del muelle de tensión. La alimentación debe ser en sentido contrario a las manecillas del reloj. 
     
-    .bg13.mb-5.p-4(data-aos="fade-down") 
+    .bg10.mb-5.p-4(data-aos="fade-down") 
       .row.justify-content-center
         .col-lg-12
           h4 Ajuste de tensión de la caja bobina
@@ -893,7 +907,11 @@
     
     .row.justify-content-center.align-items-center.p-1.bg15.mb-4 
 
-    h4 Verificación de tensión de la caja bobina
+    .subt2.mb-4
+      ul.lista-ul.mb-0
+        li.mb-0
+          i.fas.fa-circle
+          span.mb-0.h4 Verificación de tensión de la caja bobina
     .row.justify-content-center.mb-4
       .col-lg-6.col-md-10.col-10
         img(src='@/assets/curso/temas/t2/edi.svg' alt='La imagen presenta el proceso de verificación de la tensión de la caja bobina. A la izquierda, se ilustra cómo sostener y dejar caer la caja de bobina para comprobar la tensión del hilo. A la derecha, se presentan ejemplos visuales de diferentes tensiones: tensión correcta para una máquina plana, tensión inferior demasiado ajustada, tensión superior demasiado ajustada y tensión superior e inferior demasiado ajustadas. Estos ejemplos ayudan a identificar y corregir problemas de tensión en la costura.')
@@ -911,7 +929,11 @@
     
     .row.mb-4
       .col-lg-9(data-aos="fade-right") 
-        h4 Máquina fileteadora
+        .subt2.mb-4
+          ul.lista-ul.mb-0
+            li.mb-0
+              i.fas.fa-circle
+              span.mb-0.h4 Máquina fileteadora
         p Enhebrado máquina fileteadora:
         ul.lista-ul--color.color-primario.fa-ul
           li.mb-1
@@ -932,66 +954,66 @@
           li.mb-0
             i.fas.fa-plus
             | Finalmente pase el hilo por el orificio de la aguja 12 de izquierda a derecha, dejando el hilo por debajo y atrás del pie prénsatela.
-      .col-lg-3.col-md-6.col-8(data-aos="fade-left") 
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-left") 
         img(src='@/assets/curso/temas/t2/mk.png' alt='')
     
     h4.mb-4 Ajuste de tensión máquina fileteadora - Enhebrado de máquina
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4" data-aos="fade-down")(alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior.')
-      .tarjeta.color-acento-botones.p-4
+    SlyderF.mb-5(columnas="col-md-6 col-xl-4" data-aos="fade-down")(alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior.')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado porta-conos
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder1.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder1.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado tensores
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder2.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder2.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado guía hilos
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder3.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder3.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado #[em looper] superior e inferior
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder4.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder4.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado guía hilos - aguja
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder5.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder5.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado guía hilo trasero puntada de seguridad
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder6.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder6.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado tensor auxiliar leva tira hilo - puntada de seguridad
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder7.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder7.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrada leva tira hilo puntada de seguridad 
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder8.png' alt='')
-      .tarjeta.color-acento-botones.p-4
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder8.png' alt='')
+      .tarjeta.bg25.p-4
         h4.text-center Enhebrado #[em looper]
-        img.w-50.m-auto(src='@/assets/curso/temas/t2/slyder9.png' alt='')
+        img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder9.png' alt='')
 
 
     h4.mb-5 Validación de tensores - Puntada e hilo
 
     .row.width-25.mb-5(data-aos="fade-down")(alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento. ')
-      .col-lg-6
+      .col-lg-6.col-md-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/001.svg' alt='La imagen ejemplifica una validación de tensión correcta de puntada en máquina fileteadora.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión correcta de puntada  en máquina fileteadora.
-      .col-lg-6
+      .col-lg-6.col-md-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/002.svg' alt='La imagen ejemplifica una tensión incorrecta del hilo de la aguja.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del hilo de la aguja.
-      .col-lg-6
+      .col-lg-6.col-md-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/003.svg' alt='La imagen ejemplifica una tensión incorrecta del looper superior.')
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] superior.
-      .col-lg-6
+      .col-lg-6.col-md-6
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/004.svg' alt='La imagen ejemplifica una tensión incorrecta del looper inferior.')
@@ -1003,19 +1025,19 @@
     
     h4 Enhebrado de máquina recubridora - Ajuste de tensión
     .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
-      .col-md-8.col-8.mb-4.mb-md-0
+      .col-lg-8.col-md-11.mb-4.mb-md-0
         img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento.')
     
     
     h4 Validación de tensores - Puntada e hilo
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
-        .cajon.color-primario.bg1.p-4
+        .cajon.color-acento-contenido.bg1.p-4
           .row.justify-content-around
-            .col-lg-3.col-md-6.col-6
+            .col-lg-3.col-md-4.col-6
               h5.text-center Puntada tensionada
               img(src='@/assets/curso/temas/t2/imag16.svg' alt='La imagen describe la validación de tensores en puntada e hilo, para el caso de la puntada tensionada tiene un aspecto ajustado y uniforme.')
-            .col-lg-3.col-md-6.col-6
+            .col-lg-3.col-md-4.col-6
               h5.text-center Puntada floja
               img(src='@/assets/curso/temas/t2/imag17.svg' alt='La imagen describe la validación de tensores en puntada e hilo, para el caso de la puntada floja muestra hilos sueltos y desorganizados, indicando una tensión incorrecta.')
     
@@ -1023,28 +1045,28 @@
     p.mb-4 Cuando se están escribiendo las especificaciones de una prenda, se debe especificar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su producto de costura, porque la cantidad de puntadas por pulgada puede tener influencia en:
     
     .tarjeta--container.sinb.row.mb-5
-      .col-md.tarjeta.color-acento-contenido.p-4
+      .col-md.tarjeta.bg6.p-4
         .row.justify-content-center.mb-4
           .col-6
-          ol.lista-ol--cuadro.color-primario
+          ol.lista-ol--cuadro.color-acento-contenido
             li 
               .lista-ol--cuadro__vineta
-                span.text-white a
+                span a
               | La resistencia de la costura.
             li 
               .lista-ol--cuadro__vineta
-                span.text-white b
+                span b
               | La apariencia de la puntada.
             li 
               .lista-ol--cuadro__vineta
-                span.text-white c
+                span c
               | La elasticidad de la costura en telas elásticas.
       .col-md.tarjeta.color-acento-botones.fon2.d-none.d-lg-block
-      .col-md.tarjeta.color-acento-contenido.p-4
+      .col-md.tarjeta.bg6.p-4
         .row.justify-content-center
           .col-12
             p La resistencia de la costura depende de un número de factores que incluyen:
-            ul.lista-ul--color.fa-ul.color-primario
+            ul.lista-ul--color.fa-ul
               li.mb-0
                 i.fas.fa-plus
                 | Tipo y peso de la tela.
@@ -1081,29 +1103,28 @@
       .row.justify-content-center.mb-4
         .col-lg-11
           .row.add
-            .col-lg-2.peqt
+            .col-lg-2.col-md-2.col-3.peqt
               .cajaul.p-3
                 img.img-a.img-t(src='@/assets/curso/temas/t2/cajaul.svg' alt='')
-            .col-lg-9
-              .cajaol.p-4
-                h4.text-white.my-2 Ejercicio de control de pedal, arranque y parada
+            .col-lg-9.col-md-10.col-9
+              .cajaol.d-flex.align-items-center.h-100.p-2
+                h4.my-md-2.mb-0 Ejercicio de control de pedal, arranque y parada
       .row.justify-content-center
         .col-lg-11
           p Se trabaja con aguja, ya dominando la velocidad y la rectitud del pespunte, se procederá a dominar la parada en el sitio exacto, en este caso la banda se divide en 5 rectángulos de 20 cm de largo por 10 cm de ancho. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en parar en cada vértice del ángulo, clavar la aguja, girar la banda y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos; en este ejercicio obtendremos dominio de pedal, control de freno y arranque en puntos exactos.
       .row.justify-content-center
         .col-lg-12
           img.mb-2(src='@/assets/curso/temas/t2/imag19.svg' alt='La imagen es una guía para el ejercicio que consiste en coser, siguiendo las marcas de rectángulos en bandas de 20 cm de largo por 10 cm de ancho, enfocándose en la precisión de ángulos y control del pedal.')
-    
     .bg13g.p-4.mb-4(data-aos="fade-down")
       .row.justify-content-center.mb-4
         .col-lg-11
           .row.adds
-            .col-lg-2.peqt
+            .col-lg-2.col-md-2.col-3.peqt
               .cajaul.p-3.mb-0
                 img.img-a.img-t(src='@/assets/curso/temas/t2/cajaul1.svg' alt='')
-            .col-lg-9
-              .cajaol1.p-2
-                h4.text-white.my-3.mx-4 Ejercicio de control de pedal, arranque y parada, calidad de la costura y remate o presilla 
+            .col-lg-9.col-md-10.col-9
+              .cajaol.d-flex.align-items-center.h-100.p-2
+                h4.my-md-2.mx-md-4.mb-0 Ejercicio de control de pedal, arranque y parada, calidad de la costura y remate o presilla 
       .row.justify-content-center
         .col-lg-11
           p Para este ejercicio, trabaja con aguja e hilo. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo.

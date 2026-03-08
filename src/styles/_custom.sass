@@ -91,7 +91,7 @@ figcaption
 .bg13
   background-color: #5EC6A3
 .bg14
-  background-color: #EAE2C7
+  background-color: #FFE9E0
 .bg15
   background-color: #ECECEC
 .bg16
@@ -101,7 +101,7 @@ figcaption
 .bg18
   background-color: #F3F9FF  
 .bg19
-  background-color:#12263F !important
+  background-color:#5EC6A3 !important
 .bg20
   background-color:#E7F7F1
 .bg21
@@ -115,8 +115,8 @@ figcaption
 .bg25
   background-color:#FCE9D7
 
-.tarjeta--morado
-  background-color: #D1BCFF 
+.tarjeta--verde
+  background-color: #BEE8DA
 .tarjeta--azul
   background-color: #DADDDF
 .tarjeta--blanca
@@ -124,7 +124,7 @@ figcaption
 
 
 .texto1
-  color: #FFD54F !important
+  color: #5EC6A3 !important
 .texto2
   color: #F7C99C !important
 .text-left
@@ -155,13 +155,8 @@ figcaption
 .acordion.t2-2 .tarjeta--blanca
   border-top: 1px solid #707070
 .acordion.t2-2  .acordion__accion__btn--b  
-  background-color: #FFD54F
-  border-color: #FFD54F
-.acordion.t2-2 .acordion__activo .acordion__accion__btn--b 
-  background-color: #673AB7
-  border-color: #673AB7
-  i
-    color: #FFF
+  background-color: $color-acento-botones
+  border-color: $color-acento-botones
 .acordion.t2-1 
   .acordion__accion__btn--a
     background-color: $color-acento-botones
@@ -201,7 +196,9 @@ figcaption
   max-width: 35%
 
 .color-primario .lista-ol--cuadro__vineta  
-  background-color: #673AB7
+  background-color: $color-primario
+.color-acento-contenido .lista-ol--cuadro__vineta  
+  background-color: $color-acento-contenido
   
 h4.linea:after  
   content: ""
@@ -322,6 +319,9 @@ i.fas.fa-globe
   background-repeat: no-repeat
   background-position: center 
   border-radius: 15px
+  @media (max-width: $bp-max-md)
+    background-image: none
+    background-color: #BEE8DA
 
 .t1-3.slyder-a
   .slyder-a__btn--atrs
@@ -364,8 +364,10 @@ i.fas.fa-globe
 .bg22y
   background-color: #FEF9EA
   float: right
-  width: 88%;
+  width: 88%
   border: 1px solid #FEF9EA
+  @media (max-width: $bp-max-md)
+    width: 100%
   
 
 .bggg
@@ -379,33 +381,25 @@ i.fas.fa-globe
 
 
 .bg12f
-  background-color: #D1BCFF
-
+  background-color: #B8EBD8
 .bg7f
-  background-color: #673AB7
-
-
+  background-color: #FCE9D7
 .bgf
-  background-color: #D1BCFF
+  background-color: #B8EBD8
 
 
 .lista-ul--color.color-acento-botones.fin i 
   color: #FFD54F !important
 
 .color-acento-botones.fg
-  background-color: #E7DCFF
+  background-color: #ABE1CF
 
 .tarjeta--azul.sli
   background-color: #E3D6FF
 
 
-
-
-
-
-
 .cjj
-  background-color: #D1BCFF
+  background-color: #EEF9F6
 
 .tarjeta--container.sinb > .tarjeta:first-child 
     border-top-left-radius: 0px
@@ -428,20 +422,14 @@ i.fas.fa-globe
   border-radius: 15px
 
 .cajaul
-  background-color: #D1BCFF
-
+  background-color: #5EC6A3
 .cajaol
-  background-color: #673AB7
-  height: 92px
+  background-color: #F7C99C
 
 @media (min-width: 992px) 
     .col-lg-2.peqt 
         flex: 0 0 auto
         width: 12.666667%
-    
-.cajaol1
-  background-color: #673AB7
-  height: 97px
 
 .add
   --bs-gutter-x: -0.5rem
@@ -537,14 +525,14 @@ td.rr
     background-repeat: no-repeat
 
 .cajaf
-  background-color: #F7F4FF
+  background-color: #DEF5EE
 
 
 .caja1
   background-color: #E8E8E8
   border-radius: 50px
   &:hover
-    background-color: #D1BCFF
+    background-color: #D8F1E8
 
 
 
@@ -579,25 +567,13 @@ td.rr
   padding: 20px
   position: relative
   box-sizing: border-box
+  @media (max-width: $bp-max-md)
+    margin-right: 0px
 
 
 .cajablan
   background-color: #fff
 
-
-.bloque-texto-g__img 
-    width: 32%
-    position: absolute
-    top: 0
-    left: 0
-    bottom: 0
-    background-position: center
-    background-size: cover
-
-.bloque-texto-g__texto 
-    position: relative
-    width: 74%
-    background-color: rgba(255, 255, 255, 0.95)
 
 
 .cajr
@@ -614,6 +590,8 @@ td.rr
 
 
 /* 2026 */
+.w-xx
+  width: 170px
 .subt2
   background-color: #FADE93
   border-radius: 500px
@@ -622,6 +600,13 @@ td.rr
   i
     font-size: 10px
     top: 8px !important
+.bgi-1
+  background-image: url(../assets/curso/temas/t2/bg.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: $color-acento-botones

@@ -1,7 +1,7 @@
 <svg id="Grupo_1060979" data-name="Grupo 1060979" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124.004" height="101.301" viewBox="0 0 124.004 101.301">
   <defs>
     <clipPath id="clip-path">
-      <circle id="Elipse_882" data-name="Elipse 882" cx="50.65" cy="50.65" r="50.65" fill="#5c45bf"/>
+      <circle id="Elipse_882" data-name="Elipse 882" cx="50.65" cy="50.65" r="50.65" fill="#fade93"/>
     </clipPath>
     <clipPath id="clip-path-2">
       <rect id="Rectángulo_3802" data-name="Rectángulo 3802" width="43.187" height="44.884" fill="none"/>
@@ -11,7 +11,7 @@
   <g id="Grupo_1060976" data-name="Grupo 1060976" transform="translate(0)">
     <g id="Grupo_15782" data-name="Grupo 15782" transform="translate(22.703)">
       <g id="Grupo_15781" data-name="Grupo 15781" clip-path="url(#clip-path)">
-        <rect id="Rectángulo_3799" data-name="Rectángulo 3799" width="112.26" height="122.069" transform="translate(-3.26 -14.519)" fill="#5c45bf"/>
+        <rect id="Rectángulo_3799" data-name="Rectángulo 3799" width="112.26" height="122.069" transform="translate(-3.26 -14.519)" fill="#fade93"/>
         <use id="Rectángulo_3800" data-name="Rectángulo 3800" transform="translate(-20.599 28.208)" xlink:href="#image"/>
       </g>
     </g>
