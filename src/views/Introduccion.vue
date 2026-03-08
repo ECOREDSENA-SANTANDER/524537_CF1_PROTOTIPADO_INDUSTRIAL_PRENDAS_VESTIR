@@ -2,12 +2,22 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido(data-aos="flip-up")
+  
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
 
+    .row.justify-content-center.mb-3
+      p En el siguiente video se introduce el contenido del componente formativo, presentando diferentes conceptos y terminología empleada en el diseño de prendas de vestir.
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oQpvTjU-OxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Características de diseño y fundamentación textil.
+    
+    
 </template>
 
 <script>
@@ -16,14 +26,6 @@ export default {
   data: () => ({
     // variables de vue
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

@@ -2,31 +2,490 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 33%
+    right: 85%
+    width: 70px
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 68%
+    right: 88%
+    width: 85px
+  &-3
+    animation: rotate1 7.5s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 25%
+    width: 70px
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes rotate1
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+@media (min-width: 576px) 
+  .banner-principal__img 
+    padding-top: 0rem !important
+
+
+//utilidades
+.img65
+  width: 65px  
+.img90
+  width: 90px
+.img250
+  width: 250px
+.img12a
+  with: 120%
+.img12b
+  with: 65px
+.img12c
+  with: 20px
+.brd--rad
+  border-radius: 20px
+.hr--line
+  margin: 1rem 0
+  width: 100%
+  height: 1px  
+  background-color: #B0C0D2
+.b--rad
+  border-radius: 0px 0px 20px 20px 
+.bg--gradientBlue        
+  background: linear-gradient(0deg, rgba(215,236,252,1) 0%, rgba(239,246,252,1) 100%)
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important
+
+
+  ///// Utildiades texto --------------------------------------
+.cstmH3
+  display: inline-block
+  padding-bottom: 7px
+  margin-bottom: 2rem
+  border-bottom: 3px solid #FF6B00
+.txt--green
+  color: #39A900 !important
+
+///// colores --------------------------------------
+.clr--gris
+  background-color: #f3f3f3
+.clr--pink
+  background-color: #FFAFB2
+.clr--pink02
+  background-color: #FFDFE0
+.clr--orange
+  background-color: #FF6B00
+.clr--gray
+  background-color: #F9F9F9
+.clr--paleBlue
+  background-color: #ECF3FB
+.clr--paleGreen
+  background-color: #DEF2F4
+.clr-paleYellow
+  background-color: #FFF8D9
+
+.anexo.cstm
+  background-color: white
+  &:hover    
+    .anexo__texto
+      p   
+        color: #2e5d97
+
+.color-morado-claro
+  background-color: #D1BCFF !important
+   
+.color-morado-fuerte
+  background-color: #673AB7 !important
+
+.gris
+  background-color: #DADDDF !important
+ 
+//// Linea de pasos
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  border-color: #D1BCFF !important
+  background-color: #D1BCFF  !important
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #9D9D9D !important
+
+.pasos-b__header__item:last-child .pasos-b__header__item__line-container:after 
+    background-color: transparent !important
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #9D9D9D !important
+
+.pasos-b__header__btn--left .pasos-b__header__btn--right
+    min-width: 50px
+    max-width: 50px
+    min-height: 50px
+    max-height: 50px
+    //flex: auto
+    border-radius: 50%
+    border: 2px solid #12263F !important
+    background-color: #FFD54F !important
+    position: relative
+    cursor: pointer
+    transition: border-color 0.2s ease-in-out
+ 
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #DADDDF
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #E8E4FF !important
+
+.tarjeta--gris 
+    background-color: #DADDDF
+
+/// otros
+
+.cajon.color-primario
+  background-color: #D1BCFF
+
+.borde-redondo
+  border-radius: 20px
+
+// tarjetas animadas
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(254, 245, 229, 1) 
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+// tarjetas con avatar
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
 
-figcaption
-  font-weight: normal
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+
+  ////// Number --------------------------------------
+.number
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: attr(data-number)   
+    position: absolute
+    top: -6rem
+    left: 0rem
+    width: 100%
+    height: 100%
+    font-weight: 700
+    font-size: 120pt
+    color: #E1E2E5
+    z-index: 0
+
+  //linea de tiempo nueva
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot:after 
+  background-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__line-container:before 
+  background-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:before, .linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__line-container:after 
+  background-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--active .linea-tiempo-c__header__item__dot
+  border-color: #471E89
+
+.linea-tiempo-c.color-acento-contenido .linea-tiempo-c__header__item--before .linea-tiempo-c__header__item__dot
+  border-color: #B0C0D2
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left
+  background-color: #FFD54F
+
+//parametrización linea porque nos vestimos ?
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #FFD54F
+    color: black 
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    background-color: #E8E4FF
+
+.fondo-moradoclaro
+  background-color:#E8E4FF
+
+.linea-tiempo-d__item__content__slot
+  background-color:#E8E4FF
+
+// nueva tabla
+
+.bgmoradoclaro
+  background-color: #D1BCFF
+
+.bgmoradooscuro
+  background-color: #673AB7
+
+.bgblanco
+  background-color: white
+
+.tabla-b 
+  border-color: #AFAFAF !important
+
+// arrego de fondo de la tarjeta
+.fondo
+  border-radius: 0px
+  background-image: url('../assets/curso/temas/tema1/fondo-tarjeta.svg')
+  background-repeat: no-repeat
+
+.tarjeta.fondo2
+  background-image: url('../assets/curso/temas/tema3/fondo1.svg')
+  background-repeat: no-repeat
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFD54F
+
+//correccion avatar grande
+
+.crd--avatarHorizontal::before
+    background-color: #673AB7
+
+.crd--first::before, .crd--last::before
+    background-color: #D1BCFF     !important;
+
+.img-avatar
+  width: 350px  
+
+// correccion tamaño borde tarjeta
+
+.ancho-bordeclaro  
+  border: 5px solid #D1BCFF !important
+
+.ancho-bordeoscuro
+  border: 5px solid #673AB7 !important
+
+// correccion tabs y slyder
+
+.tabs-a__tab
+  background-color: #DADDDF
+
+.tabs-c__tab--active 
+  background-color: white
+
+.tabs-c__tab
+  background-color:  #DADDDF
+
+.slyder-f__btn i 
+  color: #ffd54f !important
+
+.slyder-a__bullets__item 
+  background-color:  #673AB7
+
+.slyder-a__bullets__item--active 
+  background-color:  #ffd54f;
+  border-color:  #ffd54f;
+
+// sangría viñeta
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+//viñeta amarilla
+
+.lista-ul--color.vamarillo li > i:first-of-type 
+    color: #ffd54f !important
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+.lista-ul__vineta.vamarillo li > i:first-of-type
+    color: #ffd54f !important
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+.lista-ul__vineta.vamarillo:before
+  color: transparent !important
+
+//viñeta morada oscura
+
+.lista-ul--color.vmorada li > i:first-of-type 
+    color: #673AB7 !important
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+.lista-ul__vineta.vmorada li > i:first-of-type
+    color: #673AB7 !important
+    font-size: 25px
+    position: relative !important
+    top: -5px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+.lista-ul__vineta.vmorada:before
+  color: transparent !important
+
+
+
+//borde tabla
+
+.tabla-b.bordenegro
+  border: 2px solid black !important
+  border-color: black !important
+
+.bordeizquierdocelda
+  border-left: 2px solid black !important
+
+// Banner interno - subtitulo
+
+.banner-interno__fondo    
+  background-image: url("../assets/curso/temas/mini-portada.png") !important
+
+// adecuacion espacios viñeta
+
+.lista-ul--color li>i:first-of-type, .lista-ul--separador li>i:first-of-type, .lista-ul li>i:first-of-type 
+    position: relative !important
+    top: 4px !important
+    margin-right: 7px !important
+    vertical-align: top !important
+
+//color boton siempre negro
+
+.texto-negro
+  font-color: black !important
+
+.texto-morado100
+  color: #673AB7 !important
+  font-size: 30px
+
+// borde morado tarjetas nuevas
+
+.borde-morado100
+  border: 5px solid #673AB7 !important
+
+.estilo500
+  background-color: white !important
+  border: 5px solid #673AB7 !important
+
+.bgamarilloclaro
+  background: #FEF5E5
+
+.texamarillooscuro
+  color: #ffd54f !important
+
+.bloque-texto-c.color-primario:after
+  background-color: #673AB7
