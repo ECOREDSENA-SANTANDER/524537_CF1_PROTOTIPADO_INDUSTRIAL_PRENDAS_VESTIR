@@ -12,9 +12,10 @@
         h2 3.1 Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas)
       p Las fibras son una composición de filamentos que al entrelazarse componen los hilos, los hilos son el punto de partida para la producción de un textil; la composición unitaria de una materia sólida con cualquier estructura compone una fibra.
  
-    .row.bm-4
-      .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Proceso productivo textil
+    .subt.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
+        h3.mb-0.ms-2 Proceso productivo textil
 
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")  
@@ -27,9 +28,10 @@
         p Materia sólida unitaria de cualquier estructura textil.Fibra es cada uno de los filamentos que componen las unidades fundamentales en la fabricación de hilos, textiles y telas. <br> <br>
         p Filamentos: término utilizado para identificar fibras de longitud indeterminada.   
 
-    .row.bm-5
-      .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Clasificación de las fibras textiles
+    .subt.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
+        h3.mb-0.ms-2 Clasificación de las fibras textiles
 
     .row.mb-5.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-sm-12.col-md-9.col-lg-9
@@ -445,9 +447,10 @@
             p.mb-2 Con el huso - La rueca - Bergadana - El spinning Jenny.
             p La mule - Jenny - Selfactina - Continuas de hilar - Máquinas más modernas.
     
-    .row.mb-4
-      .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Los hilos
+    .subt.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
+        h3.mb-0.ms-2 Los hilos
       p.mb-4 Los hilos tienen un papel muy importante en la determinación del tacto y el comportamiento de la tela, pueden forzar el buen comportamiento de la fibra o compensar algunas propiedades deficientes. La efectividad de un acabado depende de la selección adecuada del hilo.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -494,9 +497,10 @@
                   i.lista-ul__vineta.mb-0
                   span.mb-0 #[b Contracción: ] Los hilos elaborados muy torcidos encogen mucho más.
 
-    .row.mb-4
-      .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Tipos de torsión
+    .subt.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
+        h3.mb-0.ms-2 Tipos de torsión
       p El tipo de torsión la define el sentido de rotación del huso al momento en que se está hilando, existiendo dos tipos:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -517,9 +521,10 @@
                 h3 La torsión “S” (izquierda)
               p El huso donde se está hilando gira en sentido contrario a las manecillas del reloj.
 
-    .row.mb-4
-      .titulo-segundo.color-acento-contenido
-        h3(style="color: #673AB7") \\\ Clasificación de los hilos
+    .subt.mb-5(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
+        h3.mb-0.ms-2 Clasificación de los hilos
 
     .tarjeta--container.row
       .col-md.tarjeta.color-acento-contenido.p-5
