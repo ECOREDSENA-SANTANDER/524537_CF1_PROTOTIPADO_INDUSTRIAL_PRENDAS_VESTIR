@@ -20,15 +20,15 @@
 
     .tarjeta--container.row.mb-5(data-aos="fade")
       .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center
-          .col-4.col-lg-3
-            img.mb-4(src='@/assets/curso/temas/tema2/tarjeta1/imagen1.png')          
+        .row.justify-content-center.mb-4
+          .col-5.col-md-6.col-lg-3
+            img(src='@/assets/curso/temas/tema2/tarjeta1/imagen1.png')          
         h4.text-center ¿Qué es el dibujo técnico? 
         p.mb-0 Conocido como el sistema que representa gráficamente uno o más objetos, con el fin de otorgar información útil para un posible y consecuente análisis que permitirá una próxima construcción o ejecución de un objeto.
       .col-md.tarjeta.color-acento-contenido.p-5
-        .row.justify-content-center
-          .col-4.col-lg-3
-            img.mb-4(src='@/assets/curso/temas/tema2/tarjeta1/imagen2.png')
+        .row.justify-content-center.mb-4
+          .col-5.col-md-6.col-lg-3
+            img(src='@/assets/curso/temas/tema2/tarjeta1/imagen2.png')
         h4.text-center ¿Qué es el término bidimensional?
         p.mb-0 Es toda aquella figura que está compuesta por dos dimensiones, ancho y largo. El cuadrado, el triángulo, el rectángulo, el círculo, no tienen profundidad, son formas que cuando se trazan no involucran ningún tipo de volumen en su diseño.
 
@@ -41,7 +41,7 @@
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
           .row.justify-content-center.align-items-center   
-            .col-10
+            .col-lg-10
               .titulo-sexto.color-secundario
                 h5 Figura 1.
                 span Tipos de línea.
@@ -58,26 +58,23 @@
     TabsC.color-acento-botones.mb-5
       .bg2.py-4(titulo="Figurín")
         .row.justify-content-center
-          .col-4.col-md-4.col-lg-4
-            figure
-              img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen1.png')
-          .col-sm-12.col-md-7.col-lg-7
+          .col-7.col-md-4.col-lg-4.mb-3.mb-md-0
+            img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen1.png')
+          .col-11.col-md-7.col-lg-7
             h4 Figurín
             p Representar gráficamente el cuerpo y las prendas, con una expresión viva, un trazo fresco, un movimiento dinámico, una pose elegante y una expresión adecuada al tipo de vestimenta propuesto.
       .bg2.py-4(titulo="Ilustración")
         .row.justify-content-center
-          .col-4.col-md-4.col-lg-4
-            figure
-              img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen2.png')
-          .col-sm-12.col-md-7.col-lg-7
+          .col-7.col-md-4.col-lg-4.mb-3.mb-md-0
+            img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen2.png')
+          .col-11.col-md-7.col-lg-7
             h4 Ilustración
             p Son dibujos, esquemas, bosquejos, bocetos o pinturas que se hacen relacionados a la moda, pueden ser de modelos, ropa o accesorios, prácticamente cualquier objeto o situación relacionada a la industria.
       .bg2.py-4(titulo="Dibujo Plano")
         .row.justify-content-center
-          .col-4.col-md-4.col-lg-4
-            figure
-              img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen3.png')
-          .col-sm-12.col-md-7.col-lg-7
+          .col-7.col-md-4.col-lg-4.mb-3.mb-md-0
+            img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen3.png')
+          .col-11.col-md-7.col-lg-7
             h4 Dibujo Plano
             p Representación detallada de una prenda, es decir, se deben identificar todas las características técnicas de la prenda, pespuntes, botones, costuras, pinzas, acabados. No tiene movimiento y se debe identificar delantero y posterior.
 
@@ -89,31 +86,31 @@
     SlyderF(columnas="col-md-6 col-xl-4")(data-aos="fade")  
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8.col-lg-7
+          .col-6.col-md-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen1.png' alt='')
         h4.text-center Posición de escritura
         p.text-center  Para hacer los ejercicios, trabaje siempre con el lápiz en posición de escritura.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8.col-lg-7
+          .col-6.col-md-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen2.png' alt='')
         h4.text-center Horizontales 
         p.text-center Alternando de izquierda a derecha y de derecha a izquierda.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8.col-lg-7
+          .col-6.col-md-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen3.png' alt='')
         h4.text-center Verticales
         p.text-center Alternando de arriba hacia abajo y de abajo hacia arriba.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8.col-lg-7
+          .col-6.col-md-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen4.png' alt='')
         h4.text-center Diagonales
         p.text-center Alternando de izquierda a derecha y de derecha a izquierda.
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8.col-lg-7
+          .col-6.col-md-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen5.png' alt='')
         h4.text-center Círculos
         p.text-center Recuerde no apoyar la muñeca ni la mano.
@@ -146,7 +143,7 @@
         h3.mb-0.ms-2 División del cuerpo
 
     .row.justify-content-center.align-items-center.mb-5    
-      .col-10
+      .col-lg-10
         .titulo-sexto.color-secundario
           h5 Figura 2.
           span División del cuerpo
@@ -182,7 +179,7 @@
           p.text-center.mb-0 Talle alto, talle medio, talle bajo. Cuellos - puños - bolsillos de parche - bolsillos de ribete - pantalón - largos - bolsillos - talles – detalles.
 
     .row.justify-content-center(data-aos="fade")
-      .col-sm-12.col-md-10.col-lg-10
+      .col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-center.align-items-center
             .col-auto
@@ -196,6 +193,7 @@
                   a.boton.color-boton(href="https://youtu.be/leHGYnfUxGk" target="_blank")
                     span Ir al sitio
                     i.fas.fa-file-download
+
 
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido
@@ -236,7 +234,7 @@
         figcaption Nota. Adaptado de Dibujo plano de prendas.
 
     .row.justify-content-center(data-aos="fade")
-      .col-sm-12.col-md-10.col-lg-10
+      .col-lg-10
         .tarjeta.p-3.color-primario
           .row.justify-content-center.align-items-center
             .col-auto
@@ -246,7 +244,7 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Dibujo plano para prendas
                   p.mb-0 Revisa los videos que pueden resultar útiles para aprender más sobre la creación de dibujos planos para prendas.
-                .col-sm-auto
+                .col-sm-auto.mb-3.mb-md-0
                   a.boton.color-boton(href="https://youtu.be/rvq5vAoMdv4" target="_blank")
                     span Ir al sitio
                     i.fas.fa-file-download
@@ -281,7 +279,7 @@
     p Para el desarrollo de dibujos planos, se implementa #[em software] que permite agilizar y detallar de manera más certera un producto. Para el uso de los programas se hace necesario contar con la licencia que autoriza la implementación legal del mismo. El SENA cuenta con las licencias requeridas para el acceso del aprendiz sin ningún inconveniente. 
 
     .row.justify-content-center(data-aos="fade")
-      .col-sm-12.col-md-10.col-lg-10
+      .col-lg-10
         .tarjeta.p-3.color-primario
           .row.justify-content-center.align-items-center
             .col-auto
@@ -321,8 +319,9 @@
     .row.bgc-2.align-items-center.p-2.p-md-3.p-lg-4.mb-5(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
+          
           .row.justify-content-center.align-items-center    
-            .col-10
+            .col-lg-10
               .titulo-sexto.color-secundario
                 h5 Figura 3.
                 span
