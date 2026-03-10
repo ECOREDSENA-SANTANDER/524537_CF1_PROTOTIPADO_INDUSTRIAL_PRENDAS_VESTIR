@@ -18,7 +18,7 @@
         img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
         h3.mb-0.ms-2 Dibujo técnico - Dibujo bidimensional de prendas de vestir
 
-    .tarjeta--container.row.mb-5(data-aos="zoom-in-left")
+    .tarjeta--container.row.mb-5(data-aos="fade")
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center
           .col-4.col-lg-3
@@ -37,13 +37,16 @@
         img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
         h3.mb-0.ms-2 Tipos de línea
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")   
-      .col-10
-        .titulo-sexto.color-secundario
-          h5 Figura 1.
-          span Tipos de línea.
-        figure
-          img(src='@/assets/curso/temas/tema2/imagen1.svg' alt="La figura describe y ejemplifica 3 tipos: Línea guía: ejes de simetría. Línea sólida: croquis de la prenda. Línea intermitente: pespuntes o costuras.")
+    .row.bgc-1.align-items-center.p-2.p-md-3.p-lg-4.mb-5(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center   
+            .col-10
+              .titulo-sexto.color-secundario
+                h5 Figura 1.
+                span Tipos de línea.
+              figure
+                img(src='@/assets/curso/temas/tema2/imagen1.svg' alt="La figura describe y ejemplifica 3 tipos: Línea guía: ejes de simetría. Línea sólida: croquis de la prenda. Línea intermitente: pespuntes o costuras.")
 
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -53,24 +56,24 @@
     p Diferencias entre: figurín, ilustración, dibujo plano.
 
     TabsC.color-acento-botones.mb-5
-      .py-4.py-md-0(titulo="<strong>Figurín</strong>")
-        .row.justify-content-center.bg2
+      .bg2.py-4(titulo="Figurín")
+        .row.justify-content-center
           .col-4.col-md-4.col-lg-4
             figure
               img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen1.png')
           .col-sm-12.col-md-7.col-lg-7
             h4 Figurín
             p Representar gráficamente el cuerpo y las prendas, con una expresión viva, un trazo fresco, un movimiento dinámico, una pose elegante y una expresión adecuada al tipo de vestimenta propuesto.
-      .py-4.py-md-0(titulo="<strong>Ilustración</strong>")
-        .row.justify-content-center.bg2
+      .bg2.py-4(titulo="Ilustración")
+        .row.justify-content-center
           .col-4.col-md-4.col-lg-4
             figure
               img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen2.png')
           .col-sm-12.col-md-7.col-lg-7
             h4 Ilustración
             p Son dibujos, esquemas, bosquejos, bocetos o pinturas que se hacen relacionados a la moda, pueden ser de modelos, ropa o accesorios, prácticamente cualquier objeto o situación relacionada a la industria.
-      .py-4.py-md-0(titulo="<strong>Dibujo Plano</strong>")
-        .row.justify-content-center.bg2
+      .bg2.py-4(titulo="Dibujo Plano")
+        .row.justify-content-center
           .col-4.col-md-4.col-lg-4
             figure
               img.mb-4(src='@/assets/curso/temas/tema2/tarjeta2/imagen3.png')
@@ -83,40 +86,36 @@
         img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
         h3.mb-0.ms-2 Tipos de trazos - ejercicios de aprestamiento
 
-    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-left")  
+    SlyderF(columnas="col-md-6 col-xl-4")(data-aos="fade")  
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen1.png' alt='')
-        h2.text-center Posición de escritura
+        h4.text-center Posición de escritura
         p.text-center  Para hacer los ejercicios, trabaje siempre con el lápiz en posición de escritura.
-
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen2.png' alt='')
-        h2.text-center Horizontales 
+        h4.text-center Horizontales 
         p.text-center Alternando de izquierda a derecha y de derecha a izquierda.
-
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen3.png' alt='')
-        h2.text-center Verticales
+        h4.text-center Verticales
         p.text-center Alternando de arriba hacia abajo y de abajo hacia arriba.
-
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen4.png' alt='')
-        h2.text-center Diagonales
+        h4.text-center Diagonales
         p.text-center Alternando de izquierda a derecha y de derecha a izquierda.
-
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
-          .col-8
+          .col-8.col-lg-7
             img(src='@/assets/curso/temas/tema2/tarjeta3/imagen5.png' alt='')
-        h2.text-center Círculos
+        h4.text-center Círculos
         p.text-center Recuerde no apoyar la muñeca ni la mano.
 
 
@@ -124,7 +123,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Categorización de prendas
 
-    p.mb-4 En la segmentación de productos se implementa el término tipología, el cual sirve para categorizar de manera básica, “lógica” por tipo los productos, lo que se busca es identificar características similares que componen el producto y así ir categorizando para facilitar todo el proceso, desde la parte creativa hasta la parte operativa. 
+    p.mb-5 En la segmentación de productos se implementa el término tipología, el cual sirve para categorizar de manera básica, “lógica” por tipo los productos, lo que se busca es identificar características similares que componen el producto y así ir categorizando para facilitar todo el proceso, desde la parte creativa hasta la parte operativa. 
 
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -133,11 +132,11 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen3.png')})`}"
            )
-            h3.text-center.p-5.mb-2 ¿Qué es una tipología?
+            h3.text-center.h-100.d-flex.align-items-center.justify-content-center.mb-0 ¿Qué es una tipología?
           .bloque-texto-g__texto.p-2
             p.mb-2.text-center Es el estudio de los tipos o modelos que se usan para clasificar diversas cosas.
 
@@ -152,14 +151,14 @@
           h5 Figura 2.
           span División del cuerpo
         figure
-          img(src='@/assets/curso/temas/tema2/imagen4.svg')
+          img(src='@/assets/curso/temas/tema2/imagen4.svg' alt="La figura presenta la imagen de un hombre al cual se le señala la parte superior del cuerpo(de la cintura hacia arriba)- prendas superiores; y la parte inferior del cuerpo (de la cintura hacia abajo)- pantalones, faldas, shorts.")
    
-    .subt.mb-5(data-aos="fade-right")
+    .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
         h3.mb-0.ms-2 Bitácora de formas - Glosario técnico
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")  
+    .row.justify-content-center.mb-5(data-aos="fade")  
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.h-100.p-5
           .tarjeta-numerada__numero
@@ -182,20 +181,20 @@
             h3.text-center Talles
           p.text-center.mb-0 Talle alto, talle medio, talle bajo. Cuellos - puños - bolsillos de parche - bolsillos de ribete - pantalón - largos - bolsillos - talles – detalles.
 
-    .row.justify-content-center(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="fade")
       .col-sm-12.col-md-10.col-lg-10
-        .tarjeta.p-3(style='background-color: #673AB7')
+        .tarjeta.color-primario.p-3
           .row.justify-content-center.align-items-center
             .col-auto
               img(src="@/assets/curso/temas/tema2/imagen12.png")
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white Categoría de prendas - Tipologías - Bitácora de formas
-                  p.mb-0.text-white Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de la categorización de prendas.
+                  h4.mb-1 Categoría de prendas - Tipologías - Bitácora de formas
+                  p.mb-0 Revisa el contenido del video que puede resultar útil para complementar el aprendizaje acerca de la categorización de prendas.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/leHGYnfUxGk" target="_blank")
-                    span.texto-negro Ir al sitio
+                    span Ir al sitio
                     i.fas.fa-file-download
 
     Separador
@@ -204,7 +203,7 @@
     
     p.mb-4 En el siguiendo video, se presenta la realización del proceso de una manera clara y didáctica:
 
-    .row.mb-4
+    .row
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/9dFHVp0cC2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -217,7 +216,7 @@
     
     p.mb-4 En el siguiente video explicativo se detalla la manera de realizar el proceso:
 
-    .row.mb-4
+    .row
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/0ZN7-E4Pyt4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -236,24 +235,24 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/KxWtHCwnG3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de Dibujo plano de prendas.
 
-    .row.justify-content-center(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="fade")
       .col-sm-12.col-md-10.col-lg-10
-        .tarjeta.p-3(style='background-color: #673AB7')
+        .tarjeta.p-3.color-primario
           .row.justify-content-center.align-items-center
             .col-auto
               img(src="@/assets/curso/temas/tema1/dibujo-de-vestido.png")
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white Dibujo plano para prendas
-                  p.mb-0.text-white Revisa los videos que pueden resultar útiles para aprender más sobre la creación de dibujos planos para prendas.
+                  h4.mb-1 Dibujo plano para prendas
+                  p.mb-0 Revisa los videos que pueden resultar útiles para aprender más sobre la creación de dibujos planos para prendas.
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/rvq5vAoMdv4" target="_blank")
-                    span.texto-negro Ir al sitio
+                    span Ir al sitio
                     i.fas.fa-file-download
                 .col-sm-auto
                   a.boton.color-boton(href="https://youtu.be/ZpVolJldlcU" target="_blank")
-                    span.texto-negro Ir al sitio
+                    span Ir al sitio
                     i.fas.fa-file-download
 
 
@@ -263,12 +262,12 @@
     
     p.mb-4 A continuación, se presentan dos videos con explicación de los procesos :
 
-    .row.mb-4
+    .row.mb-5
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/6zVIePvn5Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Nota. Adaptado de Análisis de proporciones prendas superiores.
-    .row.mb-4
+    .row
       figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/CYQpTKL7-AM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -281,20 +280,20 @@
       
     p Para el desarrollo de dibujos planos, se implementa #[em software] que permite agilizar y detallar de manera más certera un producto. Para el uso de los programas se hace necesario contar con la licencia que autoriza la implementación legal del mismo. El SENA cuenta con las licencias requeridas para el acceso del aprendiz sin ningún inconveniente. 
 
-    .row.justify-content-center(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="fade")
       .col-sm-12.col-md-10.col-lg-10
-        .tarjeta.p-3(style='background-color: #673AB7')
+        .tarjeta.p-3.color-primario
           .row.justify-content-center.align-items-center
             .col-auto
               img(src="@/assets/curso/temas/tema2/icono-interfaz.png")
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
-                  h4.text-white Interfaz programa CAD
-                  p.mb-0.text-white Interfaz Software CAD. Consulta el siguiente video para conocer acerca del software.
+                  h4.mb-1 Interfaz programa CAD
+                  p.mb-0 Interfaz Software CAD. Consulta el siguiente video para conocer acerca del software.
                 .col-sm-auto
                   a.boton.color-boton(href="https://www.youtube.com/watch?v=_lIrZfa0q1g" target="_blank")
-                    span.texto-negro Ir al sitio
+                    span Ir al sitio
                     i.fas.fa-file-download
 
 
@@ -302,7 +301,7 @@
     #t_2_8.titulo-segundo.color-acento-contenido
       h2 2.8 Ficha técnica
     
-    p.mb-4 Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
+    p.mb-5 Son documentos en los cuales se describe de manera detallada la información técnica de un producto, por lo general se documenta la información operativa de cada uno de los procesos por los que pasa el producto, dichos documentos serán consultados de manera constante para validar que el proceso si corresponde al requerimiento. 
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -311,7 +310,7 @@
     
     p #[b Qué son las fichas técnicas?] Son documentos que contienen la información necesaria para la fabricación de un producto. Dichos documentos serán consultados en los distintos procesos de producción. Los datos para incluir deben ser detallados.
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-left")  
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")  
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/imagen13.png')})`}"
       )
@@ -319,14 +318,17 @@
         p.mb-0 #[b Tipos: ]
         p según el volumen, la cantidad, rigurosidad de la producción y cumplimiento de parámetros de calidad, se deciden los diferentes requerimientos técnicos que debe llevar la ficha técnica.   
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")      
-      .col-10
-        .titulo-sexto.color-secundario
-          h5 Figura 3.
-          span
-            span.mb-0 Tipos de ficha técnica
-        figure
-          img(src='@/assets/curso/temas/tema2/imagen11.svg' alt=" La figura presenta un diagrama enunciando los siguientes tipos: ficha técnica de diseño, ficha técnica de patronaje, ficha técnica de insumos, ficha técnica de escalado, ficha técnica de corte, ficha técnica de confección, ficha técnica de empaque")
+    .row.bgc-2.align-items-center.p-2.p-md-3.p-lg-4.mb-5(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+          .row.justify-content-center.align-items-center    
+            .col-10
+              .titulo-sexto.color-secundario
+                h5 Figura 3.
+                span
+                  span.mb-0 Tipos de ficha técnica
+              figure
+                img(src='@/assets/curso/temas/tema2/imagen11.svg' alt=" La figura presenta un diagrama enunciando los siguientes tipos: ficha técnica de diseño, ficha técnica de patronaje, ficha técnica de insumos, ficha técnica de escalado, ficha técnica de corte, ficha técnica de confección, ficha técnica de empaque")
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1

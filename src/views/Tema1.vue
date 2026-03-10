@@ -30,7 +30,7 @@
               h4 ¿Qué es moda?
               p La definición viene del francés mode, y éste del latín modus, "modo" o "medida". La moda regula las elecciones que hacen las personas, definiendo ciertos patrones de comportamiento dentro de un grupo social; indica a la gente qué debe consumir, utilizar o hacer.
       .col-md-6.col-xl-4.mb-3.mb-lg-0
-        .tarjeta.tarjeta-slide.derecha.bg1.mh-px1(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.derecha.bg1.mh-px1
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas//tema1/tarjeta1/imagen3.svg')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -45,7 +45,7 @@
     
     p La moda ha ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores que han afectado la sociedad. Quienes han aportado a estos cambios diferenciadores en la moda han dejado una gran huella.
     
-    .row.justify-content-center.align-items-center.mb-5.bgi-1(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5.bgi-1(data-aos="fade")
       .col-9.col-md-3.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen1.svg', alt='') 
       .col-sm-12.col-md-7.col-lg-7.p-5
@@ -58,7 +58,7 @@
         h3.mb-0.ms-2 Historia del vestuario
     p Es un reflejo de los cambios sociales, políticos y culturales que tienen lugar alrededor del mundo a medida de los años. Conforme el humano ha evolucionado, también lo ha hecho su vestimenta e indumentaria.
       
-    .tarjeta.bgi-1.p-4.p-lg-5.mb-5(data-aos="zoom-in-left")
+    .tarjeta.bgi-1.p-4.p-lg-5.mb-5(data-aos="fade")
       .tarjeta.bg-white.p-4
         LineaTiempoC.color-secundario(text-small)
           .row.justify-content-center.align-items-center(titulo="Período Paleolítico")
@@ -171,7 +171,7 @@
     p Las prendas han ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores. Estos factores determinan la decisión que toma cada persona para elegir que ponerse a diario.
 
     
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-left")
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade")
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -212,7 +212,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-10
-        LineaTiempoD.color-primario(data-aos="zoom-in-left")
+        LineaTiempoD.color-primario(data-aos="fade")
           .row.align-items-center.justify-content-center(numero="a." titulo="Físicos")
             .col-md-11.mb-4.mb-md-0
               .row.justify-content-center.align-items-center
@@ -302,7 +302,7 @@
     p Son conceptos de moda que responden a la necesidad de categorizar, segmentar y agrupar prendas de vestir, accesorios e indumentaria con características similares, los universos de vestuario deben ser organizados según el consumidor o mercado objetivo de cada marca.  
     p Cuando se habla de determinantes o factores del ¿por qué? nos vestimos, el mercado no se queda atrás, la segmentación, gamas de mercados, categorización de productos frente a los escenarios del consumo va de la mano con la categorización de las prendas.
 
-    .row.justify-content-center.align-items-center.mb-5.bg2(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5.bg2(data-aos="fade")
       .col-sm-12.col-md-7.col-lg-7
         ul.lista-ul--color.vamarillo.fa-ul
           li.mb-0
@@ -366,7 +366,7 @@
         .col-10.col-md-5.col-lg-4
           img.px-lg-2(src='@/assets/curso/temas/tema1/imagen4.png' alt='')
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-12.col-md-10.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
@@ -611,7 +611,7 @@
         .cajon.color-acento-contenido.p-4
           p.mb-0 Todas las marcas tienen una categorización de producto; la cual en gran parte se basa por las ocasiones de uso y los universos de vestuario, esto permite tener una mejor segmentación dependiendo de las necesidades del consumidor.
             
-    .row.justify-content-center(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="fade")
       .col-sm-12.col-md-10.col-lg-10
         .tarjeta.p-3.color-primario
           .row.justify-content-center.align-items-center
@@ -634,7 +634,7 @@
     
     p Para el análisis de una marca o mercado, se requiere de la categorización de grupos de personas con características similares, estudio que permitirá identificar su comportamiento, consumo e intereses, permitiendo así que el producto o servicio a ofrecer sea mucho más específico y certero con el cliente o nicho de mercado. 
     
-    .bg1.p-4.mb-5(data-aos="zoom-in-left")
+    .bg1.p-4.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
         .col-10.col-md-3.col-lg-3
           img(src='@/assets/curso/temas/tema1/imagen6.png', alt='')
@@ -810,7 +810,7 @@
           span.mb-0.h4 ¿Qué es el estilo?
     p.mb-5 Coherencia entre el ser y el parecer. La relación que tiene el modelo de pensamiento y la actitud personal define el estilo de cada individuo. El estilo refleja todos los aspectos de una persona, el pensamiento, las acciones y la relación con los demás y los objetos, además sus gustos, preferencias, motivaciones, valoraciones necesidades y actividades reflejadas en sus actitudes.
 
-    .mb-4.p-4.bg2(data-aos="zoom-in-left")
+    .mb-4.p-4.bg2(data-aos="fade")
       .row.justify-content-center.align-items-center
         .col-8.col-md-3.col-lg-3
           img(src='@/assets/curso/temas/tema1/imagen7.png')
@@ -949,7 +949,7 @@
     
     p.mb-4 Las tendencias se definen a través de una serie de formas visuales y características específicas que identifican un momento concreto; esta información determina el comportamiento de consumo. Las tendencias mueven las industrias, no solo la industria de la moda, si no las de consumo, servicios, incluso pensamiento.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.mb-5(data-aos="fade")
       .col-sm-12.col-lg-6.mb-3.mb-lg-0
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
@@ -972,7 +972,7 @@
         img(src='@/assets/curso/temas/tema1/subt.svg', alt='')
         h3.mb-0.ms-2 Características de las tendencias
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .avatar
         .col-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/tema1/imagen11.png' alt='')
@@ -1091,7 +1091,7 @@
                   span.h4.mb-0 #[b PECLERS PARIS ]
                     p.mb-0 https://www.peclersparis.com/fr/
 
-    .bg3.p-4.mb-5(data-aos="zoom-in-left")
+    .bg3.p-4.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
         .col-5.col-md-2.col-lg-2
           img(src='@/assets/curso/temas/tema1/signo-de-interrogacion.png')
@@ -1113,7 +1113,7 @@
 
     p.mb-4.mb-lg-5 Los moodboards son tableros creativos que permiten visualizar y conceptualizar ideas para el desarrollo de productos o servicios, consiste en recolectar imágenes que muestran lo que se quiere expresar, esta es una forma implementada en las áreas de diseño para dar a conocer las ideas de una manera mucho más dinámica.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.mb-5(data-aos="fade")
       .col-lg-10.position-relative
         .avatar
           img(src="@/assets/curso/temas/tema1/imagen14.svg", alt="").img-avatar
@@ -1166,7 +1166,7 @@
     
     p Es una metodología de diseño que permite mostrar fácilmente un concepto definido y que se vea reflejado armónicamente en los productos realizados. Metodología tomada del diseño industrial.
 
-    TabsA.color-acento-botones.mb-5(data-aos="zoom-in-left")
+    TabsA.color-acento-botones.mb-5(data-aos="fade")
       .tarjeta.p-4.bg2(titulo="¿Para qué sirve?")
         h4 ¿Para qué sirve?
         .row.align-items-center
@@ -1191,7 +1191,7 @@
           .col-2.mb-0
             img(src='@/assets/curso/temas/tema1/tarjeta8/imagen3.png')
 
-    .tarjeta.color-acento-contenido.mb-5(data-aos="zoom-in-left")
+    .tarjeta.color-acento-contenido.mb-5(data-aos="fade")
       .row.justify-content-center.align-items-center
         .col-5.col-md-2.col-lg-2
           img(src='@/assets/curso/temas/tema1/signo-de-interrogacion2.png')
@@ -1199,7 +1199,7 @@
           p #[b La clave es: ] cada variación debe ser coherente con el concepto, las siluetas, formas, sensibilidad y demás percepciones definidas en los conceptos.
           p.mb-0 #[b Estaciones: ] las tendencias se basan en las estaciones de primavera ( #[em Spring ]), verano ( #[em Summer ]), otoño ( #[em Autumn ]) e invierno ( #[em Winter ]). 
 
-    .row.justify-content-center(data-aos="zoom-in-left")
+    .row.justify-content-center(data-aos="fade")
       .col-sm-12.col-md-10.col-lg-10
         .tarjeta.color-primario.p-3
           .row.justify-content-center.align-items-center

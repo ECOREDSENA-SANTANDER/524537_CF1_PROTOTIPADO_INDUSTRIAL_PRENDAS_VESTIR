@@ -135,7 +135,7 @@
 .tarjeta.acordeonA
   background-color: #DADDDF
 .acordion__accion__btn--a
-  background-color: #EEAC3A !important
+  background-color: $color-acento-botones !important
 .acordion__activo
   background-color: #EEF9F6
   background-image: url(../assets/curso/temas/tema1/bg3.png)
@@ -164,22 +164,19 @@
     .crd_hover_txt--body   
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
-
   .crd_hover_txt--body
     position: absolute
     padding: 1.5rem
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
-    background-color: rgba(254, 245, 229, 1) 
-  
+    background-color: #BEE8DA
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
       p
         font-size: 0.85em
 
 // tarjetas con avatar
-
 .crd
   &.brd--rad
     border-radius: 20px 
@@ -317,15 +314,12 @@
 
 .tabs-a__tab
   background-color: #DADDDF
-
 .tabs-c__tab--active 
   background-color: white
-
 .tabs-c__tab
   background-color:  #DADDDF
-
 .slyder-f__btn i 
-  color: #ffd54f !important
+  color: $color-acento-botones !important
 
 // sangría viñeta
 .fa-ul
@@ -347,38 +341,37 @@
 
 //viñeta amarilla
 .lista-ul--color.vamarillo li > i:first-of-type 
-    color: #FEA772 !important
-    font-size: 25px
-    position: relative !important
-    top: -5px !important
-    margin-right: 7px !important
-    vertical-align: top !important
+  color: #FEA772 !important
+  font-size: 25px
+  position: relative !important
+  top: -5px !important
+  margin-right: 7px !important
+  vertical-align: top !important
 .lista-ul__vineta.vamarillo li > i:first-of-type
-    color: #FEA772 !important
-    font-size: 25px
-    position: relative !important
-    top: -5px !important
-    margin-right: 7px !important
-    vertical-align: top !important
+  color: #FEA772 !important
+  font-size: 25px
+  position: relative !important
+  top: -5px !important
+  margin-right: 7px !important
+  vertical-align: top !important
 .lista-ul__vineta.vamarillo:before
   color: transparent !important
 
 //viñeta morada oscura
 .lista-ul--color.vmorada li > i:first-of-type 
-    color: #63503E !important
-    font-size: 25px
-    position: relative !important
-    top: -5px !important
-    margin-right: 7px !important
-    vertical-align: top !important
+  color: #63503E !important
+  font-size: 25px
+  position: relative !important
+  top: -5px !important
+  margin-right: 7px !important
+  vertical-align: top !important
 .lista-ul__vineta.vmorada li > i:first-of-type
-    color: #63503E !important
-    font-size: 25px
-    position: relative !important
-    top: -5px !important
-    margin-right: 7px !important
-    vertical-align: top !important
-
+  color: #63503E !important
+  font-size: 25px
+  position: relative !important
+  top: -5px !important
+  margin-right: 7px !important
+  vertical-align: top !important
 .lista-ul__vineta.vmorada:before
   color: transparent !important
 
@@ -397,34 +390,25 @@
 
 
 //color boton siempre negro
-
 .texto-negro
   font-color: $color-sistema-texto !important
-
-.texto-morado100
-  color: #673AB7 !important
+.texto-verde100
+  color: #5EC6A3 !important
   font-size: 30px
 
 // borde morado tarjetas nuevas
-
-.borde-morado100
-  border: 5px solid #673AB7 !important
-
+.borde-c1
+  border: 3px solid #F7C99C !important
 .estilo500
   background-color: white !important
-  border: 5px solid #673AB7 !important
-
+  border: 5px solid #5EC6A3 !important
 .bg2claro
   background: #5EC6A3
-
 .texamarillooscuro
   color: #FEA772 !important
   font-size: 30px !important
   padding-right: 10px
   top: 0px !important
-
-.bloque-texto-c.color-primario:after
-  background-color: #673AB7
 
 
 
@@ -435,6 +419,8 @@
   background-color: #FEF5E5
 .bg3
   background-color: #F7C99C
+.bg4
+  background-color:  #B8EBD8
 .bgi-1
   background-image: url(../assets/curso/temas/tema1/bg.png)
   background-color: #F7C99C
@@ -459,6 +445,68 @@
   background-size: cover
   background-position: center
   background-repeat: no-repeat
+.bgi-5
+  background-image: url(../assets/curso/temas/tema3/bg.png)
+  background-color: #F7C99C
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+.bgc-1
+  background-image: url('../assets/curso/temas/tema2/bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgc-2
+  background-image: url('../assets/curso/temas/tema2/bg2.png')
+  background-position: top
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bg-deco
+  position: relative
+  img, p
+    z-index: 99
+    position: relative
+  .bg2
+    position: relative
+    &::before   
+      content: ""
+      position: absolute
+      top: 0px
+      left: -20%
+      height: 100%
+      width: 100%
+      background-color: #FEF5E5
+    @media (max-width: $bp-max-md)
+      &::before 
+        background-color: transparent
+  .bg1
+    position: relative
+    &::before   
+      content: ""
+      position: absolute
+      top: 0px
+      right: -20%
+      height: 100%
+      width: 100%
+      background-color: #BEE8DA
+    @media (max-width: $bp-max-md)
+      &::before 
+        background-color: transparent
+
 
 figcaption
   font-weight: normal
@@ -504,4 +552,14 @@ figcaption
 .tarjeta-numerada__numero.t1
   width: 80px
   height: 80px
+.tabs-c__header  
+  margin-bottom: 0px
+  .tabs-c__tab--active
+    background-color: $white
+    span
+      font-weight: bold
+.tarjeta-avatar-b.t3 .tarjeta-avatar-b__img
+  max-width: 10%
+  min-width: 10%
+
 
