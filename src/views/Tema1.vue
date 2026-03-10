@@ -46,11 +46,11 @@
     p La moda ha ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores que han afectado la sociedad. Quienes han aportado a estos cambios diferenciadores en la moda han dejado una gran huella.
     
     .row.justify-content-center.align-items-center.mb-5.bgi-1(data-aos="fade")
-      .col-9.col-md-3.col-lg-3
+      .col-9.col-md-4.col-lg-3
         img(src='@/assets/curso/temas/tema1/imagen1.svg', alt='') 
-      .col-sm-12.col-md-7.col-lg-7.p-5
+      .col-sm-12.col-md-7.col-lg-7.p-4.p-lg-5
         p El vestirse surge desde el momento en que las prendas pasan de ser una obligación de protegerse del clima a convertirse en una necesidad vital. 
-        p El vestido muestra la cultura, riqueza y grado de desarrollo de las civilizaciones y da una visión de las condiciones geográficas, económicas y culturales de los pueblos.
+        p.mb-0 El vestido muestra la cultura, riqueza y grado de desarrollo de las civilizaciones y da una visión de las condiciones geográficas, económicas y culturales de los pueblos.
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -171,7 +171,7 @@
     p Las prendas han ido evolucionando con el pasar de los años teniendo en cuenta diferentes factores. Estos factores determinan la decisión que toma cada persona para elegir que ponerse a diario.
 
     
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade")
+    SlyderF.mb-5(columnas="col-md-6 col-lg-4")(data-aos="fade")
       .tarjeta.color-primario.p-4
         .row.justify-content-center.mb-3
           .col-8
