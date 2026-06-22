@@ -31,7 +31,7 @@
                 p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Postura
                 p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Medidas
 
-    .bg20.p-4.mb-5
+    .bg20.p-4.mb-4
       .row.justify-content-center.mb-4 
         .col-lg-11
           .cajr.p-4
@@ -39,16 +39,15 @@
             p.mb-0.mx-4 Desde la cintura se trabaja una línea imaginaría con el fin de dividir el cuerpo en dos regiones principales.
       .row.justify-content-center
         .col-lg-9
-          ImagenInfografica.color-sistema-texto.mb-4(data-aos="fade-down")
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/temas/t1/imgg.svg', alt='La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales, utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.')
-            .tarjeta.bg13.p-3(x="6%" y="7%" numero="+")
-              p.mb-0 Las prendas superiores incluyen una variedad de artículos esenciales en el vestuario diario, como camisetas, blusas, chaquetas, sudaderas, #[em tops], chalecos, etc. Estas prendas varían en estilo, material y diseño, adaptándose a diversas ocasiones y preferencias personales.
-            .tarjeta.bg13.p-3(x="85%" y="64%" numero="+")
-              p.mb-0 Las prendas inferiores abarcan una variedad de artículos, entre los más comunes se encuentran los pantalones, #[em jeans], faldas, shorts, sudaderas, bermudas, etc. Cada una de estas prendas puede variar en estilo, material y diseño, permitiendo opciones tanto para ocasiones formales como casuales.
-        
-          
+          .titulo-sexto.color-primario.mb-3
+            h5 Figura 1. 
+            span División del cuerpo
+          figure
+            img(src='@/assets/curso/temas/t1/imgg.svg', alt='Clasificación de las prendas según las partes del cuerpo, diferenciando prendas superiores para cabeza, tronco y miembros superiores, y prendas inferiores para las extremidades inferiores.')          
+    
+    p La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.
+    p En la parte superior se señalan los miembros superiores, incluyendo cabeza, tronco y brazos, además de las prendas superiores como camisetas o blusas. Estas prendas corresponden a la zona alta del cuerpo.
+    p.mb-5 En la parte inferior se identifican los miembros inferiores, relacionados con las piernas y extremidades inferiores, junto con las prendas inferiores, como pantalones o faldas. La imagen organiza de manera clara la relación entre las partes del cuerpo y la vestimenta. 
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -58,52 +57,52 @@
     p.mb-4 Es la estructura o disposición de los órganos y las partes del cuerpo. Es entonces que la anatomía descriptiva considera el cuerpo humano dividido en:
 
     SlyderF(columnas="col-lg-3 col-md-6" data-aos="fade-down")
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Cabeza
         .row.justify-content-center.mb-3
           .col-11
             img(src='@/assets/curso/temas/t1/slyder01.svg' alt='')
-        p.text-center.mb-0 Cara - cráneo. 
+        p.text-center.mb-4 Cara - cráneo. 
         p.text-center #[b Cuello:] Esternocleidomastoideo - anterior, lateral, posterior.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Tronco 
         .row.justify-content-center.mb-3
           .col-9
             img(src='@/assets/curso/temas/t1/slyder02.svg' alt='')
         p.text-center Dorsal - pectoral -abdominal - perineal.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Extremidades superiores
         .row.justify-content-center.mb-3        
           .col-9
             img(src='@/assets/curso/temas/t1/slyder03.svg' alt='')
-        p.text-center.mb-0 Hombro, brazo, codo, antebrazo y mano. 
+        p.text-center.mb-4 Hombro, brazo, codo, antebrazo y mano. 
         p.text-center #[b Mano:] dorso y palma. Carpo, metacarpo y dedos.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Extremidades inferiores
         .row.justify-content-center.mb-3        
           .col-9
             img(src='@/assets/curso/temas/t1/slyder04.svg' alt='')
-        p.text-center.mb-0 Cadera, muslo, rodilla, pierna y pie. 
+        p.text-center.mb-4 Cadera, muslo, rodilla, pierna y pie. 
         p.text-center #[b Pie:] dorso y palma, tarso, metatarso y dedos.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Sistema óseo
         .row.justify-content-center.mb-3        
           .col-8
             img(src='@/assets/curso/temas/t1/slyder05.svg' alt='')
         p.text-center Es la estructura viva de huesos duros cuya función principal es la protección y apoyo a los órganos vitales y la generación de movimiento.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Articulaciones
         .row.justify-content-center.mb-3        
           .col-9.col-lg-11
             img(src='@/assets/curso/temas/t1/slyder06.svg' alt='')
         p.text-center Son puntos de unión entre los componentes del sistema óseo (hueso, cartílagos), y facilitan movimientos mecánicos, proporcionándole elasticidad y plasticidad al cuerpo.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Sistema muscular
         .row.justify-content-center.mb-3        
           .col-10.col-lg-12
             img(src='@/assets/curso/temas/t1/slyder07.svg' alt='')
         p.text-center Es el conjunto de los más de 650 músculos del cuerpo, cuya función principal es generar movimiento, ya sea voluntario o involuntario.
-      .tarjeta.bg2.p-4
+      .tarjeta.bg2.p-3
         h4.text-center.mb-4 Tejido conectivo        
         .row.justify-content-center.mb-3        
           .col-10.col-lg-12
@@ -157,23 +156,26 @@
               h4 Posición neutra
               p.mb-0 Es la posición natural de la columna cuando se mantienen sus 3 curvas fisiológicas. A diferencia de la anatómica, las palmas de las manos descansan sobre el cuerpo en los laterales del muslo.
             
-    .division
+    hr
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-8
-        .cajon.color-acento-contenido.p-4.mb-3
-          h4.mb-4.mt-4 Planos y ejes anatómicos
+        .cajon.color-acento-contenido.p-4
+          h4 Planos y ejes anatómicos
           p.mb-0 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
     
-    .row.align-items-center.flex-column.mb-5(data-aos="fade-down")
+    .row.align-items-center.flex-column.mb-4(data-aos="fade-down")
       .col-lg-7 
         .titulo-sexto.color-primario
           h5 Figura 2. 
           span Planos anatómicos y términos direccionales del cuerpo humano 
       .col-lg-4.col-md-8
-        img.mb-3(src='@/assets/curso/temas/t1/imag02.svg', alt='En la imagen se comparte un esquema anatómico del cuerpo humano con las direcciones y planos anatómicos principales. Se señalan tres planos: el plano sagital (que divide el cuerpo en izquierda y derecha), el plano frontal (que divide el cuerpo en anterior y posterior), y el plano transversal (que divide el cuerpo en superior e inferior). Además, se indican varias direcciones anatómicas, como craneal (hacia la cabeza), caudal (hacia los pies), dorsal (hacia la espalda), ventral (hacia el frente), proximal (cercano al punto de origen), distal (lejano al punto de origen), medial (hacia el centro del cuerpo), lateral (alejado del centro del cuerpo), entre otras. Estas referencias son fundamentales para describir la ubicación de estructuras y movimientos del cuerpo humano en medicina y anatomía.')
+        img.mb-3(src='@/assets/curso/temas/t1/imag02.svg', alt='Representación de los planos anatómicos y términos de orientación corporal utilizados para ubicar y describir las diferentes regiones del cuerpo humano.')
         figcaption Fuente: https://es.scribd.com/document/675092535/neuro-26-5
-
+    
+    p La figura representa la posición anatómica estándar del cuerpo humano junto con los principales planos anatómicos y términos de orientación utilizados en anatomía. La posición anatómica se describe con el individuo de pie, mirando al frente, con los brazos a los lados y las palmas de las manos orientadas hacia adelante. Esta posición 10 sirve como referencia universal para describir la localización de órganos y estructuras corporales. 
+    p En la imagen se identifican tres planos anatómicos fundamentales. El plano sagital divide el cuerpo en lados derecho e izquierdo; el plano frontal o coronal lo divide en una porción anterior y otra posterior; y el plano transversal u horizontal separa el cuerpo en una región superior y otra inferior. Estos planos permiten estudiar el cuerpo humano desde diferentes perspectivas y facilitan la descripción de movimientos y relaciones anatómicas. 
+    p.mb-5 También se muestran los principales términos direccionales anatómicos. Los términos superiores (craneal) e inferior (caudal) indican relación con la cabeza o los pies; medial y lateral señalan proximidad o alejamiento de la línea media; mientras que proximal y distal describen cercanía o distancia respecto al origen de una extremidad. Además, se incluyen términos específicos como palmar para la palma de la mano y plantar para la planta del pie, fundamentales en la descripción anatómica clínica. 
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -254,7 +256,7 @@
 
     p.mb-4 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
 
-    .mb-5(data-aos='fade-down')
+    .mb-4(data-aos='fade-down')
       .titulo-sexto.color-primario
         h5 Figura 3. 
         span Clasificación de los somatotipos corporales humanos 
@@ -262,8 +264,11 @@
         .row.justify-content-center
           .col-lg-7
             figure
-              img(src='@/assets/curso/temas/t1/ikk.svg', alt='En la imagen se presenta un diagrama con una figura central conectada mediante líneas a diferentes somatotipos, que incluyen combinaciones de términos como "mesomorfo", "ectomorfo", y "endomorfo". Cada combinación está asociada a una figura humana que representa las características corporales correspondientes. Las conexiones entre el centro y los somatotipos están representadas por segmentos divididos en diferentes colores, y alrededor de la figura central hay diversas etiquetas que indican las combinaciones como "Mesomorfo Balanceado", "Endo-Ectomorfo", y otras variaciones.')
-            
+              img(src='@/assets/curso/temas/t1/ikk.svg', alt='Diagrama circular de somatotipos corporales que muestra las combinaciones entre ectomorfo, mesomorfo y endomorfo, incluyendo perfiles balanceados y mixtos alrededor de un centro.')
+    
+    p La figura representa la clasificación de los somatotipos corporales, utilizada para describir las características físicas y la composición corporal de las personas. El esquema organiza los tipos corporales alrededor de un eje central, mostrando la relación y combinación entre tres somatotipos básicos: endomorfo, mesomorfo y ectomorfo. 
+    p El somatotipo endomorfo se caracteriza por una mayor acumulación de tejido adiposo y una estructura corporal más redondeada; el mesomorfo presenta un cuerpo musculoso, fuerte y equilibrado; mientras que el ectomorfo posee una contextura delgada, extremidades largas y menor desarrollo muscular y graso. La figura también muestra combinaciones intermedias entre estos tipos corporales, como endo-mesomorfo, ecto-mesomorfo y endo-ectomorfo, indicando que la mayoría de las personas presentan características mixtas y no un único somatotipo puro. 
+    p.mb-5 Además, el diagrama incluye representaciones visuales de cuerpos balanceados para cada somatotipo principal, permitiendo comparar las diferencias en proporciones y composición física. Esta clasificación es ampliamente utilizada en áreas como la antropometría, la educación física, la nutrición, la ergonomía y la biomecánica, ya que ayuda a comprender las variaciones corporales y su influencia en el rendimiento físico, la salud y la adaptación funcional del cuerpo humano.	
 
 
     .subt.mb-4(data-aos="fade-right")
@@ -280,9 +285,14 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center
           .col-lg-8
-            img(src='@/assets/curso/temas/t1/imag16.svg', alt='La imagen presenta diferentes tipologías corporales en forma de siluetas, clasificadas según sus características físicas generales de contorno y forma corporal. Las tipologías incluyen: reloj de arena/trapecio, triángulo, triángulo invertido, rectángulo y óvalo. Cada figura humana ilustra una de estas formas corporales, destacando las variaciones en proporciones y distribución de volumen. Esta clasificación es útil para entender la morfología de superficie y puede ser aplicada en áreas como la moda, el diseño de ropa y la ergonomía.')
-    p.mb-4 El siguiente diagrama, permite identificar la tipología corporal de acuerdo con algunas características físicas generales:
+            img(src='@/assets/curso/temas/t1/imag16.svg', alt='Comparativa de tipos de cuerpo femenino y masculino, incluyendo reloj de arena, triángulo, triángulo invertido, rectangular, óvalo y trapecio, representados mediante figuras humanas estilizadas.')
     
+    p La figura presenta una clasificación de diferentes tipos de siluetas corporales humanas, mostrando cómo varía la distribución de la forma del cuerpo según la estructura ósea y la acumulación de masa muscular y grasa. En la parte superior se observan figuras femeninas con formas como reloj de arena, triángulo (pera), triángulo invertido, rectangular y óvalo, cada una representando una proporción distinta entre hombros, cintura y caderas. En la parte inferior se muestran equivalentes masculinos como trapecio, triángulo, triángulo invertido, rectángulo y óvalo, evidenciando variaciones en la amplitud de hombros, torso y cadera. 
+    p Estas categorías se utilizan en campos como la antropometría, la ergonomía, el diseño de ropa y la salud, ya que permiten comprender las diferencias corporales entre personas y adaptar productos, vestimenta o recomendaciones físicas según la morfología individual.
+    
+    p.mb-4 En la siguiente figura, permite identificar la tipología corporal de acuerdo con algunas características físicas generales: 
+
+
     .titulo-sexto.color-primario.mb-3
       h5 Figura 5. 
       span Tipología corporal de acuerdo con algunas características físicas generales 
@@ -293,8 +303,10 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center
           .col-lg-10
-            img(src='@/assets/curso/temas/t1/imag17.svg', alt='La imagen presenta un diagrama de flujo para determinar el tipo de cuerpo femenino. Comienza con la pregunta "¿Tus hombros y cadera tienen medida similar?" Si la respuesta es sí, se pregunta "¿Tu cintura es más pequeña que tu cadera?", lo que identifica la forma de reloj de arena. Si la respuesta es no, se pregunta "¿Tus hombros miden más que tu cadera o abdomen?", identificando la forma de triángulo invertido. Si la respuesta inicial es no, se pregunta "¿Tu blusa tiene una talla más que tu pantalón?", determinando la forma ovalada si la respuesta es sí, o la forma de triángulo si la respuesta es no. Cada tipo de cuerpo se ilustra con una figura femenina correspondiente.')
+            img(src='@/assets/curso/temas/t1/imag17.svg', alt='Diagrama de flujo para identificar tipos de cuerpo femenino según la proporción entre hombros, cintura y cadera, mostrando cinco siluetas corporales diferentes a partir de preguntas de clasificación.')
     
+    p La figura presenta un diagrama explicativo para identificar distintos tipos de cuerpo femenino a partir de la comparación entre hombros, cintura, cadera y abdomen. El esquema funciona como un árbol de decisiones compuesto por preguntas de respuesta “sí” y “no”, orientando progresivamente hacia una categoría corporal específica. Entre las preguntas principales se analiza si los hombros y la cadera tienen medidas similares, si la cintura es más estrecha que la cadera o si la parte superior del cuerpo presenta mayor amplitud que la inferior. 
+    p.mb-5 En la parte inferior del diagrama aparecen ilustraciones de diferentes siluetas corporales acompañadas de formas geométricas que representan visualmente cada tipo de cuerpo, como reloj de arena, rectangular, triángulo invertido, ovalado y pera. El diseño emplea colores suaves, cuadros conectados y una estructura organizada que facilita la comprensión visual del proceso de clasificación corporal
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -359,7 +371,7 @@
                   h5 Figura 6. 
                   span Proporciones de longitud de piernas en relación con el torso
                 figure  
-                  img.mb-3(src='@/assets/curso/temas/t1/i1.png', alt='La imagen presenta una serie de figuras femeninas que ilustran diferentes proporciones de longitud de piernas en relación con el torso, desde "normal" hasta "muy cortas". Las categorías son: a. Normal, b. Largas, c. Moderadas, d. Cortas, y e. Muy cortas. Cada figura está etiquetada con letras que corresponden a las descripciones relacionadas debajo de la imagen. Esta ilustración es útil para entender y comparar las variaciones en las proporciones corporales femeninas.')
+                  img.mb-3(src='@/assets/curso/temas/t1/i1.png', alt='Ilustración comparativa de cinco proporciones corporales femeninas según la longitud de las piernas: normal, largas, moderadas, cortas y muy cortas, representadas mediante siluetas alineadas con líneas de referencia horizontales.')
                 ol.lista-ol--cuadro
                   li.mb-1
                     .lista-ol--cuadro__vineta
@@ -386,7 +398,7 @@
                   h5 Figura 7. 
                   span Tipos de estructura corporal
                 figure  
-                  img.mb-3(src='@/assets/curso/temas/t1/i7.png', alt='La imagen expone cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes tipos de estructura corporal. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Cuadrada", "Alta", "Baja" y "Muy Ancha". Cada figura tiene líneas horizontales numeradas del 1 al 7 a lo largo del cuerpo, posiblemente para medir proporciones y diferencias en la forma corporal. La figura "Normal" presenta una forma corporal equilibrada, la "Cuadrada" tiene hombros y caderas más anchos, la "Alta" tiene una estatura mayor, la "Baja" es de menor estatura, y la "Muy Ancha" presenta una figura con caderas significativamente más anchas. ')
+                  img.mb-3(src='@/assets/curso/temas/t1/i7.png', alt='Ilustración comparativa de cinco tipos de cadera femenina: normal, cuadrada, alta, baja y muy ancha, representadas mediante siluetas corporales alineadas con líneas de referencia para mostrar sus diferencias de proporción y forma.')
                 ol.lista-ol--cuadro
                   li.mb-1
                     .lista-ol--cuadro__vineta
@@ -415,7 +427,7 @@
                   h5 Figura 8. 
                   span Alineación de piernas
                 figure  
-                  img.mb-3(src='@/assets/curso/temas/t1/i6.png', alt='Imagen  con cinco figuras femeninas estilizadas en vista frontal, cada una con diferentes alineaciones de piernas y articulaciones. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con rodillas separadas", "Quebrado con rodillas y tobillos separados", "Quebrado con tobillos separados" y "Muy quebrado - cadera, rodillas y tobillos separados". Las descripciones indican variaciones en la alineación de las caderas, rodillas y tobillos, desde una alineación normal hasta una alineación muy separada en múltiples puntos.')
+                  img.mb-3(src='@/assets/curso/temas/t1/i6.png', alt='Ilustración comparativa de cinco alineaciones corporales femeninas: normal, con rodillas separadas, con rodillas y tobillos separados, con tobillos separados y una combinación más pronunciada de estas características, representadas mediante siluetas con líneas guía de alineación.')
                 ol.lista-ol--cuadro
                   li.mb-1
                     .lista-ol--cuadro__vineta
@@ -443,7 +455,7 @@
                   h5 Figura 9. 
                   span Diferentes posturas y alineaciones de la columna y las caderas
                 figure  
-                  img.mb-3(src='@/assets/curso/temas/t1/i5.png', alt='Imagen expone cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes posturas y alineaciones de la columna y las caderas. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Quebrado con la cadera hacia atrás", "Quebrado con la cadera hacia adelante", "Doblemente quebrado" y "Completamente quebrado". Estas descripciones indican variaciones en la postura, desde una alineación normal hasta diversas formas de desviaciones en la columna y la cadera, evidenciando diferentes grados de curvatura y desplazamiento.')
+                  img.mb-3(src='@/assets/curso/temas/t1/i5.png', alt='Ilustración comparativa de cinco perfiles posturales femeninos: normal, con cadera hacia atrás, con cadera hacia adelante, doblemente quebrado y completamente quebrado, representados mediante siluetas laterales y líneas de referencia para mostrar variaciones en la alineación corporal.')
                 ol.lista-ol--cuadro
                   li.mb-1
                     .lista-ol--cuadro__vineta
@@ -465,14 +477,13 @@
                     .lista-ol--cuadro__vineta
                       span e
                     span.mb-0 Completamente quebrado.
-
             .row.justify-content-around
               .col-md-6.col-lg-5.mb-4.mb-md-0
                 .titulo-sexto.color-primario.mb-3
                   h5 Figura 10. 
                   span Diferentes formas de caderas y glúteos
                 figure
-                  img.mb-3(src='@/assets/curso/temas/t1/i4.png', alt='Describe cinco figuras femeninas estilizadas en vista posterior, cada una representando diferentes formas de caderas y glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Un poco grandes", "Cadera baja amplia y glúteos puntiagudos", "Cadera muy amplia y glúteos redondos" y "Cadera alta amplia y glúteos chatos". Estas descripciones indican variaciones en la forma y tamaño de las caderas y glúteos, desde una forma normal hasta diversas combinaciones de caderas altas o bajas y glúteos de diferentes formas y tamaños.')
+                  img.mb-3(src='@/assets/curso/temas/t1/i4.png', alt='Clasificación de cinco tipos de formas y proporciones de caderas y glúteos femeninos vistos de espaldas, detallando variaciones que van desde una anatomía normal hasta diferentes niveles de amplitud de cadera combinados con glúteos puntiagudos, redondos o chatos.')
                 ol.lista-ol--cuadro
                   li.mb-1
                     .lista-ol--cuadro__vineta
@@ -499,7 +510,7 @@
                   h5 Figura 11. 
                   span Diferentes formas del vientre y los glúteos
                 figure  
-                  img.mb-3(src='@/assets/curso/temas/t1/i3.png', alt='Describe cinco figuras femeninas estilizadas en vista lateral, cada una representando diferentes formas del vientre y los glúteos. De izquierda a derecha, las figuras están etiquetadas como "Normal", "Vientre alto abultado, glúteos redondos y grandes", "Vientre y glúteos planos y puntiagudos", "Vientre plano con pubis saliente y glúteos chatos" y "Vientre chato con pubis muy saliente con glúteos planos y entrantes". Estas descripciones indican variaciones en la forma y tamaño del abdomen y glúteos, mostrando desde una forma normal hasta combinaciones de vientres abultados o planos, glúteos redondos, chatos o puntiagudos, y la prominencia del pubis.')
+                  img.mb-3(src='@/assets/curso/temas/t1/i3.png', alt='Clasificación de cinco variaciones anatómicas de la postura femenina vistas de perfil, detallando las diferencias en la alineación, el volumen del vientre, la prominencia del pubis y la forma de los glúteos en relación con el eje vertical del cuerpo.')
                 ol.lista-ol--cuadro
                   li.mb-1
                     .lista-ol--cuadro__vineta
@@ -527,7 +538,7 @@
                   h5 Figura 12. 
                   span Diferentes formas del torso y la cadera
                 figure  
-                  img.mb-3(src='@/assets/curso/temas/t1/i2.png', alt='Se evidencian cinco figuras femeninas estilizadas en vista frontal, cada una representando diferentes formas del torso y la cadera. De izquierda a derecha, las figuras están etiquetadas como "Normal (Trapecio regular)", "Paralela de cadera y senos pequeños", "Paralela de cadera cuadrada, torso y cintura ancha, senos amplios", "Trapecio abierto" y "Trapecio invertido". Estas descripciones indican variaciones en la forma del torso y caderas, desde una forma normal hasta combinaciones de torsos y caderas paralelos, anchos, y diferentes tipos de trapecios.')
+                  img.mb-3(src='@/assets/curso/temas/t1/i2.png', alt='Clasificación de cinco tipos de siluetas femeninas vistas de frente, detallando variaciones en la proporción del torso, cintura y caderas mediante formas geométricas, abarcando desde un trapecio regular y siluetas paralelas, hasta configuraciones en trapecio abierto e invertido.')
               .col-md-6.my-5
                 ol.lista-ol--cuadro
                   li.mb-1
@@ -657,9 +668,11 @@
                   h3 Anexo 1. Tabla de tallas para confeccionar ropa
                   p.text-small.mb-0 Consulte el documento para aprender más sobre tabla de equivalencias
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://capacitateparaelempleo.org/assets/dj88xla.pdf" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Talla_tabla_confecciones.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
+
+              
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -884,7 +897,7 @@
                   h3 Recurso. Análisis de tallas y medidas
                   p.text-small.mb-0 Revisa el documento para aprender más sobre análisis de tallas y medidas
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://drive.google.com/file/d/15M2rdSOnvqpt8LyylD2hWxj-Ban6K3vG/view" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Talla_tabla_confecciones.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -1049,12 +1062,13 @@
                 p.mb-0 Largo de falda corta
               .col-lg-7.col-md-6.col-6.p-0.co7
                 p.mb-0 = &nbsp;&nbsp;1/2 de la medida cintura al suelo -3
-    .bg66.mb-4.p-4.px-lg-5.mb-5(data-aos="fade-down")
+    
+    .bg66.mb-4.p-4.px-lg-5.mb-4(data-aos="fade-down")
       .row
         .col-lg-4
           .d-flex.justify-content-center.mb-4.mb-lg-5
             .d-flex.flex-wrap.align-items-center.bg-img-bluess
-              h4.col.px-2.mb-0(data-aos="fade-right") ¿Cómo obtener medidas deducidas?
+              h4.col.px-2.mb-0 ¿Cómo obtener medidas deducidas?
           img.d-none.d-lg-block(src="@/assets/curso/temas/t1/123.png")
         .col-lg-7
           .titulo-sexto.color-primario.mb-3
@@ -1096,7 +1110,10 @@
                   td Largo de brazo
                   td 4/10 de estatura 7aC
                   td 60 cm
-      
+    p La tabla muestra el procedimiento para obtener medidas deducidas mediante fórmulas antropométricas basadas en proporciones corporales estandarizadas. Este método permite calcular dimensiones específicas del cuerpo humano a partir de medidas principales, como la estatura total y el tórax máximo, facilitando la estimación precisa de proporciones anatómicas cuando no se dispone de una toma directa de medidas. 
+    p A partir del tórax máximo se derivan otras medidas corporales fundamentales: la cadera se obtiene sumando 8 cm, el pecho restando 4 cm y la cintura disminuyendo 28 cm respecto a la medida de cadera. Asimismo, la tabla incorpora relaciones verticales del cuerpo, como la estatura útil desde la séptima vértebra cervical, calculada restando 20 cm a la estatura total. Con esta referencia se determina el largo de brazo, correspondiente a cuatro décimos de dicha estatura útil. 
+    p.mb-5 Estas fórmulas constituyen una herramienta técnica utilizada en áreas como la antropometría, el patronaje, la confección y la ergonomía, ya que permiten mantener proporciones corporales coherentes y funcionales en el diseño y construcción de prendas o productos adaptados al cuerpo humano. 
+
     .subt2.mb-4
       ul.lista-ul.mb-0
         li.mb-0
@@ -1455,20 +1472,18 @@
           h5 Figura 13. 
           span Representación del patronaje: transformación de un volumen 3D a un plano 2D
       .col-lg-8
-        img(src='@/assets/curso/temas/t1/caja.svg', alt='Imagen expone una explicación visual del concepto de patronaje. A la izquierda, hay una figura 3D que representa un cubo en un sistema de coordenadas tridimensionales (ejes X, Y, Z). En el centro, se presenta el mismo cubo, pero con líneas punteadas para resaltar su forma tridimensional. A la derecha, se presenta el desarrollo plano (2D) del cubo, que consiste en seis cuadrados conectados que, cuando se pliegan, forman el cubo. El texto explica que el patronaje es la representación en 2D (bidimensional) de un volumen en 3D (tridimensional) mediante la elaboración de planos, moldes o patrones de prendas de vestir para el cuerpo.') 
+        img(src='@/assets/curso/temas/t1/caja.svg', alt='Representación geométrica de un cubo en sus diferentes dimensiones, mostrando su estructura tridimensional sobre ejes de coordenadas, su volumen con aristas ocultas y su desarrollo en un plano bidimensional con pestañas para el ensamblaje.') 
     
     p.mb-4 El patronaje sirve para transferir la información de la estructura corporal en planos que luego se convierten en moldes.
     
-    .row.justify-content-center.mb-5
-      .col-12
-        .titulo-sexto.color-primario.mb-3
-          h5 Figura 14. 
-          span Proceso de transformación de la estructura corporal al molde y la prenda
-      .col-lg-6
-        img.mb-5(src='@/assets/curso/temas/t1/estructura.svg', alt='Imagen describe la relación entre la estructura del cuerpo humano, su representación en planos y los moldes utilizados en la confección de prendas. De izquierda a derecha, se observan figuras estilizadas de un hombre y una mujer etiquetadas como "Estructura". A la derecha de estas figuras, se presenta una representación en "Plano" que descompone las formas tridimensionales en una vista bidimensional. Finalmente, se ven los "Moldes", que son las plantillas específicas para cortar las telas y confeccionar las prendas de vestir, detallando las formas de las piezas necesarias para cubrir la estructura del cuerpo.' data-aos="fade-down") 
-      .col-lg-6
-        img.mb-5(src='@/assets/curso/temas/t1/estructura1.svg', alt='La imagen describe el proceso de creación de prendas de vestir a partir de la estructura del cuerpo humano. De izquierda a derecha, se ven dos figuras humanas estilizadas etiquetadas como "Figura 3D" o "Estructura". Luego, estas figuras se traducen en un "Plano 2D", que descompone la forma tridimensional en una vista bidimensional. A continuación, se presentan los "Moldes", que son las plantillas para cortar las piezas de tela necesarias. Finalmente, el proceso culmina en la "Prenda", que es el producto final confeccionado a partir de los moldes, ejemplificado con un saco. Esto ilustra cómo la representación tridimensional del cuerpo se convierte en una prenda de vestir a través de un proceso de diseño y confección.' data-aos="fade-down") 
+    .row.justify-content-center.mb-4
+      .titulo-sexto.color-primario.mb-3
+        h5 Figura 14. 
+        span Proceso de transformación de la estructura corporal al molde y la prenda
+      figure
+        img(src='@/assets/curso/temas/t1/fig14.png', alt='Esquema del proceso de patronaje textil que ilustra la transición de la anatomía humana tridimensional hacia un plano bidimensional, mostrando su posterior conversión en moldes de costura y, finalmente, en la confección de una prenda de vestir terminada.') 
     
+    p.mb-5 La figura ilustra el proceso de patronaje y confección de prendas, mostrando cómo la estructura tridimensional del cuerpo humano se transforma en planos y moldes bidimensionales para elaborar una prenda de vestir. A través de esquemas y ejemplos visuales, se representa la relación entre cuerpo, plano, molde y resultado final, destacando el paso del diseño técnico a la construcción de la prenda. 
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -1748,6 +1763,8 @@
             .col-lg-7.col-md-6
               img(src="@/assets/curso/temas/t1/img1.svg")
 
+    p La figura representa una guía visual relacionada con el proceso de patronaje y confección en el diseño de modas. En el lado izquierdo se enumeran los datos técnicos esenciales que deben incorporarse en una pieza de patrón, entre ellos: nombre de la pieza, referencia, talla, nombre del patronista, simbología de corte, número de cortes requeridos, piquetes de confección y líneas de aplomo. 
+    p En el lado derecho se observan elementos gráficos asociados al trabajo de costura y diseño textil, como un maniquí, hilo, alfileres, gancho y accesorios de confección, los cuales complementan la temática de manera ilustrativa y profesional. La composición utiliza colores suaves y un diseño limpio que favorece la claridad visual y el enfoque educativo. 
     p Se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. 
     
 

@@ -108,7 +108,11 @@
     
     .row.justify-content-center.mb-4
       .col-lg-8
-        img(src='@/assets/curso/temas/t2/g1.svg' alt='En la imagen se representa una máquina de coser con diferentes partes etiquetadas, como "Columna", "Cama", "Cabeza" y "Brazo". Un trozo de tela amarilla con las letras "M" y "J" bordadas cuelga de la máquina, indicando una operación de costura en proceso.')
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 16. 
+          span Partes principales de la máquina de coser industrial    
+        figure
+          img(src='@/assets/curso/temas/t2/g1.svg' alt='Esquema de la estructura básica de una máquina de coser, señalando la ubicación de sus partes principales denominadas como cabeza, brazo, columna y cama.')
 
     p.mb-4 Y es, esta última, la que cobra vital importancia en el origen de las operaciones más relevantes de un producto a confeccionar, bien sea, por su dificultad, complejidad, tiempo de producción, calidad, entre otros. Algunos tipos de máquinas pueden modificar la cama e incluso el mueble de la máquina para adaptarse mejor a las condiciones del producto, es por ello por lo que si se trabaja con prendas de gran volumen podemos encontrar términos en máquinas como:
     
@@ -271,43 +275,50 @@
           .titulo-sexto.color-primario.mb-3
             h5 Figura 17. 
             span Ajuste de plana 
-          figure  
-            img(src='@/assets/curso/temas/t2/acordion.png', alt='La imagen describe componentes utilizados en el ajuste de una máquina de coser plana. Se observan tres elementos: una placa de aguja con dientes de arrastre, una placa de aguja con ranuras para la aguja y un pie prensatelas. El título "Ajuste de plana" indica que estos elementos son esenciales para el correcto funcionamiento de la máquina de coser plana.')
+          figure
+            img(src='@/assets/curso/temas/t2/acordion.png', alt='Componentes del sistema de arrastre y costura de una máquina de coser, mostrando de izquierda a derecha: los dientes de arrastre, la placa de aguja con guías de medición y el prensatelas.')
+          p La figura muestra tres partes esenciales de la máquina de coser industrial: los dientes de arrastre, la placa de aguja y el prénsatelas. Estos componentes permiten el desplazamiento, soporte y sujeción de la tela durante el proceso de costura.
       .row.justify-content-center(titulo="Ajuste de máquina dos agujas")
         .col-lg-11
           .titulo-sexto.color-primario.mb-3
             h5 Figura 18. 
             span Ajuste de máquina dos agujas 
-          figure  
-            img(src='@/assets/curso/temas/t2/acordion2.png', alt='La imagen expone varios componentes para el ajuste de una máquina de coser de dos agujas: el ajuste completo (Ref. 212) compatible con Singer, Brother, Mitsubishi y Sunstar en medidas 1/8", 3/16" y 1/4"; el pie con guía tope a la derecha (Ref. 212 x 3/16) en las mismas medidas y compatible con las mismas marcas; el pie especial para abrir costuras en copas de brassier (Ref. 212 x 3/16 P.A) con cinta brisa y medidas 1/8" (3.2mm) y 3/16" (4.8mm); y el pie con sobrecinta (Ref. 212 x 19 x 4.8) para colocar lycra espejo en copas de brassier, disponible en medidas 3/16, 6 y 1/4 según el modelo y tipo de material.')
+          figure.mb-4
+            img(src='@/assets/curso/temas/t2/acordion2.png', alt='Accesorios para máquinas de coser, detallando especificaciones, referencias y usos de diferentes tipos de prensatelas y ajustes para máquinas de dos agujas, incluyendo esquemas de aplicación en las costuras.')
+          p La figura presenta diferentes tipos de prensatelas industriales y accesorios utilizados en máquinas de coser para operaciones específicas de confección. Entre ellos se observan prensatelas para ajuste completo, cierre, apertura de costuras y aplicación de sobrecinta, diseñados para facilitar precisión y adaptación según el tipo de material y acabado requerido.
       .row.justify-content-center(titulo="Planchuelas fileteadoras")
         .col-lg-10
           .titulo-sexto.color-primario.mb-3
             h5 Figura 19. 
             span Planchuelas fileteadoras 
-          figure  
-            img(src='@/assets/curso/temas/t2/acordion3.png', alt='La imagen describe varios tipos de planchuelas fileteadoras, cada una enmarcada en un círculo púrpura. Los modelos incluyen la E52-131, identificada como parte de la serie 210629/210630; la DCZ-503, correspondiente a los modelos 34564, 34565 y 34566; la L32-01 de la serie 620271(hmm); y la L32-86, identificada como parte de la serie 213780/213781.')
+          figure.mb-4   
+            img(src='@/assets/curso/temas/t2/acordion3.png', alt='Cuatro tipos diferentes de placas de aguja metálicas para máquinas de coser, exhibidas junto a sus respectivos códigos y números de referencia.')
+          p Las planchuelas fileteadoras son piezas metálicas ubicadas en las máquinas fileteadoras que ayudan a formar y sostener la puntada durante el proceso de sobrehilado. Su función principal es guiar el hilo y permitir acabados uniformes y seguros en los bordes de la tela.
       .row.justify-content-center(titulo="Ajuste recubridora en D")
         .col-lg-6.col-md-8
           .titulo-sexto.color-primario.mb-3
             h5 Figura 20. 
             span Ajuste recubridora en D 
-          figure  
-            img(src='@/assets/curso/temas/t2/acordion4.png', alt='La imagen presenta un conjunto de componentes para el ajuste de una recubridora en D. Los elementos  incluyen una placa de aguja, un prensatelas, varios soportes y guías, todos etiquetados con las referencias JZ-12311 y W600. Estos componentes son esenciales para el correcto funcionamiento y ajuste de una máquina recubridora, asegurando precisión y eficiencia en las tareas de costura.')
+          figure.mb-4   
+            img(src='@/assets/curso/temas/t2/acordion4.png', alt='Conjunto de repuestos metálicos para máquina de coser industrial que incluye una placa de aguja, dientes de arrastre, un soporte de agujas y un prensatelas, identificados con la referencia JZ-12311 W600.')
+        .col-11
+          p La figura presenta un conjunto de aditamentos metálicos para máquina de coser industrial, compuesto por placa de aguja, prensatelas, guías y alimentadores especializados. Estas piezas están diseñadas para trabajar de manera integrada en procesos de confección que requieren precisión en el arrastre y alineación de la tela. El sistema permite realizar costuras uniformes y controladas, facilitando operaciones técnicas en materiales textiles y optimizando la calidad del acabado en prendas y productos confeccionados.
       .row.justify-content-center(titulo="Ajuste recubridora en F")
         .col-lg-6.col-md-8
           .titulo-sexto.color-primario.mb-3
             h5 Figura 21. 
             span Ajuste recubridora en F
-          figure  
-            img(src='@/assets/curso/temas/t2/acordion5.png', alt='La imagen presenta un conjunto de componentes para el ajuste de una recubridora en F. Los elementos incluyen una placa de aguja, un prensatelas, varios soportes y guías, todos etiquetados con las referencias JZ-12314 y W562-5. Estos componentes son esenciales para el correcto funcionamiento y ajuste de una máquina recubridora, asegurando precisión y eficiencia en las tareas de costura')      
+          figure.mb-4   
+            img(src='@/assets/curso/temas/t2/acordion5.png', alt='Repuestos metálicos para máquina de coser industrial que incluye una placa de aguja, dientes de arrastre, un soporte y un prensatelas, identificados con la referencia JZ-12314 W562-5.')      
+        .col-11
+          p La figura muestra un conjunto de accesorios metálicos para máquina de coser industrial, integrado por placa de aguja, prensatelas, dientes de arrastre y guías especializadas. Estas piezas están diseñadas para facilitar procesos de confección con mayor precisión y estabilidad en el manejo del material textil. Su configuración permite optimizar el desplazamiento de la tela durante la costura, garantizando uniformidad en las puntadas y mejorando la calidad técnica de los acabados en diferentes tipos de prendas y productos confeccionados. 
       .row(titulo="Diente")
-        p.mb-3 Este dispositivo mecánico es el encargado de desplazar el material a coser; el diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
-        p.mb-4 El diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
+        p Este dispositivo mecánico es el encargado de desplazar el material a coser; el diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
+        p El diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
         p.mb-4 Los dientes vienen de diferentes tamaños, para diferenciarlos se debe medir la cantidad de dientes que haya en una pulgada o la separación existente entre ellos, si se mide en mm (Milímetros). Para seleccionar los dientes se debe tener en cuenta el material a confeccionar.
         .row.align-items-center.bg13.mb-4.p-4
           .col-md-6.mb-3.mb-md-0
-            img(src='@/assets/curso/temas/t2/figura.svg', alt='La imagen explica la selección de dientes para una máquina de coser según su tamaño y separación, medidos en dientes por pulgada o milímetros, y el material a confeccionar. Los dientes de 16 a 24 por pulgada son para telas normales, mientras que dientes con 2-5 mm de separación son para cuero y lonas. Los dientes piramidales tienen más de 24 por pulgada.')
+            img(src='@/assets/curso/temas/t2/figura.svg', alt='')
           .col-md-6
             p.mb-0 Los dientes se identifican de, 16,18, 20 y 24 dientes por pulgada para telas tejidas normales, para materiales compactos como el cuero y lonas se identifican dientes hasta de 2.5mm de separación, también se identifican piramidales, cuando supera los 24 dientes por pulgada como en las familiares. Además, se debe tener en cuenta la cantidad de hileras del diente.
         .row.align-items-center.mb-4
@@ -315,10 +326,10 @@
             p Cuando se selecciona el diente inadecuado puede suceder lo siguiente.
             p Si la separación del diente es grande y el material delgado, cuando el diente transporta la tela esta se incrusta entre el diente haciendo olas, dando como resultado una costura con recogido.
           .col-md-6
-            img(src='@/assets/curso/temas/t2/figura2.svg', alt='La imagen ejemplifica lo que puede suceder cuando se usan dientes inadecuados, por ejemplo, los dientes grandes en material delgado crean ondas y recogido.') 
+            img(src='@/assets/curso/temas/t2/figura2.svg', alt='') 
         .row.align-items-center.bg13.mb-4.p-4
           .col-md-6.mb-3.mb-md-0
-            img(src='@/assets/curso/temas/t2/figura3.svg', alt='La imagen ejemplifica los dientes pequeños, que cuando son utilizados en material grueso que no sujetan bien la tela, se pueden ocasionar daños en el material.')
+            img(src='@/assets/curso/temas/t2/figura3.svg', alt='')
           .col-md-6
             p.mb-0 Si la separación del diente es pequeña y el material grueso, cuando el diente transporta, la tela no es sujetada por el diente ocasionando pega y daños en el material.      
       .row.justify-content-center(titulo="Prensatelas")
@@ -329,7 +340,7 @@
                 h5 Figura 22. 
                 span Prensatelas
               figure  
-                img(src='@/assets/curso/temas/t2/prensa.png', alt='Prensatelas')
+                img(src='@/assets/curso/temas/t2/prensa.png', alt='Detalle en primer plano del prensatelas y la aguja de una máquina de coser posicionados sobre una tela texturizada.')
             .col-lg-9
               p Es el encargado de apoyar el material contra el diente para que pueda ser transportado, la presión que se le debe dar al prensatelas varía de acuerdo con el material, porque si la presión no es la adecuada la apariencia de la costura no es la requerida.
               p.mb-4 Se debe tener en cuenta que el prensatelas solo hace contacto con la tela superior, problemas por una presión inadecuada en el prensatelas:
@@ -415,7 +426,7 @@
         img.px-2(src='@/assets/curso/temas/t2/circulo.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/pasos.svg' alt='La imagen ilustra el mecanismo de un oscilante sencillo, donde se detallan cuatro pasos en el proceso. En el primer paso, una pieza se desplaza hacia abajo, siguiendo la dirección de la flecha. A continuación, en el segundo paso, la pieza se mueve hacia la izquierda. El tercer paso indica un movimiento descendente de otra pieza en el sistema. Finalmente, en el cuarto paso, la pieza se mueve hacia la derecha. Todo esto ocurre a lo largo de una línea recta, que probablemente representa el recorrido de un componente dentro del mecanismo de oscilación.')
+            img.mb-3(src='@/assets/curso/temas/t2/pasos.svg' alt='')
             p.mb-4 Este tipo de alimentación lo realiza el diente siguiendo cuatro pasos y solo la secuencia se invierte cuando se remata, los pasos son los siguientes.
             p.mb-0 #[b Paso 1:] el diente sube y aparecen justamente encima de la pancha de aguja.   
             p.mb-0 #[b Paso 2:] los dientes desplazan el material a coser.
@@ -426,21 +437,21 @@
         img.px-2(src='@/assets/curso/temas/t2/circulo2.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/pasos2.svg' alt='La imagen representa un proceso de alimentación combinada en cuatro pasos distintos. En el primer paso, una aguja desciende hacia la tela. En el segundo paso, la aguja continúa su descenso mientras la pieza de alimentación avanza hacia adelante. En el tercer paso, la aguja comienza a subir y la pieza de alimentación se desplaza hacia la izquierda. Finalmente, en el cuarto paso, la aguja termina de subir mientras la pieza de alimentación vuelve a su posición inicial, preparándose para repetir el ciclo. Este proceso es un mecanismo de costura en el que se combinan diferentes movimientos para lograr un avance preciso del material.')
+            img.mb-3(src='@/assets/curso/temas/t2/pasos2.svg' alt='')
             p.mb-4 Este tipo de alimentación es realizada por el diente y la aguja, o sea que la barra de aguja también tiene cuatro pasos y se combinan con el diente para desplazar el material.
             p.mb-0 #[b Nota:] este tipo de alimentación es más utilizado en las máquinas de dos agujas.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo3.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/pie.svg' alt='La imagen representa un sistema de doble transporte utilizado en máquinas de coser, destacando tres componentes clave: el pie prensatelas, el diente superior y el diente inferior. El pie prensatelas presiona la tela desde arriba, mientras que el diente superior y el diente inferior trabajan juntos para mover la tela de manera sincronizada, asegurando un avance uniforme y preciso durante el proceso de costura. Este mecanismo es especialmente útil para manejar materiales más gruesos o difíciles de alimentar, garantizando una costura consistente y sin desplazamientos indeseados del tejido.')
+            img.mb-3(src='@/assets/curso/temas/t2/pie.svg' alt='')
             p.mb-4 Las máquinas con este sistema de alimentación presentan un prensatelas que, a primera vista, parece estar dividido en dos partes. Sin embargo, es solo al activar la máquina que se puede observar cómo una sección del pie se eleva y se mueve en coordinación con el diente para trasladar el material. Este diente superior realiza un movimiento de cuatro pasos, similar a la barra de aguja en la alimentación combinada. La principal diferencia radica en que el diente no penetra en el material, sino que lo mueve por contacto directo.
             p.mb-0 #[b Nota:] este tipo de alimentación es muy utilizado en las máquinas de guarnecer.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo4.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3.w-50.m-auto(src='@/assets/curso/temas/t2/pie2.svg' alt='La imagen describe tres tipos de alimentación en máquinas de coser: oscilante sencillo, realizado en cuatro pasos donde el diente sube, desplaza el material, desciende y regresa; alimentación combinada, que involucra al diente y la aguja, utilizada en máquinas de dos agujas; y doble transporte, donde el prensatelas y el diente superior se mueven para desplazar el material, común en máquinas de guarnicionero. ')
+            img.mb-3.w-50.m-auto(src='@/assets/curso/temas/t2/pie2.svg' alt='')
             p.mb-0 Es el tipo de alimentación más pesado que se conoce, son tres los encargados de desplazar el material a coser, y es la combinación de todas las anteriores. El material es desplazado por diente inferior, aguja y diente superior.
       .tarjeta-avatar
         img.px-2(src='@/assets/curso/temas/t2/circulo5.svg' alt='')
@@ -451,7 +462,7 @@
         img.px-2(src='@/assets/curso/temas/t2/circulo6.svg' alt='')
         .tarjeta.color-acento-botones.fg
           .p-4
-            img.mb-3(src='@/assets/curso/temas/t2/alimentacion.svg' alt='La imagen explica el concepto de alimentación por diferencial, destacando cómo está compuesta por un par de dientes independientes que tienen movimiento propio. Estos dientes pueden sincronizarse de manera similar al mecanismo oscilante sencillo, pero se emplean para ajustar el recorrido de uno en comparación con el otro según sea necesario, ya sea para recoger o estirar la tela. Se ilustran dos casos: la alimentación principal, que frunce la tela con 10 repeticiones por pulgada (RPP), y la alimentación diferencial, que la estira con 6 RPP en la parte fruncida y 10 RPP en la parte estirada, dependiendo de las necesidades del material a procesar.')
+            img.mb-3(src='@/assets/curso/temas/t2/alimentacion.svg' alt='')
             p.mb-0 Aquel que está formado por un par de dientes independientes, con movimiento propio cada uno de ellos, su sincronización es idéntica oscilante sencillo, se utiliza para hacer que uno de los dientes tenga un mayor o igual recorrido que el otro de acuerdo con las necesidades, ya sea para recoger o estirar la tela.
     
 
@@ -526,13 +537,14 @@
             h4 La aguja
             p.mb-0 La aguja es un elemento mecánico que sirve para traspasar el material a coser y llevar el hilo hasta un tomador de lazada. Además, es uno de los elementos fundamentales para la invención de la máquina de coser, ya que es alrededor de la aguja, como nacen todas las ideas para su desarrollo.
             p.mb-4 De la aguja se deben considerar tres aspectos importantes:
-            .row.justify-content-center.align-items-center
+            .row.justify-content-center.align-items-center.mb-4
               .col-lg-8
                 .titulo-sexto.color-primario.mb-3
                   h5 Figura 23. 
                   span Identificación y codificación de agujas industriales Groz-Beckert 
                 figure
-                  img(src='@/assets/curso/temas/t2/imag5.png' alt='La imagen destaca tres aspectos importantes de las agujas de coser: el número de material de 6 dígitos para facilitar el pedido, el grosor de la aguja en Nm y otras denominaciones habituales, y el código DataMatrix, que permite seguir la producción y acceder a información adicional mediante escáner de etiquetas. Además, se menciona que las agujas se adquieren en diferentes formas y puntas, adecuadas para materiales desde telas ligeras hasta cuero pesado.')
+                  img(src='@/assets/curso/temas/t2/imag5.png' alt='Etiqueta en un empaque de agujas para máquina de coser Groz-Beckert, detallando la ubicación y el significado de los datos técnicos como el número de material, el sistema de agujas, el grosor, el tipo de punta y los códigos de trazabilidad.')
+            p La figura presenta el sistema de identificación y codificación de las agujas industriales de la marca Groz-Beckert. En la imagen se señalan los principales elementos informativos incluidos en el empaque de las agujas, tales como el número de material de seis dígitos para facilitar el pedido, la denominación del sistema de agujas y sus sistemas comparables, el grosor de la aguja expresado en diferentes unidades de medida y el código DataMatrix utilizado para el seguimiento y control de producción. Asimismo, se indica que las agujas pueden fabricarse con diferentes tipos de puntas según el material a coser, desde tejidos finos hasta cuero pesado, lo que permite seleccionar la aguja adecuada de acuerdo con la aplicación textil requerida.
         .row.justify-content-center
           .col-lg-5
             h5 Calibre
@@ -543,9 +555,9 @@
               h5 Tabla 5.  
               span.mb-0 Equivalencia en MM
             .tabla-a.tabla-peque.color-primario
-              table( alt='Tabla de equivalencias entre el sistema métrico y el sistema inglés para agujas de coser, con sus respectivas conversiones a milímetros. La tabla incluye: •	Métrico 70 = Inglés 10 = 0.7 mm •	Métrico 80 = Inglés 12 = 0.8 mm •	Métrico 90 = Inglés 14 = 0.9 mm •	Métrico 100 = Inglés 16 = 1.0 mm •	Métrico 110 = Inglés 18 = 1.1 mm •	Métrico 120 = Inglés 20 = 1.2 mm')
+              table
                 thead
-                  tr.text-white.bg3
+                  tr.bg3
                     th.nad Métrico
                     th.nad Inglés
                     th.nad Equivalencia mm
@@ -584,9 +596,9 @@
               h5 Tabla 6.  
               span.mb-0 Tipo de aguja 
             .tabla-a.tabla-peque.color-primario
-              table(alt='Tabla que compara los tipos de agujas en sistemas métricos e ingleses para diferentes máquinas de coser. Para máquinas planas, se utilizan agujas 16 x 231 cabo delgado y 135 x 15 cabo grueso. Para recubridoras, la aguja es B63. Las máquinas zig-zag y de dos agujas usan 135 x 5, mientras que las fileteadoras utilizan B27.')
+              table
                 thead
-                  tr.text-white.bg3
+                  tr.bg3
                     th.nad  Métrico
                     th.nad  Inglés
                 tbody.text-center
@@ -622,7 +634,7 @@
                         .col.mb-3.mb-sm-0
                           p.mb-0 #[b Recurso.] Puntas de desplazamiento Groz-Beckert 
                         .col-sm-auto
-                          a.boton.color-acento-botones(href="https://www.groz-beckert.com/mm/media/es/web/pdf/Cloth_points_from_Groz-Beckert.pdf" target="_blank")
+                          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Cloth_points_from_Groz-Beckert.pdf')" target="_blank")
                             span Descargar
                             i.fas.fa-file-download
               
@@ -769,7 +781,7 @@
             h5 Tabla 7.  
             span.mb-0 Tamaño de hilo y aplicaciones
         .tabla-a.tabla-peque.color-primario.wii
-          table(alt='Tabla que relaciona el tamaño de hilo y sus aplicaciones según el tipo de tejido. Para tejidos livianos, se utilizan hilos TEX 24, 25, y 27 en prendas como blusas y ropa interior. Para tejidos semipesados, los hilos TEX 30, 35, y 40 son adecuados para pantalones y overoles de dril. En tejidos pesados, se utilizan hilos TEX 60, 70 hasta 120, para prendas como jeans y chaquetas.')
+          table
             thead
               tr.bg19
                 th.fr Tejido
@@ -812,7 +824,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down") 
       .col-lg-7
         .tabla-a.tabla-peque.color-primario.wii 
-          table(alt='La tabla presenta diferentes series y tipos de costura junto con sus características. La serie 100 incluye tipos 101-103 con cadeneta sencilla de un hilo. La serie 200 se refiere a costuras ornamentales. La serie 300, con tipos 301, 304 y 315, corresponde al doble despunte. La serie 400 incluye tipos 401, 406 y 407, caracterizándose por la cadeneta doble. La serie 500, con tipos 504, 514 y 516, se usa para sobrehilado. Finalmente, la serie 600, con tipos 602, 605 y 609, corresponde a las flatseamers.')
+          table
             thead
               tr.bg19.text-white
                 th.fr Serie
@@ -915,8 +927,8 @@
       h5 Figura 24. 
       span Enhebrado caja bobina 
     figure
-      img(src='@/assets/curso/temas/t2/imag12.png' alt='La imagen describe el proceso de enhebrado de una caja bobina en tres pasos ilustrados. Primero, se coloca la bobina en la caja con el hilo saliendo en la dirección indicada por una flecha verde. Luego, se tira del hilo y se pasa por la ranura de la caja. Finalmente, se asegura el hilo bajo la lengüeta, completando el enhebrado adecuado para el funcionamiento de la máquina de coser.')      
-    figcaption.mb-4 Fuente: Tomada de https://de.matri.eu/auflosen-beschwerden/einstellung-der-unter-und-oberfadenspannung
+      img(src='@/assets/curso/temas/t2/imag12.png' alt='Secuencia ilustrada de tres pasos que muestra el proceso manual para insertar y enhebrar correctamente una bobina con hilo dentro de un portabobinas metálico de máquina de coser.')      
+    
     
     .bg18.mb-4.p-3  
       ul.lista-ul--color.fa-ul.color-primario
@@ -930,16 +942,17 @@
           i.fas.fa-plus
           span.mb-0 Hale el hilo por debajo del muelle de tensión. La alimentación debe ser en sentido contrario a las manecillas del reloj. 
     
-    .row.justify-content-center.mb-5(data-aos="fade-down") 
-      .col-lg-8
+    .row.justify-content-center.mb-4(data-aos="fade-down") 
+      .col-lg-8.mb-4
         .titulo-sexto.color-primario.mb-3
           h5 Figura 25. 
           span Ajuste de tensión de la caja bobina 
         .bg9.p-4.px-lg-5
           figure
-            img(src='@/assets/curso/temas/t2/ajuste.png' alt='La imagen presenta el ajuste de la tensión de la caja bobina. Ilustra dos pasos: en el paso C, se aumenta la tensión girando un tornillo en sentido horario, y en el paso D, se reduce la tensión girando el tornillo en sentido antihorario. Estos ajustes aseguran que la tensión del hilo sea adecuada para una costura uniforme y de buena calidad.')
-    
-    .row.justify-content-center.align-items-center.p-1.bg15.mb-4 
+            img(src='@/assets/curso/temas/t2/ajuste.png' alt='Esquema ilustrado que muestra el uso de un destornillador para ajustar el tornillo de un portabobinas, indicando las direcciones de giro para aumentar o disminuir la tensión del hilo.')
+      p La figura muestra el procedimiento para ajustar la tensión de un componente mediante giro manual. En el paso C se indica cómo aplicar tensión girando la pieza en sentido de ajuste, mientras que en el paso D se muestra el proceso contrario para retirar o disminuir la tensión. La ilustración guía visualmente la manipulación correcta del mecanismo durante la regulación. 
+
+    hr 
 
     .subt2.mb-4
       ul.lista-ul.mb-0
@@ -959,7 +972,7 @@
         .caja1.p-3.mb-3.crd_hover_txt
           p.mb-0 Tensión superior e inferior demasiado ajustadas.
     
-    .row.justify-content-center.align-items-center.p-1.bg15.mb-5
+    hr
     
     .row.mb-4(data-aos="fade-right") 
       .col-lg-9
@@ -993,7 +1006,7 @@
     
     h4.mb-4 Ajuste de tensión máquina fileteadora - enhebrado de máquina
 
-    SlyderF.mb-5(columnas="col-md-6 col-xl-4" data-aos="fade-down")(alt='La imagen expone la validación de tensores y la correcta tensión de puntada e hilo en máquinas fileteadoras, indicando la tensión correcta y los errores en la tensión del hilo de la aguja, del looper superior y del looper inferior.')
+    SlyderF.mb-5(columnas="col-md-6 col-xl-4" data-aos="fade-down")
       .tarjeta.bg25.p-4
         h4.text-center Enhebrado porta-conos
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder1.png' alt='')
@@ -1058,8 +1071,7 @@
           .tarjeta.color-primario.align-items-center.d-flex
             .p-4
               h4.mb-0 Tensión incorrecta del #[em looper] inferior.
-      figcaption.mb-4 Fuente: https://es.slideshare.net/slideshow/industria-de-la-confeccion/49197064#62 
-    
+      
     
     .subt2.mb-4
       ul.lista-ul.mb-0
@@ -1067,14 +1079,15 @@
           i.fas.fa-circle
           span.mb-0.h4 Enhebrado de máquina recubridora - ajuste de tensión
     
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
+    .row.align-items-center.justify-content-center.mb-3(data-aos="fade-down")
       .col-lg-8.col-md-11.mb-4.mb-md-0
         .titulo-sexto.color-primario.mb-3
           h5 Figura 26. 
           span Maquina recubridora 
         figure
-          img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento.')
-    
+          img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='Modista en su área de trabajo, acompañada de un diagrama técnico detallado que muestra la ruta de enhebrado de los hilos para una máquina recubridora o collarín.')
+
+    p.mb-5 La figura muestra una máquina recubridora tipo collarín junto a una persona realizando el proceso de enhebrado de la máquina. En la ilustración se observa el recorrido que sigue el hilo a través de diferentes guías y mecanismos internos, representado en un esquema ampliado al lado izquierdo. Además, el entorno de trabajo incluye materiales de confección y diseños de prendas, lo que resalta el contexto textil y de costura industrial en el que se utiliza este equipo para la elaboración y acabado de prendas de vestir.     
     
     .subt2.mb-4
       ul.lista-ul.mb-0
@@ -1088,10 +1101,10 @@
           .row.justify-content-around
             .col-lg-3.col-md-4.col-6
               h5.text-center Puntada tensionada
-              img(src='@/assets/curso/temas/t2/imag16.svg' alt='La imagen describe la validación de tensores en puntada e hilo, para el caso de la puntada tensionada tiene un aspecto ajustado y uniforme.')
+              img(src='@/assets/curso/temas/t2/imag16.svg' alt='')
             .col-lg-3.col-md-4.col-6
               h5.text-center Puntada floja
-              img(src='@/assets/curso/temas/t2/imag17.svg' alt='La imagen describe la validación de tensores en puntada e hilo, para el caso de la puntada floja muestra hilos sueltos y desorganizados, indicando una tensión incorrecta.')
+              img(src='@/assets/curso/temas/t2/imag17.svg' alt='')
     
     .subt2.mb-4
       ul.lista-ul.mb-0
@@ -1152,7 +1165,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        img(src='@/assets/curso/temas/t2/imag18.svg' alt='La imagen presenta una guía para el ejercicio descrito en el texto previo, teniendo como referencia una línea recta punteada sobre la tela, con la finalidad de conservar el control del prensatelas.')
+        img(src='@/assets/curso/temas/t2/imag18.svg' alt='')
     
     .bg9.p-4.mb-4(data-aos="fade-down")
       .row.justify-content-center.mb-4
@@ -1169,7 +1182,7 @@
           p Se trabaja con aguja, ya dominando la velocidad y la rectitud del pespunte, se procederá a dominar la parada en el sitio exacto, en este caso la banda se divide en 5 rectángulos de 20 cm de largo por 10 cm de ancho. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en parar en cada vértice del ángulo, clavar la aguja, girar la banda y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos; en este ejercicio obtendremos dominio de pedal, control de freno y arranque en puntos exactos.
       .row.justify-content-center
         .col-lg-12
-          img.mb-2(src='@/assets/curso/temas/t2/imag19.svg' alt='La imagen es una guía para el ejercicio que consiste en coser, siguiendo las marcas de rectángulos en bandas de 20 cm de largo por 10 cm de ancho, enfocándose en la precisión de ángulos y control del pedal.')
+          img.mb-2(src='@/assets/curso/temas/t2/imag19.svg' alt='')
     
     .bg9.p-4.mb-4(data-aos="fade-down")
       .row.justify-content-center.mb-4
@@ -1186,13 +1199,13 @@
           p Para este ejercicio, trabaja con aguja e hilo. Este ejercicio debe realizarlo usando las bandas con las marcas o rayas que se presentan en la imagen de referencia. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo.
       .row.justify-content-center
         .col-lg-12
-          img.mb-4(src='@/assets/curso/temas/t2/imag20.svg' alt='Imagen con marcas de referencia para realizar el ejercicio planteado en el texto previo. Se inicia con un remate de 3 a 4 puntadas máximo.')
+          img.mb-4(src='@/assets/curso/temas/t2/imag20.svg' alt='')
       .row.justify-content-center
         .col-lg-11
           p Luego, debe realizarlo usando las bandas con las marcas o rayas que se presentan a continuación. La idea del ejercicio se centra en iniciar con un remate de 3 a 4 puntadas máximo; después se inicia el pespunte y antes y después de cada vértice del ángulo se hace el remate de nuevo, clava la aguja en todo el vértice del ángulo, gira la banda para darle calidad de puntadas en los ángulos y continuar el recorrido hasta terminar el ejercicio y los 5 rectángulos.
       .row.justify-content-center
         .col-lg-12
-          img(src='@/assets/curso/temas/t2/imag21.svg' alt='Imagen con bandas o marcas de referencia para dar continuidad al ejercicio según se plantea en el texto previo, haciendo el recorrido hasta terminar el ejercicio y los 5 rectángulos.')
+          img(src='@/assets/curso/temas/t2/imag21.svg' alt='')
 
 
       

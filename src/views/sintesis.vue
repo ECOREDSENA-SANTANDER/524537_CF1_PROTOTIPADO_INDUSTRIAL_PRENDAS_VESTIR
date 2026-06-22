@@ -10,7 +10,7 @@
         .row.justify-content-center
           .col-lg-6
             figure
-              img(src="@/assets/curso/temas/sintesis.svg", alt="En la imagen se comparte un esquema relacionado con el reconocimiento de la estructura corporal, dividido en varios apartados: conceptos de pre-patronaje (incluyendo sistemas de medida de longitud, clasificación de las medidas y tipos de medidas), pasos del patronaje (cuadros de tallas, drop, patronaje y procedimiento de patronaje), elaboración de básicos infantiles (bases superiores e inferiores, incluyendo pantalones), elaboración de básicos masculinos (bases superiores slim-fit y pantalones), elaboración de básicos femeninos (bases superiores e inferiores, incluyendo faldas y pantalones), y tipos de máquinas (partes de la máquina y generaciones de máquinas).")
+              img(src="@/assets/curso/temas/sintesis.svg", alt="Sintesis de flujo vertical titulado 'Reconocimiento de la estructura corporal', el cual se desglosa en categorías técnicas de diseño textil como: conceptos de pre-patronaje, pasos del patronaje, elaboración de básicos (infantil, masculinos y femenino) y tipos de máquinas.")
     .row.justify-content-center  
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
