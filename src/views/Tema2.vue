@@ -109,7 +109,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 16. 
+          h5 Figura 15. 
           span Partes principales de la máquina de coser industrial    
         figure
           img(src='@/assets/curso/temas/t2/g1.svg' alt='Esquema de la estructura básica de una máquina de coser, señalando la ubicación de sus partes principales denominadas como cabeza, brazo, columna y cama.')
@@ -273,15 +273,15 @@
       .row.justify-content-center(titulo="Ajuste de plana")
         .col-lg-8
           .titulo-sexto.color-primario.mb-3
-            h5 Figura 17. 
+            h5 Figura 16. 
             span Ajuste de plana 
-          figure
+          figure.mb-3
             img(src='@/assets/curso/temas/t2/acordion.png', alt='Componentes del sistema de arrastre y costura de una máquina de coser, mostrando de izquierda a derecha: los dientes de arrastre, la placa de aguja con guías de medición y el prensatelas.')
           p La figura muestra tres partes esenciales de la máquina de coser industrial: los dientes de arrastre, la placa de aguja y el prénsatelas. Estos componentes permiten el desplazamiento, soporte y sujeción de la tela durante el proceso de costura.
       .row.justify-content-center(titulo="Ajuste de máquina dos agujas")
         .col-lg-11
           .titulo-sexto.color-primario.mb-3
-            h5 Figura 18. 
+            h5 Figura 17. 
             span Ajuste de máquina dos agujas 
           figure.mb-4
             img(src='@/assets/curso/temas/t2/acordion2.png', alt='Accesorios para máquinas de coser, detallando especificaciones, referencias y usos de diferentes tipos de prensatelas y ajustes para máquinas de dos agujas, incluyendo esquemas de aplicación en las costuras.')
@@ -289,7 +289,7 @@
       .row.justify-content-center(titulo="Planchuelas fileteadoras")
         .col-lg-10
           .titulo-sexto.color-primario.mb-3
-            h5 Figura 19. 
+            h5 Figura 18. 
             span Planchuelas fileteadoras 
           figure.mb-4   
             img(src='@/assets/curso/temas/t2/acordion3.png', alt='Cuatro tipos diferentes de placas de aguja metálicas para máquinas de coser, exhibidas junto a sus respectivos códigos y números de referencia.')
@@ -297,7 +297,7 @@
       .row.justify-content-center(titulo="Ajuste recubridora en D")
         .col-lg-6.col-md-8
           .titulo-sexto.color-primario.mb-3
-            h5 Figura 20. 
+            h5 Figura 19. 
             span Ajuste recubridora en D 
           figure.mb-4   
             img(src='@/assets/curso/temas/t2/acordion4.png', alt='Conjunto de repuestos metálicos para máquina de coser industrial que incluye una placa de aguja, dientes de arrastre, un soporte de agujas y un prensatelas, identificados con la referencia JZ-12311 W600.')
@@ -306,7 +306,7 @@
       .row.justify-content-center(titulo="Ajuste recubridora en F")
         .col-lg-6.col-md-8
           .titulo-sexto.color-primario.mb-3
-            h5 Figura 21. 
+            h5 Figura 20. 
             span Ajuste recubridora en F
           figure.mb-4   
             img(src='@/assets/curso/temas/t2/acordion5.png', alt='Repuestos metálicos para máquina de coser industrial que incluye una placa de aguja, dientes de arrastre, un soporte y un prensatelas, identificados con la referencia JZ-12314 W562-5.')      
@@ -337,7 +337,7 @@
           .row.justify-content-center
             .col-lg-3.col-md-6.col-7.mb-3
               .titulo-sexto.color-primario.mb-3
-                h5 Figura 22. 
+                h5 Figura 21. 
                 span Prensatelas
               figure  
                 img(src='@/assets/curso/temas/t2/prensa.png', alt='Detalle en primer plano del prensatelas y la aguja de una máquina de coser posicionados sobre una tela texturizada.')
@@ -540,7 +540,7 @@
             .row.justify-content-center.align-items-center.mb-4
               .col-lg-8
                 .titulo-sexto.color-primario.mb-3
-                  h5 Figura 23. 
+                  h5 Figura 22. 
                   span Identificación y codificación de agujas industriales Groz-Beckert 
                 figure
                   img(src='@/assets/curso/temas/t2/imag5.png' alt='Etiqueta en un empaque de agujas para máquina de coser Groz-Beckert, detallando la ubicación y el significado de los datos técnicos como el número de material, el sistema de agujas, el grosor, el tipo de punta y los códigos de trazabilidad.')
@@ -551,7 +551,7 @@
             p El calibre de las agujas varía de acuerdo con el grosor del material a coser, por ejemplo, para #[em lycras] 65 y 70, para tejidos de punto 70, 80 y 90, para driles y #[em Jean] 100, 110 y 125.
             img.d-none.d-lg-block(src='@/assets/curso/temas/t2/iim.svg' alt='')
           .col-lg-6
-            .titulo-sexto.color-primario
+            .titulo-sexto.color-primario.mb-3
               h5 Tabla 5.  
               span.mb-0 Equivalencia en MM
             .tabla-a.tabla-peque.color-primario
@@ -592,7 +592,7 @@
             p Indica la aguja que se necesita para el tipo de máquina.
             img.d-none.d-lg-block(src='@/assets/curso/temas/t2/imi.svg' alt='')
           .col-lg-6
-            .titulo-sexto.color-primario
+            .titulo-sexto.color-primario.mb-3
               h5 Tabla 6.  
               span.mb-0 Tipo de aguja 
             .tabla-a.tabla-peque.color-primario
@@ -777,7 +777,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down") 
       .col-lg-6
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-primario.mb-3
             h5 Tabla 7.  
             span.mb-0 Tamaño de hilo y aplicaciones
         .tabla-a.tabla-peque.color-primario.wii
@@ -818,7 +818,7 @@
     
     .row.justify-content-center 
       .col-lg-7
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-primario.mb-3
           h5 Tabla 8.  
           span.mb-0 Características según puntada
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down") 
@@ -897,8 +897,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-9
-        h5 Máquina plana
-        p.ps-lg-3.ps-2 Enhebrado de máquina:
+        h5 Máquina plana, enhebrado de máquina:
         ul.lista-ul--color.fa-ul.color-primario.ps-lg-3.ps-2
           li.mb-1
             i.fas.fa-plus
@@ -924,7 +923,7 @@
     .bg18.mb-3.p-4
       h4.mb-0 Enhebrado caja bobina  
     .titulo-sexto.color-primario.mb-3
-      h5 Figura 24. 
+      h5 Figura 23. 
       span Enhebrado caja bobina 
     figure
       img(src='@/assets/curso/temas/t2/imag12.png' alt='Secuencia ilustrada de tres pasos que muestra el proceso manual para insertar y enhebrar correctamente una bobina con hilo dentro de un portabobinas metálico de máquina de coser.')      
@@ -945,13 +944,12 @@
     .row.justify-content-center.mb-4(data-aos="fade-down") 
       .col-lg-8.mb-4
         .titulo-sexto.color-primario.mb-3
-          h5 Figura 25. 
+          h5 Figura 24. 
           span Ajuste de tensión de la caja bobina 
         .bg9.p-4.px-lg-5
           figure
             img(src='@/assets/curso/temas/t2/ajuste.png' alt='Esquema ilustrado que muestra el uso de un destornillador para ajustar el tornillo de un portabobinas, indicando las direcciones de giro para aumentar o disminuir la tensión del hilo.')
-      p La figura muestra el procedimiento para ajustar la tensión de un componente mediante giro manual. En el paso C se indica cómo aplicar tensión girando la pieza en sentido de ajuste, mientras que en el paso D se muestra el proceso contrario para retirar o disminuir la tensión. La ilustración guía visualmente la manipulación correcta del mecanismo durante la regulación. 
-
+      
     hr 
 
     .subt2.mb-4
@@ -1079,16 +1077,14 @@
           i.fas.fa-circle
           span.mb-0.h4 Enhebrado de máquina recubridora - ajuste de tensión
     
-    .row.align-items-center.justify-content-center.mb-3(data-aos="fade-down")
+    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.col-md-11.mb-4.mb-md-0
         .titulo-sexto.color-primario.mb-3
-          h5 Figura 26. 
+          h5 Figura 25. 
           span Maquina recubridora 
         figure
           img.my-3(src='@/assets/curso/temas/t2/fos.svg' alt='Modista en su área de trabajo, acompañada de un diagrama técnico detallado que muestra la ruta de enhebrado de los hilos para una máquina recubridora o collarín.')
 
-    p.mb-5 La figura muestra una máquina recubridora tipo collarín junto a una persona realizando el proceso de enhebrado de la máquina. En la ilustración se observa el recorrido que sigue el hilo a través de diferentes guías y mecanismos internos, representado en un esquema ampliado al lado izquierdo. Además, el entorno de trabajo incluye materiales de confección y diseños de prendas, lo que resalta el contexto textil y de costura industrial en el que se utiliza este equipo para la elaboración y acabado de prendas de vestir.     
-    
     .subt2.mb-4
       ul.lista-ul.mb-0
         li.mb-0

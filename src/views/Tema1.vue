@@ -164,7 +164,7 @@
           h4 Planos y ejes anatómicos
           p.mb-0 Son las referencias espaciales que sirven para describir la disposición de los diferentes tejidos, órganos y sistemas, así como las relaciones que existen entre ellos.
     
-    .row.align-items-center.flex-column.mb-4(data-aos="fade-down")
+    .row.align-items-center.flex-column.mb-5(data-aos="fade-down")
       .col-lg-7 
         .titulo-sexto.color-primario
           h5 Figura 2. 
@@ -173,10 +173,7 @@
         img.mb-3(src='@/assets/curso/temas/t1/imag02.svg', alt='Representación de los planos anatómicos y términos de orientación corporal utilizados para ubicar y describir las diferentes regiones del cuerpo humano.')
         figcaption Fuente: https://es.scribd.com/document/675092535/neuro-26-5
     
-    p La figura representa la posición anatómica estándar del cuerpo humano junto con los principales planos anatómicos y términos de orientación utilizados en anatomía. La posición anatómica se describe con el individuo de pie, mirando al frente, con los brazos a los lados y las palmas de las manos orientadas hacia adelante. Esta posición 10 sirve como referencia universal para describir la localización de órganos y estructuras corporales. 
-    p En la imagen se identifican tres planos anatómicos fundamentales. El plano sagital divide el cuerpo en lados derecho e izquierdo; el plano frontal o coronal lo divide en una porción anterior y otra posterior; y el plano transversal u horizontal separa el cuerpo en una región superior y otra inferior. Estos planos permiten estudiar el cuerpo humano desde diferentes perspectivas y facilitan la descripción de movimientos y relaciones anatómicas. 
-    p.mb-5 También se muestran los principales términos direccionales anatómicos. Los términos superiores (craneal) e inferior (caudal) indican relación con la cabeza o los pies; medial y lateral señalan proximidad o alejamiento de la línea media; mientras que proximal y distal describen cercanía o distancia respecto al origen de una extremidad. Además, se incluyen términos específicos como palmar para la palma de la mano y plantar para la planta del pie, fundamentales en la descripción anatómica clínica. 
-
+    
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
@@ -184,7 +181,7 @@
         
     p.mb-4 Son las formas de división del cuerpo humano, los cuales se describen a continuación:
 
-    .row.align-items-end.justify-content-center.mb-5(data-aos="fade-down")
+    .row.align-items-end.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-4.col-md-6
         img.mb-4(src='@/assets/curso/temas/t1/imag03.svg' alt='La imagen integra tres vistas del cuerpo humano en relación con diferentes planos anatómicos: el plano sagital, que divide el cuerpo en mitades izquierda y derecha; el plano frontal, que divide el cuerpo en partes anterior (frontal) y posterior (trasera); y el plano transversal, que divide el cuerpo en partes superior e inferior. Estos planos son esenciales para la descripción y el estudio de la anatomía humana. ')
         h5 Plano frontal (coronal)
@@ -198,8 +195,9 @@
         h5 Plano transversal (horizontal)
         p Divide a nuestro cuerpo en la parte de mitad superior e inferior.
     
+    p Los planos anatómicos constituyen la base para comprender la organización, las proporciones y los movimientos del cuerpo humano, aspectos que se relacionan directamente con la antropometría, la ergonomía y la biomecánica. Mientras los planos sagital, frontal y transversal permiten describir la ubicación y división del cuerpo, la antropometría analiza sus medidas y proporciones en diferentes personas; la ergonomía aplica estos conocimientos para adaptar espacios, herramientas y productos a las características físicas humanas; y la biomecánica estudia los movimientos corporales, como la flexión, rotación e inclinación, así como las fuerzas que actúan sobre el cuerpo durante las actividades cotidianas, laborales y deportivas.	
 
-    PasosA.color-secundario.mb-5(tipo="n")
+    PasosA.color-secundario.mb-5(tipo="l")
       .row.align-items-center.justify-content-around        
         .col-md-6
           h4 Antropometría
@@ -256,7 +254,7 @@
 
     p.mb-4 La gran mayoría de nosotros somos una combinación de dos somatotipos, las más comunes son: meso-ectomorfo y meso-endomorfo.
 
-    .mb-4(data-aos='fade-down')
+    .mb-5(data-aos='fade-down')
       .titulo-sexto.color-primario
         h5 Figura 3. 
         span Clasificación de los somatotipos corporales humanos 
@@ -265,11 +263,7 @@
           .col-lg-7
             figure
               img(src='@/assets/curso/temas/t1/ikk.svg', alt='Diagrama circular de somatotipos corporales que muestra las combinaciones entre ectomorfo, mesomorfo y endomorfo, incluyendo perfiles balanceados y mixtos alrededor de un centro.')
-    
-    p La figura representa la clasificación de los somatotipos corporales, utilizada para describir las características físicas y la composición corporal de las personas. El esquema organiza los tipos corporales alrededor de un eje central, mostrando la relación y combinación entre tres somatotipos básicos: endomorfo, mesomorfo y ectomorfo. 
-    p El somatotipo endomorfo se caracteriza por una mayor acumulación de tejido adiposo y una estructura corporal más redondeada; el mesomorfo presenta un cuerpo musculoso, fuerte y equilibrado; mientras que el ectomorfo posee una contextura delgada, extremidades largas y menor desarrollo muscular y graso. La figura también muestra combinaciones intermedias entre estos tipos corporales, como endo-mesomorfo, ecto-mesomorfo y endo-ectomorfo, indicando que la mayoría de las personas presentan características mixtas y no un único somatotipo puro. 
-    p.mb-5 Además, el diagrama incluye representaciones visuales de cuerpos balanceados para cada somatotipo principal, permitiendo comparar las diferencias en proporciones y composición física. Esta clasificación es ampliamente utilizada en áreas como la antropometría, la educación física, la nutrición, la ergonomía y la biomecánica, ya que ayuda a comprender las variaciones corporales y su influencia en el rendimiento físico, la salud y la adaptación funcional del cuerpo humano.	
-
+        
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -286,10 +280,7 @@
         .row.justify-content-center
           .col-lg-8
             img(src='@/assets/curso/temas/t1/imag16.svg', alt='Comparativa de tipos de cuerpo femenino y masculino, incluyendo reloj de arena, triángulo, triángulo invertido, rectangular, óvalo y trapecio, representados mediante figuras humanas estilizadas.')
-    
-    p La figura presenta una clasificación de diferentes tipos de siluetas corporales humanas, mostrando cómo varía la distribución de la forma del cuerpo según la estructura ósea y la acumulación de masa muscular y grasa. En la parte superior se observan figuras femeninas con formas como reloj de arena, triángulo (pera), triángulo invertido, rectangular y óvalo, cada una representando una proporción distinta entre hombros, cintura y caderas. En la parte inferior se muestran equivalentes masculinos como trapecio, triángulo, triángulo invertido, rectángulo y óvalo, evidenciando variaciones en la amplitud de hombros, torso y cadera. 
-    p Estas categorías se utilizan en campos como la antropometría, la ergonomía, el diseño de ropa y la salud, ya que permiten comprender las diferencias corporales entre personas y adaptar productos, vestimenta o recomendaciones físicas según la morfología individual.
-    
+        
     p.mb-4 En la siguiente figura, permite identificar la tipología corporal de acuerdo con algunas características físicas generales: 
 
 
@@ -642,7 +633,7 @@
         i.fas.fa-plus
         span.mb-0 El ancho de los materiales textiles se mide en centímetros. Los textiles al detal se venden por metros.
     
-    p.mb-4 En patronaje: la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
+    p.mb-4 En patronaje la mayoría de los cuadros de tallas anatómicas e industriales, en todas las líneas, están construidos en centímetros que es el sistema métrico estandarizado para el proceso de toma de medidas, patronaje y corte de las prendas. Las reducciones o ampliaciones para el confort de la prenda se realizan en centímetros.
     
     .row.align-items-center.justify-content-center.mb-4
       .col-lg-10.mnr-1(data-aos="fade-right")
@@ -911,7 +902,7 @@
 
     .row.justify-content-center  
       .col-lg-7
-        .titulo-sexto.color-primario
+        .titulo-sexto.color-primario.mb-3
           h5 Tabla 1.  
           span.mb-0 Tallas y medidas
     .row.justify-content-center.mb-4
@@ -1483,7 +1474,7 @@
       figure
         img(src='@/assets/curso/temas/t1/fig14.png', alt='Esquema del proceso de patronaje textil que ilustra la transición de la anatomía humana tridimensional hacia un plano bidimensional, mostrando su posterior conversión en moldes de costura y, finalmente, en la confección de una prenda de vestir terminada.') 
     
-    p.mb-5 La figura ilustra el proceso de patronaje y confección de prendas, mostrando cómo la estructura tridimensional del cuerpo humano se transforma en planos y moldes bidimensionales para elaborar una prenda de vestir. A través de esquemas y ejemplos visuales, se representa la relación entre cuerpo, plano, molde y resultado final, destacando el paso del diseño técnico a la construcción de la prenda. 
+    p.mb-5 El proceso de patronaje y confección de prendas consiste en transformar la estructura tridimensional del cuerpo humano en planos y moldes bidimensionales que sirven como base para la elaboración de una prenda de vestir. Mediante esquemas y ejemplos visuales, se ilustra la relación entre el cuerpo, el plano, el molde y la prenda terminada, evidenciando cómo el diseño técnico se traduce en una construcción textil funcional y ajustada a la anatomía humana. Este proceso permite comprender las etapas que conectan la conceptualización del diseño con la materialización de la prenda final. 
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -1729,9 +1720,6 @@
     
     .row.justify-content-center.mb-4 
       .col-lg-8.col-md-12.col-12
-        .titulo-sexto.color-primario.mb-3
-          h5 Figura 15. 
-          span Elementos esenciales para la identificación y preparación de piezas de patronaje y confección 
         .bggg.p-4
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-6
