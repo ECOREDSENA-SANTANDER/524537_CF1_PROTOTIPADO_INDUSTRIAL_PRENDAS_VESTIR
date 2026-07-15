@@ -302,26 +302,27 @@ export default {
   referencias: [
     {
       referencia:
-        'Marín Bonilla Giraldo, C. A. (2016). Diseño de sistema de seguridad para máquinas automáticas de aplicación de insumos de confección y marroquinería (Doctoral disertación). ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (s. f.). Canal de YouTube.',
     },
     {
       referencia:
-        'Equipo de Desarrollo Curricular, SENA Programa Técnico en Patronaje Industrial de Prendas de Vestir, Centro de Manufactura en Textil y Cuero, Distrito Capital, 2020.',
-      link: '',
+        'Equipo de Desarrollo Curricular. (2020). Programa técnico en patronaje industrial de prendas de vestir. Servicio Nacional de Aprendizaje (SENA), Centro de Manufactura en Textil y Cuero.',
     },
     {
       referencia:
-        'Equipo de Desarrollo Curricular, SENA Programa Tecnólogo en Desarrollo de Colecciones para la Industria de la Moda, 2020.',
-      link: '',
+        'Equipo de Desarrollo Curricular. (2020). Programa tecnólogo en desarrollo de colecciones para la industria de la moda. Servicio Nacional de Aprendizaje (SENA).',
     },
     {
       referencia:
-        'Gutiérrez, L. y Moncayo, A. (2011). Manual de patronaje básico e interpretación de diseños. Bogotá: SENA, Japan Inernational Cooperation Agency "jica", 2011.',
-      link: '',
+        'Gutiérrez, L., y Moncayo, A. (2011). Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje (SENA) y Japan International Cooperation Agency (JICA).',
     },
     {
       referencia:
-        'Pulgarín, B. y Ulloa, J. (1998). La evolución de las máquinas y su aplicación en la industria de la confección Colombiana.',
+        'Marín Bonilla Giraldo, C. A. (2016). Diseño de sistema de seguridad para máquinas automáticas de aplicación de insumos de confección y marroquinería (Disertación doctoral).',
+    },
+    {
+      referencia:
+        'Pulgarín, B., y Ulloa, J. (1998). La evolución de las máquinas y su aplicación en la industria de la confección colombiana.',
     },
   ],
   creditos: [
@@ -387,7 +388,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
+          nombre: 'Yineth Ibette González Quintero',
           cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander ',
         },

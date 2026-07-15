@@ -74,7 +74,7 @@
           ul.lista-ul--color.color-primario.fa-ul
             li.mb-1 
               i.fas.fa-plus
-              span.mb-0 Velocidad, llegan a alcanzar hasta 6,000 R.P.M.
+              span.mb-0 Velocidad, llegan a alcanzar hasta 6.000 rpm.
             li.mb-1 
               i.fas.fa-plus
               span.mb-0 Potencia alta permite trabajar capas de material por su gran capacidad de penetración de los mecanismos de puntada.
@@ -83,7 +83,7 @@
               span.mb-0 Lubricación automática.
             li.mb-0 
               i.fas.fa-plus
-              p Existen maquina industriales como: #[em zigzag] sencillo, doble o triple, plana de una y dos agujas, de coser y cortar fileteadoras sencillas, de refuerzo/seguridad, recubridoras o collarín, pretinadora, multiagujas, cerradora de codo, #[em Flatseamer], entre otras.
+              p Existen maquinas industriales como: #[em zigzag] sencillo, doble o triple, plana de una y dos agujas, de coser y cortar fileteadoras sencillas, de refuerzo/seguridad, recubridoras o collarín, pretinadora, multiagujas, cerradora de codo, #[em Flatseamer], entre otras.
       .row.justify-content-center(titulo="Máquinas de ciclo")
         .col-lg-2.col-md-3.col-7.mb-4.mb-md-0
           img(src='@/assets/curso/temas/t2/maquina4.png', alt='')
@@ -265,7 +265,7 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/WABFdmFNo8Y?si=CKMqwCC_jL4wCYCO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video: Partes y funciones de la maquina plana       
 
-    p En la industria de la confección, la diversidad de materiales como telas, hilos, agujas, y otros, junto con los diseños que evolucionan constantemente según las temporadas, requiere un conocimiento profundo y adaptativo. Los artículos varían desde ropa interior y de hogar hasta calzado, ropa exterior, carpas protectoras, velas de viento, maletas y estuches. Para cada uno de estos productos, es crucial selección.
+    p En la industria de la confección, la diversidad de materiales como telas, hilos, agujas, y otros, junto con los diseños que evolucionan constantemente según las temporadas, requiere un conocimiento profundo y adaptativo. Los artículos varían desde ropa interior y de hogar hasta calzado, ropa exterior, carpas protectoras, velas de viento, maletas y estuches. Para cada uno de estos productos, es crucial seleccionar adecuadamente la combinación de costura, aguja, hilo, tela y ajuste.
     p Este ajuste es fundamental para resolver problemas comunes como el deslizamiento de la tela y el fruncido de la costura. Entender los tipos y funciones de los alimentadores y prensatelas es esencial para manejar adecuadamente el desplazamiento de los materiales a coser, así mismo se debe  entender el funcionamiento y la importancia de cada uno de los elementos que lo componen los diferentes tipos de máquina.
     p.mb-4 Existen dos tipos principales de ajuste en la confección. El primero se aplica a máquinas de una sola aguja y a máquinas de dos o más agujas, permitiendo adaptar las máquinas al tipo de material que se va a trabajar, ya sea ligero (como #[em lycras]), semipesado (como dacrón) o pesado (como #[em jean]). El segundo tipo de ajuste regula la distancia entre las agujas, introduciendo así otro elemento crítico en el ensamblaje: el soporte de las agujas. Fundamentalmente, el ajuste influye en cómo el diente de la máquina agarra el tipo de tela, lo cual es decisivo para el rendimiento de la costura. A continuación, se detalla cada componente del ajuste para una comprensión más completa de su impacto en la confección.
     
@@ -313,25 +313,25 @@
         .col-11
           p La figura muestra un conjunto de accesorios metálicos para máquina de coser industrial, integrado por placa de aguja, prensatelas, dientes de arrastre y guías especializadas. Estas piezas están diseñadas para facilitar procesos de confección con mayor precisión y estabilidad en el manejo del material textil. Su configuración permite optimizar el desplazamiento de la tela durante la costura, garantizando uniformidad en las puntadas y mejorando la calidad técnica de los acabados en diferentes tipos de prendas y productos confeccionados. 
       .row(titulo="Diente")
-        p Este dispositivo mecánico es el encargado de desplazar el material a coser; el diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
-        p El diente para poder desplazar el material debe sujetarlo, esa función la realiza con la parte superior que hace contacto con la tela y en el momento que comienza a transportarlo por efecto de la fricción la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
-        p.mb-4 Los dientes vienen de diferentes tamaños, para diferenciarlos se debe medir la cantidad de dientes que haya en una pulgada o la separación existente entre ellos, si se mide en mm (Milímetros). Para seleccionar los dientes se debe tener en cuenta el material a confeccionar.
+        p Este dispositivo mecánico es el encargado de transportar el material durante el proceso de costura. Su funcionamiento se basa en sujetar la tela mediante su superficie dentada, la cual entra en contacto con el material y, por efecto de la fricción, lo desplaza de manera uniforme mientras se realiza la puntada.  
+        p Se fabrica en diferentes tamaños y configuraciones para adaptarse a las características de cada material textil. Su clasificación se determina por la cantidad de dientes por pulgada o por la separación existente entre ellos, medida en milímetros (mm). La selección adecuada depende del tipo de material que se va a confeccionar. 
+        
         .row.align-items-center.bg13.mb-4.p-4
           .col-md-6.mb-3.mb-md-0
             img(src='@/assets/curso/temas/t2/figura.svg', alt='')
           .col-md-6
-            p.mb-0 Los dientes se identifican de, 16,18, 20 y 24 dientes por pulgada para telas tejidas normales, para materiales compactos como el cuero y lonas se identifican dientes hasta de 2.5mm de separación, también se identifican piramidales, cuando supera los 24 dientes por pulgada como en las familiares. Además, se debe tener en cuenta la cantidad de hileras del diente.
+            p.mb-0 En materiales textiles de tejido plano o de peso medio, es común encontrar configuraciones de 16, 18, 20 y 24 dientes por pulgada. Para materiales compactos, como cuero o lonas, se emplean dientes con separaciones de hasta 2,5 mm. Asimismo, existen modelos de perfil piramidal y configuraciones con más de 24 dientes por pulgada, utilizadas principalmente en máquinas familiares. Otro aspecto que debe considerarse es la cantidad de hileras, ya que esta influye en el transporte del material.
         .row.align-items-center.mb-4
           .col-md-6
-            p Cuando se selecciona el diente inadecuado puede suceder lo siguiente.
-            p Si la separación del diente es grande y el material delgado, cuando el diente transporta la tela esta se incrusta entre el diente haciendo olas, dando como resultado una costura con recogido.
+            p La selección incorrecta de este componente puede afectar la calidad de la costura y el comportamiento del material durante la confección. 
+            p Cuando la separación entre los dientes es amplia y el material es delgado, la tela tiende a introducirse entre los espacios del mecanismo durante el transporte, generando ondulaciones o recogidos en la costura. 
           .col-md-6
             img(src='@/assets/curso/temas/t2/figura2.svg', alt='') 
         .row.align-items-center.bg13.mb-4.p-4
           .col-md-6.mb-3.mb-md-0
             img(src='@/assets/curso/temas/t2/figura3.svg', alt='')
           .col-md-6
-            p.mb-0 Si la separación del diente es pequeña y el material grueso, cuando el diente transporta, la tela no es sujetada por el diente ocasionando pega y daños en el material.      
+            p.mb-0 Cuando la separación entre los dientes es reducida y el material es grueso, el mecanismo no logra sujetar adecuadamente la tela, ocasionando deslizamientos irregulares, dificultades en el transporte y posibles daños en el material.	     
       .row.justify-content-center(titulo="Prensatelas")
         .col-lg-11
           .row.justify-content-center

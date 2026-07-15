@@ -4,16 +4,16 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
   
       #Actividad                
-        <Actividad :cuestionario="cuestionario"/>
+        <ActividadController :cuestionario="cuestionario"/>
   
   </template>
 
 <script>
-import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+import ActividadController from '@ecored-sena/base-kit/plugin/components/actividad/ActividadController.vue'
 export default {
   name: 'ActividadDidactica',
   components: {
-    Actividad,
+    ActividadController,
   },
   data: () => ({
     cuestionario: {

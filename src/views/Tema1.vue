@@ -10,45 +10,41 @@
     p.mb-4 El cuerpo humano es una estructura base que se debe entender para poder interpretar su comportamiento y necesidades de vestuario. Para lo cual es fundamental tener en cuenta los siguientes conceptos:
       
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-6.col-md-7.col-12.bg21.p-4
+      .col-sm-12.col-md-10.col-lg-7.bg21.p-4
         .row.justify-content-center.align-items-center
-          .col-lg-6
+          .col-sm-12.col-md-6.col-lg-5
             img.mb-3.w-50(src='@/assets/curso/temas/t1/deco1.svg', alt='')
             h5 Arquitectura del cuerpo
             p Conocimiento e interpretación corporal.
-          .col-lg-6
+          .col-sm-12.col-md-6.col-lg-7
             .row 
-              .col-lg-6.col-md-6.col-5
-                p.mb-0.der Anatomía
-                p.mb-0.der Biomecánica
-                p.mb-0.der Morfología
-                p.mb-0.der Ergonomía
-                p.mb-0.der Antropometría
-              .col-lg-6.col-md-6.col-7
-                p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Estructura
-                p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Movimiento
-                p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Geometría
-                p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Postura
-                p.mb-0 #[span.texto2 =] &nbsp;&nbsp;&nbsp;&nbsp;Medidas
+              .col-sm-12.col-md-6.col-lg-6
+                p.mb-0 Anatomía
+                p.mb-0 Biomecánica
+                p.mb-0 Morfología
+                p.mb-0 Ergonomía
+                p.mb-0 Antropometría
+              .col-sm-12.col-md-6.col-lg-6
+                p.mb-0 #[span.texto2 =] Estructura
+                p.mb-0 #[span.texto2 =] Movimiento
+                p.mb-0 #[span.texto2 =] Geometría
+                p.mb-0 #[span.texto2 =] Postura
+                p.mb-0 #[span.texto2 =] Medidas
 
     .bg20.p-4.mb-4
       .row.justify-content-center.mb-4 
         .col-lg-11
           .cajr.p-4
             h4.mb-3.mx-4 División del cuerpo
-            p.mb-0.mx-4 Desde la cintura se trabaja una línea imaginaría con el fin de dividir el cuerpo en dos regiones principales.
+            p.mb-0.mx-4 Desde la cintura se trabaja una línea imaginaria con el fin de dividir el cuerpo en dos regiones principales.
       .row.justify-content-center
         .col-lg-9
           .titulo-sexto.color-primario.mb-3
             h5 Figura 1. 
             span División del cuerpo
           figure
-            img(src='@/assets/curso/temas/t1/imgg.svg', alt='Clasificación de las prendas según las partes del cuerpo, diferenciando prendas superiores para cabeza, tronco y miembros superiores, y prendas inferiores para las extremidades inferiores.')          
+            img(src='@/assets/curso/temas/t1/imgg.svg', alt='Clasificación de prendas superiores e inferiores según la parte del cuerpo que cubren: cabeza, tronco, brazos y piernas.')          
     
-    p La imagen permite la accesibilidad a la división del cuerpo humano en dos regiones principales utilizando una línea imaginaria que se traza desde la cintura. Estas regiones son los miembros superiores (cabeza, tronco y extremidades superiores) y los miembros inferiores (extremidades inferiores). La imagen también señala las áreas para las prendas superiores e inferiores, indicando cómo se relacionan estas divisiones anatómicas con el diseño y desarrollo de ropa.
-    p En la parte superior se señalan los miembros superiores, incluyendo cabeza, tronco y brazos, además de las prendas superiores como camisetas o blusas. Estas prendas corresponden a la zona alta del cuerpo.
-    p.mb-5 En la parte inferior se identifican los miembros inferiores, relacionados con las piernas y extremidades inferiores, junto con las prendas inferiores, como pantalones o faldas. La imagen organiza de manera clara la relación entre las partes del cuerpo y la vestimenta. 
-
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
@@ -240,7 +236,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
               h2.text-center Mesomorfo - estructura mediana
-              p Se distingue por tener una musculatura natural y poca grasa. Los huesos son largos y semi-gruesos. Se dice que es el ideal para el físico constructivo. 
+              p Se distingue por tener una musculatura natural y poca grasa. Los huesos son largos y semigruesos. Se dice que es el ideal para el físico constructivo. 
               p Complexión atlética, cuerpo duro con músculos definidos,  es fuerte de forma natural, gana músculo fácilmente, engorda con más facilidad que los ectomorfos y hombros anchos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/t1/tarj-slide2.svg')})`}")
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -270,8 +266,7 @@
         img(src='@/assets/curso/temas/t1/subt.svg', alt='')
         h3.mb-0.ms-2 Tipologías corporales - siluetas
 
-    p.mb-4 El siguiente diagrama, permite identificar la tipología corporal de acuerdo con algunas características físicas generales: 
-    
+    p.mb-4 A continuación, se presentan las principales tipologías corporales, diferenciadas de acuerdo con sus características físicas generales.
     .titulo-sexto.color-primario.mb-3
       h5 Figura 4. 
       span Tipología corporal de acuerdo con algunas características físicas generales 
@@ -281,8 +276,7 @@
           .col-lg-8
             img(src='@/assets/curso/temas/t1/imag16.svg', alt='Comparativa de tipos de cuerpo femenino y masculino, incluyendo reloj de arena, triángulo, triángulo invertido, rectangular, óvalo y trapecio, representados mediante figuras humanas estilizadas.')
         
-    p.mb-4 En la siguiente figura, permite identificar la tipología corporal de acuerdo con algunas características físicas generales: 
-
+    p.mb-4 El siguiente diagrama de flujo se identificará la tipología corporal femenina de acuerdo con algunas características físicas generales.
 
     .titulo-sexto.color-primario.mb-3
       h5 Figura 5. 
@@ -296,8 +290,7 @@
           .col-lg-10
             img(src='@/assets/curso/temas/t1/imag17.svg', alt='Diagrama de flujo para identificar tipos de cuerpo femenino según la proporción entre hombros, cintura y cadera, mostrando cinco siluetas corporales diferentes a partir de preguntas de clasificación.')
     
-    p La figura presenta un diagrama explicativo para identificar distintos tipos de cuerpo femenino a partir de la comparación entre hombros, cintura, cadera y abdomen. El esquema funciona como un árbol de decisiones compuesto por preguntas de respuesta “sí” y “no”, orientando progresivamente hacia una categoría corporal específica. Entre las preguntas principales se analiza si los hombros y la cadera tienen medidas similares, si la cintura es más estrecha que la cadera o si la parte superior del cuerpo presenta mayor amplitud que la inferior. 
-    p.mb-5 En la parte inferior del diagrama aparecen ilustraciones de diferentes siluetas corporales acompañadas de formas geométricas que representan visualmente cada tipo de cuerpo, como reloj de arena, rectangular, triángulo invertido, ovalado y pera. El diseño emplea colores suaves, cuadros conectados y una estructura organizada que facilita la comprensión visual del proceso de clasificación corporal
+    
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -326,7 +319,7 @@
                 i.fas.fa-plus
                 p.mb-0 Centros de gravedad
         .bg6.p-4(data-aos="fade-down")
-          p El análisis de las extremidades anteriores y frontales, es lo que permite determinar si el caballo tiene buena postura o si por el contrario es defectuosa. Este análisis se hace bajo especificaciones ya estipuladas las cuales permite revisar la composición de todos los términos anteriormente mencionados con el fin de identificar la postura.
+          p El análisis de las extremidades superiores e inferiores permite evaluar la alineación y la postura corporal. Esta valoración se realiza con base en criterios anatómicos previamente establecidos, los cuales facilitan la identificación de la disposición de los segmentos corporales y la detección de posibles variaciones posturales que pueden influir en la toma de medidas y en el desarrollo del patronaje.
           p.mb-2 La postura es un punto clave en el análisis de la estructura corporal; es lo que corresponde a la distribución de pesos frente a la gravedad. En la imagen se identifica lo que esta categorizado como postura correcta o incorrecta.
       .col-lg-6(data-aos="fade-left")
         .bg144.p-4  
@@ -340,8 +333,7 @@
           img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag19.svg' alt='La imagen ilustra dos conceptos relacionados con la postura y el equilibrio corporal. En la sección de la izquierda, titulada "Análisis de diferentes posturas sobre un mismo cuerpo", se presenta cómo distintas posturas pueden alterar las medidas del cuerpo debido a hiperextensiones o flexiones. La serie de figuras presenta un mismo cuerpo en diferentes posiciones que afectan su alineación. En la sección de la derecha, titulada "Análisis de punto de equilibrio", se explica que cada cuerpo tiene un tipo de equilibrio particular. Dependiendo del género, se identifican variaciones en el sistema óseo y muscular que influyen en el punto de equilibrio. Las figuras presentan una línea de equilibrio ideal comparada con una postura desalineada.')  
       .col-md-6.ps-md-0.mb-3(data-aos="fade-left")
         .tarjeta.bg7.p-4.h-100
-          h4.text-white Análisis de punto de equilibrio
-          p.text-white Cada cuerpo tiene un tipo de equilibrio. Dependiendo del género se identifican pequeñas variaciones tanto en el sistema óseo, como muscular, los cuales varían o afectan el punto de equilibrio.
+          h4.text-white Cada cuerpo tiene un tipo de equilibrio. Dependiendo del género, se identifican pequeñas variaciones tanto en el sistema óseo, como muscular, los cuales varían o afectan el punto de equilibrio.
           img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag20.svg' alt='La imagen ilustra dos conceptos relacionados con la postura y el equilibrio corporal. En la sección de la izquierda, titulada "Análisis de diferentes posturas sobre un mismo cuerpo", se presenta cómo distintas posturas pueden alterar las medidas del cuerpo debido a hiperextensiones o flexiones. La serie de figuras presenta un mismo cuerpo en diferentes posiciones que afectan su alineación. En la sección de la derecha, titulada "Análisis de punto de equilibrio", se explica que cada cuerpo tiene un tipo de equilibrio particular. Dependiendo del género, se identifican variaciones en el sistema óseo y muscular que influyen en el punto de equilibrio. Las figuras presentan una línea de equilibrio ideal comparada con una postura desalineada.')  
         
     
@@ -518,7 +510,7 @@
                   li.mb-1
                     .lista-ol--cuadro__vineta
                       span d
-                    span.mb-0 Vientre plano con pubis saliente y glúteos chatos. 
+                    span.mb-0 Vientre plano con pubis salientes y glúteos chatos.
                   li.mb-1
                     .lista-ol--cuadro__vineta
                       span e
@@ -615,7 +607,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .cajon.color-acento-contenido.p-4
-          p.mb-0.text-center #[b En patronaje la denominación de tallas europeas y también unos cuadros de tallas especialmente los masculinos se trabajan en pulgadas.]
+          p.mb-0.text-center.fw-bold En patronaje, la denominación de tallas europeas y también unos cuadros de tallas, especialmente los masculinos, se trabajan en pulgadas.
     
     .subt2.mb-4
       ul.lista-ul.mb-0
@@ -628,7 +620,7 @@
     ul.lista-ul--color.fa-ul.ps-2.ps-md-5.mb-4
       li.mb-1
         i.fas.fa-plus
-        span.mb-0 Algunos Insumos de confección, se caracterizan por centímetros.
+        span.mb-0 Algunos insumos de confección, se caracterizan por centímetros.
       li
         i.fas.fa-plus
         span.mb-0 El ancho de los materiales textiles se mide en centímetros. Los textiles al detal se venden por metros.
@@ -679,7 +671,7 @@
           i.fas.fa-circle
           span.mb-0.h4 Clasificación de las medidas
     
-    p.mb-4  Se clasifican en tres grupos:
+    p.mb-4  Se clasifican en tres grupos.
     .row.justify-content-center.mb-4
       .col-lg-4.col-md-6.col-12.mb-3
         .caj1.p-3(data-aos="fade-down")
@@ -809,13 +801,13 @@
           .col-md-4.col-lg-2.col-11
             img(src='@/assets/curso/temas/t1/file.svg', alt='')
           .col-md-8.col-11
-            p.my-4 Son las medidas tomadas justas sobre el cuerpo teniendo en cuenta los puntos antropométricos y ejes de movimiento. #[b No tienen desahogos ni flojos.]
+            p.my-4 Son las medidas tomadas justas sobre el cuerpo, teniendo en cuenta los puntos antropométricos y ejes de movimiento. #[b No tienen desahogos ni flojos.]
       .py-4.py-md-5.p-4.bg9(titulo="Medidas de prenda")
         .row.justify-content-around
           .col-lg-2.col-md-3.col-11.mb-4.mb-md-0
             img(src='@/assets/curso/temas/t1/figuras4.svg', alt='')
           .col-md-9.col-11
-            p.mb-4 Estas incluyen medidas de holgura, teniendo en cuenta el uso de la prenda. Por lo general se construyen cuadros de tallas de prendas que ya tienen incluidos esos centímetros de más en las diferentes medidas.
+            p.mb-4 Estas incluyen medidas de holgura, teniendo en cuenta el uso de la prenda. Por lo general, se construyen cuadros de tallas de prendas que ya tienen incluidos esos centímetros de más en las diferentes medidas.
             
 
     h4 Medidas anatómicas, estandarizadas o normalizadas
@@ -840,41 +832,37 @@
               .col-lg-4.col-md-6.col-6
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-1.png', alt='')              
               h4 Canon
-              p Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
+              p Modelo o patrón de referencia que reúne las características consideradas ideales dentro de un contexto determinado. En patronaje, el canon hace referencia a las proporciones del cuerpo humano utilizadas como base para el estudio de la anatomía y el desarrollo de moldes.
           .col-md-6.mb-4.mb-md-0
             .row.justify-content-center.mb-2.p-4
               .col-lg-4.col-md-6.col-6
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-2.png', alt='')        
               h4 Proporción
-              p Relación de correspondencia, equilibrio o simetría que existe entre los componentes de un todo.
-              p Secuencia Fibonacci que presenta una serie numérica: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc. Es una serie infinita en la que la suma de dos números consecutivos siempre da como resultado el siguiente número Tratado de las proporciones Da Vinci o el hombre de Vitruvio, analiza en un mapa de simetría del cuerpo determinando el estándar de 8 cabezas como canon de belleza.
+              p Relación de correspondencia, equilibrio o simetría que existe entre las diferentes partes de un todo. En el patronaje, este concepto permite comprender la armonía existente entre los segmentos corporales y su aplicación en la construcción de patrones.
+              p La secuencia de Fibonacci corresponde a una serie numérica infinita: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, etc., en la que cada término se obtiene mediante la suma de los dos anteriores. Esta secuencia ha sido estudiada por su presencia en diferentes fenómenos naturales y por su relación con principios de proporción y armonía.
+              p En el estudio de las proporciones humanas, Leonardo da Vinci, mediante el Hombre de Vitruvio, analizó las relaciones de simetría del cuerpo humano, estableciendo el canon de ocho cabezas como un referente artístico de equilibrio y proporción.
         .row
           .col-md-6.mb-4.mb-md-0
             .row.justify-content-center.mb-2.p-4
               .col-lg-4.col-md-6.col-6
                   img.mb-3(src='@/assets/curso/temas/t1/slide1-3-3.png', alt='')              
               h4  Proporciones corporales
-              p  Modelo o prototipo que reúne las características que se consideran perfectas en su género, especialmente el referido a la figura humana que reúne las proporciones ideales.
-              ul.lista-ul--color.fa-ul
-                li
-                  i.fas.fa-plus.mo
-                  span.mb-0 Griegos Policleto y Lisipo canon de 7 y 7 ½ cabezas.
-                li
-                  i.fas.fa-plus.mo
-                  span.mb-0 Leonardo da Vinci nos presenta una proporción de 8 cabezas en su Tratado de proporciones.
+              p  Relación existente entre las diferentes medidas y segmentos del cuerpo humano, que permite analizar el equilibrio, la simetría y la correspondencia entre sus partes. Su estudio constituye un referente para el patronaje, ya que facilita la elaboración de moldes acordes con las características anatómicas y las variaciones morfológicas de la población.
+              
           .col-md-6.mb-4.mb-md-0
             .row.justify-content-center.mb-2.p-4
               .col-lg-4.col-md-6.col-6
                 img.mb-3(src='@/assets/curso/temas/t1/slide1-3-4.png', alt='')        
               h4 Medidas deducidas
-              p Para calcular un cuadro de tallas completo se utiliza generalmente dos medidas anatómicas:
+              p Medidas obtenidas a partir de relaciones proporcionales entre las dimensiones anatómicas del cuerpo humano. Su aplicación permite complementar los cuadros de tallas cuando no se dispone de todas las medidas directas.
+              p Para construir un cuadro de tallas completo, generalmente se toman como referencia dos medidas anatómicas principales:
               ul.lista-ul--color.fa-ul
                 li
                   i.fas.fa-plus
                   span.mb-0 La altura o estatura total.
                 li
                   i.fas.fa-plus
-                  span.mb-0 El contorno superior más prominente.
+                  span.mb-0 El contorno superior de mayor prominencia (busto o pecho, según    el tipo de prenda y la población de estudio).
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -1357,7 +1345,7 @@
           ul.lista-ul--color.color-acento-contenido.fa-ul.mb-4
             li.mb-1 
               i.fas.fa-plus
-              span.mb-0 ANTC-ISO 8559. Fabricación de Vestuario y Estudios Antropométricos. Dimensiones Corporales - Icontec.
+              span.mb-0 ANTC-ISO 8559. Fabricación de vestuario y estudios antropométricos. dimensiones corporales - Icontec.
             li 
               i.fas.fa-plus
               span.mb-0 Norma UNE-EN 13402-3. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.          
@@ -1483,23 +1471,23 @@
     p.mb-4 Este proceso está compuesto por los siguientes pasos:
     
     AcordionA.t2-1.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-down")
-      .row.justify-content-center.align-items-center(titulo="Paso A: construcción de básicos")
+      .row.justify-content-center.align-items-center(titulo="A: Construcción de básicos")
         .col-md-3.col-7.mb-4.mb-md-0
           img(src='@/assets/curso/temas/t1/acordion.svg', alt='')        
         .col-md-8.mb-4.mb-md-0
-          p Los básicos se dividen en dos grupos: superior (básico superior + Manga) e inferior, básico de falda (alrededor de cadera desde cintura hasta rodilla), básico de pantalón (alrededor de cadera, y la base genital, desde cintura hasta el tobillo).
+          p Los básicos se dividen en dos grupos: superior (básico superior + manga) e inferior, básico de falda (alrededor de cadera desde cintura hasta rodilla), básico de pantalón (alrededor de cadera, y la base genital, desde cintura hasta el tobillo).
           p Los básicos son moldes anatómicos del cuerpo, es decir no son una prenda, son el punto de partida para hacerla. El básico superior en metodología SENA es un solo básico superior, es decir, cualquier tipo de prenda superior. En otras metodologías hay varios básicos: un solo tipo de prenda, básico de blusa/camisa, básico de chaleco, básico de chaqueta, básico de abrigo, básico de vestido, entre otros. 
-      .row.justify-content-center.align-items-center(titulo="Paso B: definición del diseño")
+      .row.justify-content-center.align-items-center(titulo="B: Definición del diseño")
         .col-md-8.mb-4.mb-md-0
           p Por lo general la definición del diseño no está a cargo del patronista, sin embargo, es la base para definir que se va a desarrollar, es decir, poder hacer el análisis del tipo de prenda a patronar.
         .col-md-3.col-7
           img(src='@/assets/curso/temas/t1/acordion2.svg', alt='')      
-      .row.justify-content-center.align-items-center(titulo="Paso C: análisis de la prenda (talla, básico, horma, material e insumos)")
+      .row.justify-content-center.align-items-center(titulo="C: Análisis de la prenda (talla, básico, horma, material e insumos)")
         .col-md-3.col-7
           img(src='@/assets/curso/temas/t1/acordion3.png', alt='')        
         .col-md-8.mb-4.mb-md-0
           p Se analizan los factores necesarios para el desarrollo de la prenda, después de los básicos, son el punto de partida para dar inicio al trazo del plano.          
-      .row.justify-content-center.align-items-center(titulo="Paso D: construcción de planos")
+      .row.justify-content-center.align-items-center(titulo="D: Construcción de planos")
         .col-md-4.mb-4
           img(src='@/assets/curso/temas/t1/acordion4.svg', alt='La imagen expone tres figuras humanas que representan los planos anatómicos del cuerpo. A la izquierda, el "Plano Frontal" divide el cuerpo en partes anterior y posterior. En el centro, el "Plano Sagital" (marcado como "Plano") divide el cuerpo en mitades derecha ("Der.") e izquierda ("Izq."). A la derecha, el "Plano Transversal" divide el cuerpo en partes superior ("Superior") e inferior ("Inferior"). Estos planos son fundamentales en la anatomía para describir ubicaciones y movimientos en el cuerpo humano.')        
         .col-md-7.mb-4
@@ -1529,19 +1517,16 @@
               h5 Ajuste al plano
               p Desahogos: son aumentos que se dan en algunas medidas de construcción para cumplir con los requerimientos de biomecánica del cuerpo de acuerdo con el tipo y uso de la prenda.
               p.mb-4 También conocidos como holgura, amplitud, flojo. Son medidas que se adicionan al básico para la construcción del plano, interpretación o desarrollo de la prenda. Los desahogos permiten la funcionalidad de las prendas sobre prendas.
-              .row.justify-content-center
-                .col-lg-4.col-md-6.col-12.mb-3
-                  h4.mb-2.text-center Básico
-                  p.mb-2.text-center Contorno de pecho/busto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +
-                  p.mb-0.text-center Medida anatómica
-                .col-lg-3.col-md-6.col-12.mb-3
-                  h4.mb-2.text-center Blusa
-                  p.mb-2.text-center &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Desahogo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +
-                  p.mb-0.text-center &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Incremento &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
-                .col-lg-3.col-md-6.col-12.mb-3
-                  h4.mb-2.text-center Chaqueta
-                  p.mb-2.text-center Desahogo
-                  p.mb-0.text-center Funcionabilidad
+              ul.lista-ul--color.fa-ul.color-primario
+                li.mb-1 
+                  i.fas.fa-plus
+                  span.mb-0 Básico: contorno de pecho o busto + medidas anatómicas = patrón básico.
+                li.mb-1 
+                  i.fas.fa-plus
+                  span.mb-0 Blusa: patrón básico + desahogo = patrón de blusa.
+                li.mb-1 
+                  i.fas.fa-plus
+                  span.mb-0 Chaqueta: patrón básico + desahogo + incremento para funcionalidad = patrón de chaqueta.
             .col-lg-4.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/acordion5.svg', alt='') 
         .row
@@ -1553,7 +1538,7 @@
             li 
               i.fas.fa-plus
               span.mb-0 Sistema de cierre: mecanismos utilizados para facilitar el uso de la prenda, también llamados sistemas de acceso a la prenda permiten vestir y desvestir el cuerpo. Compuesto por: cremalleras, botones, broches y gafetes, cauchos, cintas y cordones, pasamanería, galones flecos y borlas, herrajes.   
-      .row(titulo="Paso E: transformación de la base o interpretación del diseño")
+      .row(titulo="E: Transformación de la base o interpretación del diseño")
         .col-lg-12
           .bg12.p-3
             p.text-center.mb-0 Se desarrolla de acuerdo a los siguientes niveles:
@@ -1590,7 +1575,7 @@
                 li.mb-0
                   i.fas.fa-plus
                   span.mb-0 Cortando y ampliando: se trazan los cortes y se da amplitud en el momento del despiece. La pieza se abre y se vuelve a trazar para un nuevo despiece. Trazo de planos (ejemplos visuales).
-      .row(titulo="Paso F: despieces")
+      .row(titulo="F: Despieces")
         .row.justify-content-center
           .col-lg-7.mb-4.mb-md-0
             ul.lista-ul--color.fa-ul.color-primario
@@ -1662,7 +1647,7 @@
                       span.mb-0 Hilos de urdimbre - Hilos de trama.   
                     li.mb-1 
                       i.fas.fa-plus
-                      span.mb-0 Una cabeza hacia arriba 
+                      span.mb-0 Una cabeza hacia arriba.
                     li.mb-1 
                       i.fas.fa-plus
                       span.mb-0 Una cabeza hacia abajo.  
@@ -1672,42 +1657,42 @@
                     li.mb-0 
                       i.fas.fa-plus
                       span.mb-0 Doblez de tela.  
-      .row.justify-content-center.align-items-center(titulo="Paso G: trazo y corte")
+      .row.justify-content-center.align-items-center(titulo="G: Trazo y corte")
         .col-md-12.col-lg-8
           p Se marcan las piezas sobre el material teniendo en cuenta las indicaciones y se procede a cortar las piezas teniendo en cuenta los márgenes de costura. De acuerdo con el tipo de material, se marca el textil o se sujetan con alfileres los patrones o transfiere la marca con la rodaja. Se corta la muestra en el textil elegido.
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion7.svg', alt='')        
-      .row.justify-content-center.align-items-center(titulo="Paso H: confección de muestra física")
+      .row.justify-content-center.align-items-center(titulo="H: Confección de muestra física")
         .col-md-12.col-lg-8
           p Se ensambla la muestra física o primer prototipo del diseño.
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion8.svg', alt='')        
-      .row.justify-content-center.align-items-center(titulo="Paso I: verificación de muestra física")
+      .row.justify-content-center.align-items-center(titulo="I: Verificación de muestra física")
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion9.svg', alt='')
         .col-md-12.col-lg-8
           p Se verifica que la muestra coincida con lo proyectado en el diseño inicial.      
-      .row.justify-content-center.align-items-center(titulo="Paso J: corrección y/o ajustes de la muestra física sobre el plano")
+      .row.justify-content-center.align-items-center(titulo="J: Corrección y/o ajustes de la muestra física sobre el plano")
         .col-md-12.col-lg-8
           p Se realizan los ajustes al patrón, de acuerdo con lo verificado en la muestra física. Es posible que se requieran ajustes complejos que incluyan de pinzas, desahogos, cortes, reubicación de líneas, etc. O en otros casos pequeños ajustes para lograr el #[em fit] ideal proyectado en el diseño inicial.
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion10.png', alt='')      
-      .row.justify-content-center.align-items-center(titulo="Paso K: verificación del nuevo despiece")
+      .row.justify-content-center.align-items-center(titulo="K: Verificación del nuevo despiece")
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion11.png', alt='')
         .col-md-12.col-lg-8
           p Se realiza el nuevo despiece del diseño de acuerdo con los ajustes y correcciones.      
-      .row.justify-content-center.align-items-center(titulo="Paso L: prototipo final - validación de la prenda")
+      .row.justify-content-center.align-items-center(titulo="L: Prototipo final - validación de la prenda")
         .col-md-12.col-lg-8
           p Se realiza este paso y los anteriores todas las veces necesarias hasta obtener el producto exacto que fue proyectado.
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion12.png', alt='')      
-      .row.justify-content-center.align-items-center(titulo="Paso M: industrialización del patrón")
+      .row.justify-content-center.align-items-center(titulo="M: Industrialización del patrón")
         .col-md-5.col-7.col-lg-3
           img(src='@/assets/curso/temas/t1/acordion14.png', alt='')
         .col-md-12.col-lg-8
           p En los procesos industrializados, es en este paso donde se proyectan las escalas de tallas y se digitalizan los patrones ya probados para su reproducción en serie.
-      .row.justify-content-center.align-items-center(titulo="Paso N: documentación técnica")
+      .row.justify-content-center.align-items-center(titulo="N: Documentación técnica")
         p Información de desarrollo del producto para ficha técnicas materiales, medidas, tallas, acabados, etc.
           
 
