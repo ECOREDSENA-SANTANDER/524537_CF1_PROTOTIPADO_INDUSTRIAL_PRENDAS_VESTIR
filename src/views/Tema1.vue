@@ -1736,10 +1736,6 @@
             .col-lg-7.col-md-6
               img(src="@/assets/curso/temas/t1/img1.svg")
 
-    p La figura representa una guía visual relacionada con el proceso de patronaje y confección en el diseño de modas. En el lado izquierdo se enumeran los datos técnicos esenciales que deben incorporarse en una pieza de patrón, entre ellos: nombre de la pieza, referencia, talla, nombre del patronista, simbología de corte, número de cortes requeridos, piquetes de confección y líneas de aplomo. 
-    p En el lado derecho se observan elementos gráficos asociados al trabajo de costura y diseño textil, como un maniquí, hilo, alfileres, gancho y accesorios de confección, los cuales complementan la temática de manera ilustrativa y profesional. La composición utiliza colores suaves y un diseño limpio que favorece la claridad visual y el enfoque educativo. 
-    p Se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. 
-    
 
     Separador
     #t_1_5.titulo-segundo.color-primario(data-aos="fade-right")
