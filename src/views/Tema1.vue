@@ -651,7 +651,7 @@
                   h3 Anexo 1. Tabla de tallas para confeccionar ropa
                   p.text-small.mb-0 Consulte el documento para aprender más sobre tabla de equivalencias
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Talla_tabla_confecciones.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Talla_tabla_confecciones.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -876,7 +876,7 @@
                   h3 Recurso. Análisis de tallas y medidas
                   p.text-small.mb-0 Revisa el documento para aprender más sobre análisis de tallas y medidas
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Talla_tabla_confecciones.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Talla_tabla_confecciones.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
     
@@ -1767,23 +1767,22 @@
         .tarjeta.bg10
           .p-4.pt-5
             h5.text-center Medida en el trazo
-            p Las medidas que se trabajan en la metodología en algunos casos únicamente se sacan del cuadro de talla, la medida de contorno y largo, no se trabajan medidas como hombro, anchos, cuello y demás. Dichas medidas salen por fórmula o como se trabaja en temas anteriores por medidas deducidas.
-            p.mb-0 En infantil la medida de cuello posterior equivale a:
-            p.mb-0 B/20+2.5 = B (Contorno de pecho) / 20 + 2.5
+            p las medidas que se trabajan en la metodología, en algunos casos, únicamente se sacan del cuadro de talla, la medida de contorno y largo, no se trabajan medidas como hombro, anchos, cuello y demás. Dichas medidas salen por fórmula o como se trabaja en temas anteriores, por medidas deducidas.
+            p.mb-0 o	En infantil, la medida de cuello posterior equivale a: B/20 + 2.5 = B (contorno de pecho) / 20 + 2.5
       .tarjeta-avatar
         img(src='@/assets/curso/temas/t1/bombillo.svg' alt='')
         .tarjeta.bg10 
           .p-4.pt-5
             h5.text-center Manejo del papel
-            p.mb-0 Por lo general el trazo de moldes se suele hacer con papel trazo o #[em manifold], dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante; otra que al tacto es corrugada y visualmente opaca. Por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
+            p.mb-0 por lo general, el trazo de moldes se suele hacer con papel trazo o #[i manifold], dicho papel tiene dos caras, una cara que al tacto es liso y visualmente brillante; otra que al tacto es corrugada y visualmente opaca. Por lo general se recomienda trabajar por la parte corrugada con el fin de tener una mejor adhesión del grafito (lápiz) y de no permitir que rebote la luz, es recomendable trabajar en papel blanco con el fin de no cansar la vista y descansar la mente.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/t1/bombillo.svg' alt='')
         .tarjeta.bg10
           .p-4.pt-5
             h5.text-center Medida más protuberante a trabajar
-            p Por lo general el manual trabaja con fórmulas o convenciones, en la mayoría de los casos la medida más protuberante es sustituida por una letra, por ejemplo, en infantil, contorno de pecho (medida más protuberante de la cintura para arriba) equivale o es igual a la letra “B”.
+            p por lo general, el manual trabaja con fórmulas o convenciones, en la mayoría de los casos, la medida más protuberante es sustituida por una letra, por ejemplo, en infantil, contorno de pecho (medida más protuberante de la cintura para arriba) equivale o es igual a la letra “B”.	
             p.mb-0 B = Contorno de pecho de la talla a trabajar.
-            p.mb-0 Talla 6: B = 68 cm (Contorno de pecho del cuadro de tallas correspondiente a la talla 6).
+            p.mb-0 Talla 6: B = 68 cm (contorno de pecho del cuadro de tallas correspondiente a la talla 6).
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1

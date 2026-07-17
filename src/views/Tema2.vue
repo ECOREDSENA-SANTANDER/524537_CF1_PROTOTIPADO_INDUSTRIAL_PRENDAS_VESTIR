@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/cajong.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En primer lugar, se abordarán las generalidades, aplicaciones e importancia de la fundamentación técnica básica en reconocimiento y manejo de máquinas de confección; conceptos básicos en puntadas, costuras, agujas, tejidos, entre otros criterios específicos de la relación aguja-hilo, aguja-tejido, hilo-tejido, preparación y puesta a punto de las máquinas, especificaciones técnicas y de calidad en las operaciones de confección. De igual manera se abordarán temas pertinentes al cuidado y seguridad de las diferentes máquinas de confección. 
+        p.mb-0 En primer lugar, se abordarán las generalidades, aplicaciones e importancia de la fundamentación técnica básica en reconocimiento y manejo de máquinas de confección; conceptos básicos en puntadas, costuras, agujas, tejidos, entre otros criterios específicos de la relación aguja-hilo, aguja-tejido, hilo-tejido, preparación y puesta a punto de las máquinas, especificaciones técnicas y de calidad en las operaciones de confección. De igual manera, se abordarán temas pertinentes al cuidado y seguridad de las diferentes máquinas de confección.
     
 
     Separador
@@ -510,14 +510,14 @@
             img(src='@/assets/curso/temas/t2/imag3.png' alt='')
           .tarjeta.tarjeta--verde.d-flex.align-items-center
             .p-4
-              p.mb-0 #[b Máquinas de tercera generación:] en este tipo de máquinas el operador realiza el 10 % de las operaciones y puede incluso operar dos o tres máquinas a la vez. Estas vienen provistas con las ayudas de la generación anterior pero además cuentan con la ayuda de sensores que permiten que las máquinas trabajen casi solas.          
+              p.mb-0 #[b Máquinas de tercera generación:] en este tipo de máquinas, el operador realiza el 10 % de las operaciones y puede incluso operar dos o tres máquinas a la vez. Estas vienen provistas con las ayudas de la generación anterior, pero además cuentan con la ayuda de sensores que permiten que las máquinas trabajen casi solas.         
     
     .row.mb-4(data-aos="fade-down")
       .col-lg-12  
         .tarjeta-avatar-b
           .tarjeta.tarjeta--verde.alreves.align-items-center
             .p-4
-              p.mb-0.my-3 #[b Máquinas de Ultrasonido:] este tipo de máquinas unen el material por ultrasonido las cuales incorporan un sistema de sonoroso que emite un ultrasonido de 60.000 ciclos contra una rueda transportadora que tiene la forma de una puntada. Podría decirse que produce una soldadura entre las telas y por medio un disco intercambiable puede imitar las puntadas de fileteo, cadeneta y doble pespunte. La única condición es que el material a coser debe estar compuesto de poliéster como mínimo en un 60 % de su estructura física.
+              p.mb-0.my-3 #[b Máquinas de ultrasonido:] este tipo de máquinas unen el material por ultrasonido, las cuales incorporan un sistema de sonoroso que emite un ultrasonido de 60.000 ciclos contra una rueda transportadora que tiene la forma de una puntada. Podría decirse que produce una soldadura entre las telas y por medio un disco intercambiable, puede imitar las puntadas de fileteo, cadeneta y doble pespunte. La única condición es que el material a coser debe estar compuesto de poliéster como mínimo en un 60 % de su estructura física.
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/imag4.png' alt='')
     
@@ -634,7 +634,7 @@
                         .col.mb-3.mb-sm-0
                           p.mb-0 #[b Recurso.] Puntas de desplazamiento Groz-Beckert 
                         .col-sm-auto
-                          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Cloth_points_from_Groz-Beckert.pdf')" target="_blank")
+                          a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Cloth_points_from_Groz-Beckert.pdf')" target="_blank")
                             span Descargar
                             i.fas.fa-file-download
               
@@ -659,7 +659,7 @@
             img(src='@/assets/curso/temas/t2/imag6.png' alt='')
         .p-4
           h4.text-center Tejido plano
-          p Es el que se lleva a cabo en una máquina llamada telar y que consiste en entrelazar dos hilos normalmente formando un ángulo recto. Uno de los hilos es la urdimbre y el otro es la trama. El tejido plano puede trabajarse al hilo, al través o al bies. Los ligamentos usados para la elaboración del tejido plano son los que dan origen a las diferentes telas (Sarga, Tafetán, Satén, Gasa, Crepé, Felpa.)
+          p es el que se lleva a cabo en una máquina llamada telar y que consiste en entrelazar dos hilos normalmente formando un ángulo recto. Uno de los hilos es la urdimbre y el otro es la trama. El tejido plano puede trabajarse al hilo, al través o al bies. Los ligamentos usados para la elaboración del tejido plano son los que dan origen a las diferentes telas (Sarga, Tafetán, Satén, Gasa, Crepé, Felpa).
       .col-md-6.col-lg.tarjeta--tabla.bg19
         .row.justify-content-center.mb-3
           .col-5.mtn-7
@@ -761,7 +761,7 @@
             span.mb-0 #[b Poliéster:] la fibra que va por el centro o es el núcleo del hilo, aporta elasticidad, es decir, la capacidad de aumentar considerablemente su dimensión sin romperse.
           li
             i.fas.fa-plus
-            span.mb-0 #[b Mercerizado:] es un acabado que le dan al hilo consistente en bañarlo en una solución de soda cáustica, con la intensión de dotarlo de brillo, suavidad y resistencia.
+            span.mb-0 #[b Mercerizado:] es un acabado que le dan al hilo consistente en bañarlo en una solución de soda cáustica, con la intención de dotarlo de brillo, suavidad y resistencia.
           li
             i.fas.fa-plus
             span.mb-0 #[b Lubricado:] es un acabado final que le deben dar al hilo para evitar su rotura al estar en contacto con la aguja.
@@ -801,7 +801,7 @@
                 td.rr 60, 70 hasta 120
                 td.rr #[em Jeans], chaquetas
 
-    p.mb-4 Cuando los conceptos están claros dentro del proceso de confección, se procede a fortalecer las relaciones o eslabones que van a permitir que la cadena de confección tenga la fortaleza suficiente de producción, confección y calidad. Con base en las premisas anteriores, existen combinaciones o relaciones entre los eslabones que nos permiten tener un panorama más apropiado a la hora de la confección de un producto; por lo tanto, presente un informe de las relaciones hilo aguja e hilo tejido según sus conocimientos.
+    p.mb-4 Cuando los conceptos están claros dentro del proceso de confección, se procede a fortalecer las relaciones o eslabones que van a permitir que la cadena de confección tenga la fortaleza suficiente de producción, confección y calidad. Con base en las premisas anteriores, existen combinaciones o relaciones entre los eslabones que nos permiten tener un panorama más apropiado a la hora de la confección de un producto; por lo tanto, presente un informe de las relaciones hilo - aguja e hilo - tejido según sus conocimientos.
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -878,7 +878,7 @@
           img.px-lg-3.px-2(src='@/assets/curso/temas/t2/icono4.svg' alt='')
           .tarjeta.bg10
             .p-4
-              h4.text-center 504 puntada sobre hilado
+              h4.text-center 504 puntada sobrehilado
               p.text-center Utiliza múltiples hilos para encerrar el borde de la tela. Se puede usar un hilo 50 % más débil en los #[em loopers], ya que no penetran el material, sino que forman el sobrehilado alrededor del borde, proporcionando un acabado limpio y resistente.
     
     p(data-aos="fade-down") La relación hilo-tejido permite que se produzcan las costuras con sus tipos, características y usos respectivos, de acuerdo con criterios de calidad del proceso.
@@ -916,7 +916,7 @@
             span.mb-0 Pasar el hilo por las guías 9, 10 y 11.
           li
             i.fas.fa-plus
-            span.mb-0 Finalmente pase el hilo por el orificio de la aguja 12 de izquierda a derecha, dejando el hilo por debajo y atrás del pie prénsatela.
+            span.mb-0 Finalmente, pase el hilo por el orificio de la aguja 12 de izquierda a derecha, dejando el hilo por debajo y atrás del pie prénsatela.
       .col-lg-3.col-md-5.col-8
         img(src='@/assets/curso/temas/t2/imag11.png' alt='')
     
@@ -1006,31 +1006,31 @@
 
     SlyderF.mb-5(columnas="col-md-6 col-xl-4" data-aos="fade-down")
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado porta-conos
+        h4.text-center Enhebrado porta-conos.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder1.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado tensores
+        h4.text-center Enhebrado tensores.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder2.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado guía hilos
+        h4.text-center Enhebrado guía hilos.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder3.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado #[em looper] superior e inferior
+        h4.text-center Enhebrado #[em looper] superior e inferior.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder4.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado guía hilos - aguja
+        h4.text-center Enhebrado guía hilos - aguja.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder5.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado guía hilo trasero puntada de seguridad
+        h4.text-center Enhebrado guía hilo trasero puntada de seguridad.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder6.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado tensor auxiliar leva tira hilo - puntada de seguridad
+        h4.text-center Enhebrado tensor auxiliar leva tira hilo - puntada de seguridad.
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder7.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrada leva tira hilo puntada de seguridad 
+        h4.text-center Enhebrada leva tira hilo puntada de seguridad .
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder8.png' alt='')
       .tarjeta.bg25.p-4
-        h4.text-center Enhebrado #[em looper]
+        h4.text-center Enhebrado #[em looper].
         img.w-xx.m-auto(src='@/assets/curso/temas/t2/slyder9.png' alt='')
 
 
@@ -1039,37 +1039,27 @@
         li.mb-0
           i.fas.fa-circle
           span.mb-0.h4 Validación de tensores - puntada e hilo
+    p.mb-5 La regulación de los tensores determina el equilibrio entre los hilos y la correcta formación de la puntada. Su verificación permite identificar desviaciones que afectan la calidad de la costura y realizar los ajustes necesarios antes de iniciar la producción. 
+    .row.mb-4
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/001.svg')
+            .tarjeta.color-primario
+              .p-4
+                p.mb-0 #[b Tensión correcta de la puntada en máquina fileteadora:] se caracteriza por un entrelazado uniforme de los hilos, sin lazos visibles, fruncimientos ni deformaciones del material. 
 
-    .row.width-25.mb-5(data-aos="fade-down")(alt='La imagen expone el enhebrado de una máquina recubridora y el ajuste de tensión. También se ilustra el enhebrado específico de una máquina recubridora tipo collarín, destacando el recorrido del hilo a través de varios componentes para asegurar un correcto funcionamiento. ')
-      .col-lg-6.col-md-6
-        .tarjeta-avatar-b.mb-4
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/001.svg' alt='La imagen ejemplifica una validación de tensión correcta de puntada en máquina fileteadora.')
-          .tarjeta.color-primario.align-items-center.d-flex
-            .p-4
-              h4.mb-0 Tensión correcta de puntada  en máquina fileteadora.
-      .col-lg-6.col-md-6
-        .tarjeta-avatar-b.mb-4
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/002.svg' alt='La imagen ejemplifica una tensión incorrecta del hilo de la aguja.')
-          .tarjeta.color-primario.align-items-center.d-flex
-            .p-4
-              h4.mb-0 Tensión incorrecta del hilo de la aguja.
-      .col-lg-6.col-md-6
-        .tarjeta-avatar-b.mb-4
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/003.svg' alt='La imagen ejemplifica una tensión incorrecta del looper superior.')
-          .tarjeta.color-primario.align-items-center.d-flex
-            .p-4
-              h4.mb-0 Tensión incorrecta del #[em looper] superior.
-      .col-lg-6.col-md-6
-        .tarjeta-avatar-b.mb-4
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/t2/004.svg' alt='La imagen ejemplifica una tensión incorrecta del looper inferior.')
-          .tarjeta.color-primario.align-items-center.d-flex
-            .p-4
-              h4.mb-0 Tensión incorrecta del #[em looper] inferior.
-      
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/002.svg')
+            .tarjeta.color-primario
+              .p-4
+                p.mb-0 #[b Tensión incorrecta del hilo de la aguja:] una regulación inadecuada del tensor altera la formación de la puntada, ocasionando deformaciones, desplazamiento del entrelazado o deficiencias en la resistencia de la costura. 
+        .col-md-6.col-lg.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/003.svg')
+            .tarjeta.color-primario
+              .p-4
+                p.mb-0 #[b Tensión incorrecta del looper superior:] una tensión excesiva o insuficiente modifica el equilibrio entre los hilos, generando lazos visibles, pérdida de cobertura sobre el borde del material o una formación irregular de la puntada. 
     
     .subt2.mb-4
       ul.lista-ul.mb-0
