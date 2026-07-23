@@ -333,7 +333,8 @@
           img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag19.svg' alt='La imagen ilustra dos conceptos relacionados con la postura y el equilibrio corporal. En la sección de la izquierda, titulada "Análisis de diferentes posturas sobre un mismo cuerpo", se presenta cómo distintas posturas pueden alterar las medidas del cuerpo debido a hiperextensiones o flexiones. La serie de figuras presenta un mismo cuerpo en diferentes posiciones que afectan su alineación. En la sección de la derecha, titulada "Análisis de punto de equilibrio", se explica que cada cuerpo tiene un tipo de equilibrio particular. Dependiendo del género, se identifican variaciones en el sistema óseo y muscular que influyen en el punto de equilibrio. Las figuras presentan una línea de equilibrio ideal comparada con una postura desalineada.')  
       .col-md-6.ps-md-0.mb-3(data-aos="fade-left")
         .tarjeta.bg7.p-4.h-100
-          h4.text-white Cada cuerpo tiene un tipo de equilibrio. Dependiendo del género, se identifican pequeñas variaciones tanto en el sistema óseo, como muscular, los cuales varían o afectan el punto de equilibrio.
+          h4.text-white Análisis de punto de equilibrio
+          p.text-white Cada cuerpo tiene un tipo de equilibrio. Dependiendo del género, se identifican pequeñas variaciones tanto en el sistema óseo, como muscular, los cuales varían o afectan el punto de equilibrio.
           img.mh-290.m-auto(src='@/assets/curso/temas/t1/imag20.svg' alt='La imagen ilustra dos conceptos relacionados con la postura y el equilibrio corporal. En la sección de la izquierda, titulada "Análisis de diferentes posturas sobre un mismo cuerpo", se presenta cómo distintas posturas pueden alterar las medidas del cuerpo debido a hiperextensiones o flexiones. La serie de figuras presenta un mismo cuerpo en diferentes posiciones que afectan su alineación. En la sección de la derecha, titulada "Análisis de punto de equilibrio", se explica que cada cuerpo tiene un tipo de equilibrio particular. Dependiendo del género, se identifican variaciones en el sistema óseo y muscular que influyen en el punto de equilibrio. Las figuras presentan una línea de equilibrio ideal comparada con una postura desalineada.')  
         
     
@@ -1345,7 +1346,7 @@
           ul.lista-ul--color.color-acento-contenido.fa-ul.mb-4
             li.mb-1 
               i.fas.fa-plus
-              span.mb-0 ANTC-ISO 8559. Fabricación de vestuario y estudios antropométricos. dimensiones corporales - Icontec.
+              span.mb-0 ANTC-ISO 8559. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales - Icontec.
             li 
               i.fas.fa-plus
               span.mb-0 Norma UNE-EN 13402-3. Armoniza y simplifica el etiquetado de tallas de prendas de vestir para el beneficio del consumidor y de la industria en general.          
@@ -1735,7 +1736,7 @@
                   span.mb-0 Líneas de aplomo.
             .col-lg-7.col-md-6
               img(src="@/assets/curso/temas/t1/img1.svg")
-
+    p.mb-0 Se pueden anexar datos de estampación, cambios de color o material, acabados especiales, ubicación de bolsillos, etc. 
 
     Separador
     #t_1_5.titulo-segundo.color-primario(data-aos="fade-right")

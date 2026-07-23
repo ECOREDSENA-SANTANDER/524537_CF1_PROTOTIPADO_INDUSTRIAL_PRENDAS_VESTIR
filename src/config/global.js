@@ -358,7 +358,7 @@ export default {
             'Centro para La Industria de la Comunicación Gráfica - Regional Distrito Capital ',
         },
         {
-          nombre: 'Sandra Paola Morales Paez ',
+          nombre: 'Sandra Paola Morales Páez ',
           cargo: 'Evaluadora instruccional ',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -378,7 +378,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
+          nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
           centro: 'Centro Agroturístico - Regional Santander ',
         },
