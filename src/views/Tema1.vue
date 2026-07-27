@@ -865,21 +865,7 @@
                   i.fas.fa-plus
                   span.mb-0 El contorno superior de mayor prominencia (busto o pecho, según    el tipo de prenda y la población de estudio).
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/t1/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3 Recurso. Análisis de tallas y medidas
-                  p.text-small.mb-0 Revisa el documento para aprender más sobre análisis de tallas y medidas
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexos/Talla_tabla_confecciones.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+    
     
     
     .subt.mb-4(data-aos="fade-right")
